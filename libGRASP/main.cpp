@@ -45,6 +45,8 @@
 #include <sys/resource.h>
 #include <iostream>
 #include <fstream>
+#include <boost/algorithm/string.hpp>
+#include <map>
 
 #include <sys/stat.h>
 int exist(const char *name)
@@ -779,6 +781,56 @@ string getLastLineFromFile(string path)
 	return lastline;
 }
 
+
+map<std::string, int> createMaxCFOMap() {
+	map<std::string, int> *max_cfo_map = new map<std::string, int>();
+	max_cfo_map->insert(pair<std::string, int>("BEALE2", 12896));
+	max_cfo_map->insert(pair<std::string, int>("BOHACHEVSKY2", 18200));
+	max_cfo_map->insert(pair<std::string, int>("BOOTH2", 3915));
+	max_cfo_map->insert(pair<std::string, int>("BRANIN2", 61336));
+	max_cfo_map->insert(pair<std::string, int>("EASOM2", 122905));
+	max_cfo_map->insert(pair<std::string, int>("GOLDSTEINPRICE2", 308));
+	max_cfo_map->insert(pair<std::string, int>("MATYAS2", 14507));
+	max_cfo_map->insert(pair<std::string, int>("HUMP2", 53179));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK2", 116960));
+	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL2", 265378));
+	max_cfo_map->insert(pair<std::string, int>("SHUBERT2", 102300));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV2", 10142));
+	max_cfo_map->insert(pair<std::string, int>("SPHERE3", 14880));
+	max_cfo_map->insert(pair<std::string, int>("HARTMANN3", 2200));
+	max_cfo_map->insert(pair<std::string, int>("COLVILLE4", 34206));
+	max_cfo_map->insert(pair<std::string, int>("PERM4", 118334));
+	max_cfo_map->insert(pair<std::string, int>("PERM04", 94214));
+	max_cfo_map->insert(pair<std::string, int>("POWERSUM4", 5718));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL45", 2870));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL47", 2870));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL410", 2870));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK5", 254980));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV5", 23060));
+	max_cfo_map->insert(pair<std::string, int>("HARTMANN6", 33216));
+	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL6", 725173));
+	max_cfo_map->insert(pair<std::string, int>("TRID6", 207392));
+	max_cfo_map->insert(pair<std::string, int>("GRIEWANK10", 1140800));
+	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN10", 29024));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK10", 577440));
+	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES10", 9520));
+	max_cfo_map->insert(pair<std::string, int>("TRID10", 819880));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV10", 214192));
+	max_cfo_map->insert(pair<std::string, int>("GRIEWANK20", 2270904));
+	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN20", 65755));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK20", 438273));
+	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES20", 18920));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV20", 2020618));
+	max_cfo_map->insert(pair<std::string, int>("POWELL24", 90290));
+	max_cfo_map->insert(pair<std::string, int>("DIXONPRICE25", 64700));
+	max_cfo_map->insert(pair<std::string, int>("ACKLEY30", 690420));
+	max_cfo_map->insert(pair<std::string, int>("LEVY30", 182640));
+	max_cfo_map->insert(pair<std::string, int>("SPHERE30", 197193));
+
+	return *max_cfo_map;
+}
+
+
 bool isAlgorithmCode(const char *str, string &algorithmName)
 {
 	
@@ -791,6 +843,9 @@ bool isAlgorithmCode(const char *str, string &algorithmName)
 	} else if (!strcmp("--mxdmc", str)) {
 		algorithmName = "mxdmc";
 		return true;
+	}  else if (!strcmp("--c", str)) {
+		algorithmName = "c";
+		return true;
 	}
 
 	algorithmName = "";
@@ -798,31 +853,37 @@ bool isAlgorithmCode(const char *str, string &algorithmName)
 
 }
 
-#include <boost/algorithm/string.hpp>
+
 
 int main(int argc, char **argv)
 {
 	string algCode;
+	char *funcName;
 	int iFuncNumb;
 	int problemDim;
 	int seed;
 	int eliteSize;
 	double dmStartMoment;
 	int dmFreqStrategy; 
+	double patternPercentUsed;
 
 	bool print = false;
 
+	map<std::string, int> max_cfo_map = createMaxCFOMap();	
+
 	int i = 0;
+	bool alg_found = false;
 	while (++i < argc) {
 		
-		if (isAlgorithmCode(argv[i], algCode)) {
+		if (!alg_found && isAlgorithmCode(argv[i], algCode)) {
+			alg_found = true;
 			if (print) cout << "Algorithm: " << algCode << endl;
 		}
 		else
 		if (!strcmp("-i", argv[i])) {
-			char* instance = argv[++i];
-			boost::to_upper(instance);
-			iFuncNumb = getFuncNumb(instance);
+			funcName = argv[++i];
+			boost::to_upper(funcName);
+			iFuncNumb = getFuncNumb(funcName);
 			if (print) cout << "Instance: " << iFuncNumb << endl;
 		}
 		else
@@ -857,19 +918,31 @@ int main(int argc, char **argv)
 			if (print) cout << "DM frequency: " << argv[i] << endl;
 		}
 
+		if (!strcmp("--ptsz", argv[i])) {
+			patternPercentUsed = atof( argv[++i]);
+			if (print) cout << "Percent of pattern used: " << patternPercentUsed << endl;
+		}
+
 	}
 
 	Funcao *func;
 	Parameters parameters = getParameters(iFuncNumb, problemDim, &func);
-
-	if (iFuncNumb == Funcao::SHEKEL)
+	string funcCode = funcName;
+	funcCode += to_string(problemDim);
+	
+	if (iFuncNumb == Funcao::SHEKEL) {
+		funcCode += "4" + to_string(problemDim);
 		problemDim = 4;
+	}
 
-	int max_cfos = 0;
+	std::cout << "Funcao: " << funcCode <<  std::endl;
+	std::cout << "MAX CFOs: " << max_cfo_map[funcCode] <<  std::endl;
+
+	int max_cfos = max_cfo_map[funcCode];
 	bool success;
-	int number_of_iterations = 20;
+	int number_of_iterations = 10;
 
-	double result = cgrasp(algCode.c_str(), dmFreqStrategy, problemDim, parameters.l, parameters.u, func, parameters.hs, 
+	double result = cgrasp(algCode.c_str(), dmFreqStrategy, dmStartMoment, patternPercentUsed, eliteSize, problemDim, parameters.l, parameters.u, func, parameters.hs, 
 			parameters.he, parameters.plo, number_of_iterations, max_cfos, seed, success);
 
 	ofstream outfile;

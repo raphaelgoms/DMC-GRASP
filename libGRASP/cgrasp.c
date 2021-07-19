@@ -1339,8 +1339,7 @@ bool phaseI_IsEnded(int current_itr, double best_fo, ExperimentType exp_type, Fu
 	}
 }
 
-
-double cgrasp(const char * mining_strategy, int isContinuousMining, int dimension, double *lower_bounds, double *upper_bounds, 
+double cgrasp(const char * mining_strategy, int isContinuousMining, double dmStartMoment, double patternPercentUsed, int eliteSize, int dimension, double *lower_bounds, double *upper_bounds, 
         Funcao *func, double hs, double he, double plo, int number_of_iterations, int max_functions_calls, unsigned long seed, bool &success)
 {
 	int i, n, count_calc_cost, imprc, imprl, ls_opt, size, iterations, function_evaluations, count = 0, countin, loop = 1, fecount = 0, stp = 0;
@@ -1349,7 +1348,7 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, int dimensio
 	int xmeansStrategy = 0; // 0 means dont use xmeans (clustering)
 	
 	FILE *outFile;
-	
+
 	string _mining_strategy(mining_strategy);
 	if (_mining_strategy.find("dm") != string::npos)
 		useDataMining = 1;
@@ -1360,7 +1359,7 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, int dimensio
 	else if (_mining_strategy.find("x") != string::npos)
 		xmeansStrategy = 1;
 
-	//--- initializing parameters ----------------------------------
+ 	//--- initializing parameters ----------------------------------
 	l = lower_bounds;
 	u = upper_bounds;	
 	f_star = 1.0e+10;
@@ -1373,7 +1372,7 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, int dimensio
 	success = false;
 	iterations = number_of_iterations;
 	MAX_ITERATION = iterations;
-	g_elite_size = 35;
+	g_elite_size = eliteSize;
 	threshold = 1.0e-4;
 	n = dimension;
 
@@ -1383,24 +1382,26 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, int dimensio
 	//--- initializing data structures ----------------------------------
 	x = (double *)malloc(dimension * sizeof(double));
 	x_star = (double *)malloc(dimension * sizeof(double));
-	EliteSet* elite = createEliteSet(dimension, g_elite_size);
+	EliteSet* elite;
+	if (useDataMining)
+		elite = createEliteSet(dimension, g_elite_size);
 	int* fixedPositions = new int[dimension];
 	_template = new double[dimension];
 	for (int k = 0; k < n; k++) fixedPositions[k] = 0;
 
 	int deviations_register_count = 0;
-	MAX_nCFOs = max_functions_calls;
 
 	init_genrand(seed);
 
-	ExperimentType expType = BY_ITERATION;
+	ExperimentType expType = BY_CFOs;
 	MAX_ITERATION = number_of_iterations;
-	
+	MAX_nCFOs = max_functions_calls;
+
 	//debugLevel = DEBUG_LEVEL1_;
 	while (!IsStopCriterionReached(count, f_star, expType, func)) 
 	{
 		if (useDataMining) {
-			if (phaseI_IsEnded(count, f_star, expType, func, percent) && (!extraiu || isContinuousMining)) {
+			if (phaseI_IsEnded(count, f_star, expType, func, dmStartMoment) && (!extraiu || isContinuousMining)) {
 
 				if (!xmeansStrategy) {
 					FindPatterns(elite, n, fixedPositions, l, u, h);
@@ -1417,7 +1418,7 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, int dimensio
 		}
 
 		UnifRand(dimension, lower_bounds, upper_bounds, 
-			x, fixedPositions, _template, 1.0);	
+			x, fixedPositions, _template, patternPercentUsed);	
 		
 		h = h_s;
 		while (h >= h_e) 

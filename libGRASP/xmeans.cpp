@@ -31,8 +31,8 @@ map<int, double> Xmeans::extractPatternAfterClustering(const vector<vector<doubl
 
 	for (int i = 0; i < problem_size; i++) {
 		//std::cout << stdVector[i] << " ";
-		if (stdVector[i] < 0.01)
-			pattern[i] = meanVector[i];
+		//if (stdVector[i] < 0.01)
+		pattern[i] = meanVector[i];
 	} 
 	//std::cout << std::endl;
 
