@@ -1,0 +1,51 @@
+#include <vector>
+#include <map>
+
+#define PI 3.1415926535897932384626433832795029
+
+using namespace std;
+
+typedef struct {
+    vector<double> points;
+    double centroid;
+} Cluster;
+
+typedef struct {
+    vector<vector<double>> points;
+    vector<double> centroid;
+} MCluster; // MultiCluster: para dados multidimencionais;
+
+class Xmeans {
+	vector<Cluster> kMeans(const vector<double> &data, int k, double min, double max);
+	vector<MCluster> kMeans(const vector<vector<double>> &data, int k, vector<double> min, vector<double> max);
+	
+	vector<Cluster> xMeans(const vector<double> &data, int kMax, double min, double max);
+	vector<MCluster> xMeans(const vector<vector<double>> &data, int kMax, const vector<double> &min, const vector<double> &max);
+
+	int improveStructure(int k, const vector<Cluster> &clusters, int M, double min, double max);
+	int improveStructure(int k, const vector<MCluster> &clusters, int M, const vector<double> &min, const vector<double> &max);
+
+	double logLikelihood(int R, int Rn, double variance, double M, double K);
+  	double variance(const vector<double> &data);
+ 	double variance(const vector<vector<double>> &data, const vector<double> &centroid);
+
+  	double average(const vector<double> &data);
+    double distance(const vector<double> & v1, const vector<double> & v2);
+  	vector<double> getCentroid(const vector<vector<double>> &cluster);
+	vector<double>getNormalizedStandartDeviations(const  vector<vector<double>> &cluster, 
+		const vector<double> &centroid, const vector<double> &lower_bounds, 
+		const vector<double> &upper_bounds);
+
+	inline double randDouble() {
+    	return (double)rand() / (double) RAND_MAX;
+	}
+
+	inline double normalize(const double &value, const double &lower_bound, const double &upper_bound) {
+    	return (value - lower_bound) / (upper_bound - lower_bound);
+	}
+
+public:
+	map<int, double> extractPatternXMeans(const vector<vector<double>>& elite, const vector<double>& lower_bound, const vector<double>& upper_bound);
+	map<int, double> extractPatternAfterClustering(const vector<vector<double>>& elite, const vector<double>& lower_bound, const vector<double>& upper_bound);
+};
+

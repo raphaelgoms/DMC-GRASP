@@ -1,0 +1,11 @@
+ExtractPatterns(DS, P, Thr):
+	Eds = Entropia(DS)
+	if Eds <= Thr:
+		P.add(Indexes(DS)) # Conjunto de features de DS
+
+	for each dimension i in Indexes(DS):
+		Di = remove(i, DS)
+		P = ExtractPatterns(D, P, Thr)
+	
+	return P
+	
