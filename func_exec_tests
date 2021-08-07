@@ -1,0 +1,14 @@
+branin --nvar 2 			- OK
+easom --nvar 2				- OK
+goldsteinprice --nvar 2		- OK
+rosenbrock --nvar 2			- OK
+shubert --nvar 2			- OK
+hartmann --nvar 3			- OK
+shekel --nvar 5 			- OK
+shekel --nvar 7 			- OK
+shekel --nvar 10 			- OK
+rosenbrock --nvar 5			- OK
+zakharov --nvar 5 			- OK
+hartmann --nvar 6 			- OK
+rosenbrock --nvar 10		- OK
+zakharov --nvar 10			- OK

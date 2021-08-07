@@ -1397,6 +1397,7 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 	MAX_ITERATION = number_of_iterations;
 	MAX_nCFOs = max_functions_calls;
 
+
 	//debugLevel = DEBUG_LEVEL1_;
 	while (!IsStopCriterionReached(count, f_star, expType, func)) 
 	{

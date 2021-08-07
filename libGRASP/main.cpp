@@ -928,15 +928,16 @@ int main(int argc, char **argv)
 	Funcao *func;
 	Parameters parameters = getParameters(iFuncNumb, problemDim, &func);
 	string funcCode = funcName;
-	funcCode += to_string(problemDim);
-	
+
 	if (iFuncNumb == Funcao::SHEKEL) {
 		funcCode += "4" + to_string(problemDim);
 		problemDim = 4;
+	} else {
+		funcCode += to_string(problemDim);
 	}
 
-	std::cout << "Funcao: " << funcCode <<  std::endl;
-	std::cout << "MAX CFOs: " << max_cfo_map[funcCode] <<  std::endl;
+	//std::cout << "Funcao: " << funcCode <<  std::endl;
+	//std::cout << "MAX CFOs: " << max_cfo_map[funcCode] <<  std::endl;
 
 	int max_cfos = max_cfo_map[funcCode];
 	bool success;
@@ -952,7 +953,8 @@ int main(int argc, char **argv)
 
 	outfile.close();
 
-	if (print) cout << "Result: " << result << endl;
+	//if (print) 
+	//	cout << "Result: " << result << endl;
 
 	return 0;	
 }
