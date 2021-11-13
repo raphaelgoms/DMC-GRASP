@@ -12,3 +12,14 @@ zakharov --nvar 5 			- OK
 hartmann --nvar 6 			- OK
 rosenbrock --nvar 10		- OK
 zakharov --nvar 10			- OK
+sphere --nvar 3				- OK
+perm0 --nvar 4 				- OK		
+rosenbrock --nvar 5			- OK
+hartmann --nvar 6 			- OK
+schwefel --nvar 6 			- OK
+griewank --nvar 10 			- OK	
+sumsquares --nvar 10 		- OK
+rastrigin --nvar 20			- OK
+zakharov --nvar 20 			- OK
+powell --nvar 24 			- OK
+levy --nvar 30 				- OK

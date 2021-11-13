@@ -56,7 +56,6 @@ int exist(const char *name)
 }
 
 using namespace std;
-
 #define PURO 	0
 #define HIBRIDO 1
 #define BFGS 	2
@@ -87,8 +86,8 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 	plo = 0.7;			
 	switch(iFuncNum){
 		case Funcao::ROSENBROCK: 
-				hs = 1.0;
-				he = 0.01;
+				hs = 0.1;
+				he = 0.05;
 				if (n == 20){
 					hs = 0.1;
 					he = 0.05;
@@ -100,8 +99,16 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				}
 				*func = new Rosenbrock2(n);
 				break;			
-		case Funcao::ZAKHAROV:						
-				if (n == 20){			
+		case Funcao::ZAKHAROV:
+				if (n == 5) {
+					hs = 1.0;
+					he = 0.005;
+				}			
+				else if (n == 10) {
+					hs = 1.0;
+					he = 0.0005;
+				}			
+				else if (n == 20){			
 					hs = 2.0;
 					he = 0.05;
 				} else {
@@ -125,16 +132,8 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				*func = new SumSquares(n);
 				break;	
 		case Funcao::BRANIN:
-				if (exp_number == 1) {
-					hs = 1.0;
-					he = 0.02;
-				} 
-				else{
-					hs = 1.0;
-					he = 0.001;
-					//hs = 0.1;
-					//he = 0.05;
-				}
+				hs = 1.0;
+				he = 0.02;
 
 				l[0] = -5; l[1] = -5;
 			    u[0] = 15; u[1] = 15;
@@ -143,8 +142,8 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 	
 		case Funcao::GOLDSTEINPRICE:
 			    hs = 1.0;
-				he = 1.0;
-				//he = 0.05;
+				//he = 1.0;
+				he = 0.005;
 				for (int i =0; i < n; i++){
 					l[i] = -2.0;
 					u[i] = 2.0;
@@ -153,13 +152,8 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				break;
 
 		case Funcao::EASOM:
-			 	if (exp_number == 1) {
-					hs = 1.0;
-					he = 0.1;
-				} else {
-					hs = 1.0;
-					he = 0.1;
-				}
+			 	hs = 1;
+				he = 0.1;
 				
 			    for (int i =0; i < n; i++){
 					l[i] = -100.0;
@@ -177,8 +171,8 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				l = new double[n];				
 				u = new double[n];				
 
-				hs = 1.0;
-				he = 0.5;
+				hs = 0.005;
+				he = 0.0001;
 				//hs = 0.1;
 				//he = 0.05;
 				for (int i=0; i < n; i++){
@@ -192,7 +186,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				hs = 0.5;
 				//he = 0.001;
 				if (n == 3)
-					he = 0.05;
+					he = 0.005;
 				else 
 					he = 0.005;		
  
@@ -781,6 +775,31 @@ string getLastLineFromFile(string path)
 	return lastline;
 }
 
+std::vector<int> getVectorFromFile(string path)
+{
+	fstream fs;
+	fs.open(path);
+	std::vector<int> vector;
+
+	if(fs.is_open())
+	{
+		std::string line;
+		while(getline(fs, line))
+		{
+			vector.push_back(atoi(line.c_str()));
+		}
+	}		
+	return vector;
+}
+
+map<std::string, std::vector<int>> createMaxCFObySeedMap(std::string funcName) 
+{
+	map<std::string, std::vector<int>> maxCFObySeedMap;
+	std::vector<int> maxCfos = getVectorFromFile("./CFOs/cfos_+" + funcName);
+	maxCFObySeedMap.insert(pair<std::string,std::vector<int>>("funcName", maxCfos));
+
+	return maxCFObySeedMap;
+}
 
 map<std::string, int> createMaxCFOMap() {
 	map<std::string, int> *max_cfo_map = new map<std::string, int>();
@@ -846,6 +865,12 @@ bool isAlgorithmCode(const char *str, string &algorithmName)
 	}  else if (!strcmp("--c", str)) {
 		algorithmName = "c";
 		return true;
+	} else if (!strcmp("--rmxdmc", str)) {
+		algorithmName = "rmxdmc";
+		return true;
+	} else if (!strcmp("--amxdmc", str)) {
+		algorithmName = "amxdmc";
+		return true;
 	}
 
 	algorithmName = "";
@@ -854,9 +879,8 @@ bool isAlgorithmCode(const char *str, string &algorithmName)
 }
 
 
-
 int main(int argc, char **argv)
-{
+{	
 	string algCode;
 	char *funcName;
 	int iFuncNumb;
@@ -866,11 +890,14 @@ int main(int argc, char **argv)
 	double dmStartMoment;
 	int dmFreqStrategy; 
 	double patternPercentUsed;
+	double standardDeviation;
+
+	string arguments("");
 
 	bool print = false;
 
 	map<std::string, int> max_cfo_map = createMaxCFOMap();	
-
+	
 	int i = 0;
 	bool alg_found = false;
 	while (++i < argc) {
@@ -878,6 +905,7 @@ int main(int argc, char **argv)
 		if (!alg_found && isAlgorithmCode(argv[i], algCode)) {
 			alg_found = true;
 			if (print) cout << "Algorithm: " << algCode << endl;
+			arguments += algCode + " ";
 		}
 		else
 		if (!strcmp("-i", argv[i])) {
@@ -885,11 +913,13 @@ int main(int argc, char **argv)
 			boost::to_upper(funcName);
 			iFuncNumb = getFuncNumb(funcName);
 			if (print) cout << "Instance: " << iFuncNumb << endl;
+			//arguments += "-i " + string(argv[i])  + " ";
 		}
 		else
 		if (!strcmp("--nvar", argv[i])) {
 			problemDim = atoi(argv[++i]);
 			if (print) cout << "Number of variables: " << problemDim << endl;
+			//arguments += "--nvar " + string(argv[i])  + " ";
 		} 
 		else
 		if (!strcmp("--seed", argv[i])) {
@@ -900,11 +930,13 @@ int main(int argc, char **argv)
 		if (!strcmp("--elsz", argv[i])) {
 			eliteSize = atoi(argv[++i]);
 			if (print) cout << "Elite size: " << eliteSize << endl;
+			arguments += "--elsz " +  string(argv[i])  + " ";
 		}
 
 		if (!strcmp("--dmstart", argv[i])) {
 			dmStartMoment = atof( argv[++i]);
 			if (print) cout << "DM start moment: " << dmStartMoment << endl;
+			arguments += "--dmstart " +  string(argv[i])  + " ";
 		}
 
 		if (!strcmp("--dmfreq", argv[i])) {
@@ -916,41 +948,89 @@ int main(int argc, char **argv)
 			}
 
 			if (print) cout << "DM frequency: " << argv[i] << endl;
+			arguments += "--dmfreq " + string(argv[i])  + " ";
 		}
 
 		if (!strcmp("--ptsz", argv[i])) {
 			patternPercentUsed = atof( argv[++i]);
 			if (print) cout << "Percent of pattern used: " << patternPercentUsed << endl;
+			arguments += "--ptsz " + string(argv[i]) + " ";
+		}
+
+		if (!strcmp("--sd", argv[i])) {
+			
+			standardDeviation = atof( argv[++i]);
+			if (print) cout << "Standard Deviation used: " << standardDeviation << endl;
+			arguments += "--sd " +  string(argv[i])  + " ";
 		}
 
 	}
 
-	Funcao *func;
-	Parameters parameters = getParameters(iFuncNumb, problemDim, &func);
 	string funcCode = funcName;
-
 	if (iFuncNumb == Funcao::SHEKEL) {
 		funcCode += "4" + to_string(problemDim);
-		problemDim = 4;
+		//problemDim = 4;
 	} else {
 		funcCode += to_string(problemDim);
 	}
 
-	//std::cout << "Funcao: " << funcCode <<  std::endl;
-	//std::cout << "MAX CFOs: " << max_cfo_map[funcCode] <<  std::endl;
-
 	int max_cfos = max_cfo_map[funcCode];
-	bool success;
-	int number_of_iterations = 10;
+	bool success = 0;
+	int number_of_iterations = 20;
+	
+	double soma = 0.0;
+	double min = 1.0e+30;
+	double result;
+	double avg_cfos = 0;
+	double avg_time = 0;
+	double success_rate = 0;
+	double s_CPU_inicial, s_CPU_final;
+  	double s_total_inicial, s_total_final;
+	
+	int num_runs = 100;
+	for (int i = 0; i < num_runs; i++)
+	{
+		seed = 270000 + i + 1;
+		//seed = 270100;
+		Funcao *func;
+		Parameters parameters = getParameters(iFuncNumb, problemDim, &func);
 
-	double result = cgrasp(algCode.c_str(), dmFreqStrategy, dmStartMoment, patternPercentUsed, eliteSize, problemDim, parameters.l, parameters.u, func, parameters.hs, 
-			parameters.he, parameters.plo, number_of_iterations, max_cfos, seed, success);
+		if (iFuncNumb == Funcao::SHEKEL) 
+			problemDim = 4;
 
-	ofstream outfile;
-	outfile.open("out");
+		Tempo_CPU_Sistema(&s_CPU_inicial, &s_total_inicial);
+		result = cgrasp(algCode.c_str(), dmFreqStrategy, dmStartMoment, patternPercentUsed, eliteSize, problemDim, parameters.l, parameters.u, func, parameters.hs, 
+			parameters.he, parameters.plo, number_of_iterations, max_cfos, seed, success, standardDeviation);
+		Tempo_CPU_Sistema(&s_CPU_final, &s_total_final);
 
-	outfile << result;
+		if (result < min)
+			min = result;
 
+		//cout << "result: " << result << endl;
+		soma += result;
+		success_rate += success;
+		avg_cfos += func->getFnEvals();
+		avg_time += (s_CPU_final - s_CPU_inicial);
+		delete func;
+	}
+	
+	double average = soma / num_runs;
+	avg_cfos /= num_runs;
+	avg_time /= num_runs;
+	//success_rate = success_rate * 100 / num_runs;
+	avg_time /= num_runs;
+
+	string filepath("out(" + arguments + ")");
+
+	std::ofstream outfile;
+	if (!exist(filepath.c_str())) {
+		outfile.open(filepath);
+		outfile << "Func;Dim;BestFO;AvgFO;CFOs;Time;SC" << endl;
+	} else {
+		outfile.open(filepath, std::ofstream::out | std::ofstream::app);
+	}
+
+	outfile << funcCode << ";" << problemDim << ";" << min << ";" << average << ";" << avg_cfos << ";" << avg_time << ";" << success_rate << endl;
 	outfile.close();
 
 	//if (print) 

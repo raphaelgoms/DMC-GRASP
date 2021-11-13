@@ -51,7 +51,8 @@ class Funcao
 		virtual int getGradEvals();
 		virtual double getGap();
 
-		void setBestValue(double fX);		
+		void setBestValue(double fX);	
+		double getMinValue() const { return minValue; }	
 };
 
 #endif /*FUNCAO_H_*/

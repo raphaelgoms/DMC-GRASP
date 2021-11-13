@@ -1,0 +1,6 @@
+problems:
+	config: --xdmc --elsz 30 --dmstart 0.3 --dmfreq con --ptsz 1.0 --sd 0.294
+		>> Função she410
+
+	config: --rmxdmc --elsz 90 --dmstart 0.2 --dmfreq con --ptsz 1.0 --sd 0.1923
+		>> Função she47

@@ -13,15 +13,13 @@ typedef struct {
 typedef struct {
     vector<vector<double>> points;
     vector<double> centroid;
+	double radius;
 } MCluster; // MultiCluster: para dados multidimencionais;
 
 class Xmeans {
 	vector<Cluster> kMeans(const vector<double> &data, int k, double min, double max);
 	vector<MCluster> kMeans(const vector<vector<double>> &data, int k, vector<double> min, vector<double> max);
 	
-	vector<Cluster> xMeans(const vector<double> &data, int kMax, double min, double max);
-	vector<MCluster> xMeans(const vector<vector<double>> &data, int kMax, const vector<double> &min, const vector<double> &max);
-
 	int improveStructure(int k, const vector<Cluster> &clusters, int M, double min, double max);
 	int improveStructure(int k, const vector<MCluster> &clusters, int M, const vector<double> &min, const vector<double> &max);
 
@@ -44,8 +42,16 @@ class Xmeans {
     	return (value - lower_bound) / (upper_bound - lower_bound);
 	}
 
+	double max_radius;
+
 public:
+	double getMaxRadius() { return max_radius; }	
+	vector<Cluster> xMeans(const vector<double> &data, int kMax, double min, double max);
+	vector<MCluster> xMeans(const vector<vector<double>> &data, int kMax, const vector<double> &min, const vector<double> &max);
+	
 	map<int, double> extractPatternXMeans(const vector<vector<double>>& elite, const vector<double>& lower_bound, const vector<double>& upper_bound);
 	map<int, double> extractPatternAfterClustering(const vector<vector<double>>& elite, const vector<double>& lower_bound, const vector<double>& upper_bound);
+	// return a pattern for each cluster
+	vector<map<int, double>> extractPatterns(const vector<vector<double>>& elite, const vector<double>& lower_bound, const vector<double>& upper_bound);
 };
 

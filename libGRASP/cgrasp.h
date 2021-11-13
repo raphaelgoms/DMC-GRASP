@@ -111,10 +111,9 @@ typedef struct _algorithmBehaviour_
 } AlgorithmBehaviour;
 
 double cgrasp(const char * mining_strategy, int isContinuousMining, double dmStartMoment, double patternPercentUsed, int eliteSize, int dimension, double *lower_bounds, double *upper_bounds, 
-        Funcao *func, double hs, double he, double plo, int number_of_iterations, int max_functions_calls, unsigned long seed, bool &success);
+        Funcao *func, double hs, double he, double plo, int number_of_iterations, int max_functions_calls, unsigned long seed, bool &success, 
+        double standardDeviation = 0);
         
 double cgrasp_cec(int n, double ep, int seed, double h_s, double h_e, double ro, int max_points, int func_num, void (*func)(double *, double *, int, int, int));
 
-#endif /*CGRASP_H_*/=
-
-
+#endif /*CGRASP_H_*/
