@@ -86,8 +86,8 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 	plo = 0.7;			
 	switch(iFuncNum){
 		case Funcao::ROSENBROCK: 
-				hs = 0.1;
-				he = 0.05;
+				hs = 1;
+				he = 0.005;
 				if (n == 20){
 					hs = 0.1;
 					he = 0.05;
@@ -102,11 +102,11 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 		case Funcao::ZAKHAROV:
 				if (n == 5) {
 					hs = 1.0;
-					he = 0.005;
+					he = 0.001;
 				}			
 				else if (n == 10) {
 					hs = 1.0;
-					he = 0.0005;
+					he = 0.0001;
 				}			
 				else if (n == 20){			
 					hs = 2.0;
@@ -142,8 +142,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 	
 		case Funcao::GOLDSTEINPRICE:
 			    hs = 1.0;
-				//he = 1.0;
-				he = 0.005;
+				he = 0.001;
 				for (int i =0; i < n; i++){
 					l[i] = -2.0;
 					u[i] = 2.0;
@@ -153,7 +152,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::EASOM:
 			 	hs = 1;
-				he = 0.1;
+				he = 0.01;
 				
 			    for (int i =0; i < n; i++){
 					l[i] = -100.0;
@@ -165,14 +164,24 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 		case Funcao::SHEKEL:
 				m = n;			    
 				n = 4;
+
+				//cout << "m = " << m << " n = " << n << endl;       
+
 				delete []l;
 				delete []u;
 					
 				l = new double[n];				
 				u = new double[n];				
 
-				hs = 0.005;
-				he = 0.0001;
+				hs = 1;
+				he = 0.0005;
+
+				if (m==10){
+					hs = 1;
+					he = 0.0001;
+					//cout << "m = " << m << " n = " << n << endl; 
+				}
+
 				//hs = 0.1;
 				//he = 0.05;
 				for (int i=0; i < n; i++){
@@ -803,48 +812,48 @@ map<std::string, std::vector<int>> createMaxCFObySeedMap(std::string funcName)
 
 map<std::string, int> createMaxCFOMap() {
 	map<std::string, int> *max_cfo_map = new map<std::string, int>();
-	max_cfo_map->insert(pair<std::string, int>("BEALE2", 12896));
-	max_cfo_map->insert(pair<std::string, int>("BOHACHEVSKY2", 18200));
-	max_cfo_map->insert(pair<std::string, int>("BOOTH2", 3915));
-	max_cfo_map->insert(pair<std::string, int>("BRANIN2", 61336));
-	max_cfo_map->insert(pair<std::string, int>("EASOM2", 122905));
-	max_cfo_map->insert(pair<std::string, int>("GOLDSTEINPRICE2", 308));
-	max_cfo_map->insert(pair<std::string, int>("MATYAS2", 14507));
-	max_cfo_map->insert(pair<std::string, int>("HUMP2", 53179));
-	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK2", 116960));
-	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL2", 265378));
-	max_cfo_map->insert(pair<std::string, int>("SHUBERT2", 102300));
-	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV2", 10142));
-	max_cfo_map->insert(pair<std::string, int>("SPHERE3", 14880));
-	max_cfo_map->insert(pair<std::string, int>("HARTMANN3", 2200));
-	max_cfo_map->insert(pair<std::string, int>("COLVILLE4", 34206));
-	max_cfo_map->insert(pair<std::string, int>("PERM4", 118334));
-	max_cfo_map->insert(pair<std::string, int>("PERM04", 94214));
-	max_cfo_map->insert(pair<std::string, int>("POWERSUM4", 5718));
-	max_cfo_map->insert(pair<std::string, int>("SHEKEL45", 2870));
-	max_cfo_map->insert(pair<std::string, int>("SHEKEL47", 2870));
-	max_cfo_map->insert(pair<std::string, int>("SHEKEL410", 2870));
-	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK5", 254980));
-	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV5", 23060));
-	max_cfo_map->insert(pair<std::string, int>("HARTMANN6", 33216));
-	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL6", 725173));
-	max_cfo_map->insert(pair<std::string, int>("TRID6", 207392));
-	max_cfo_map->insert(pair<std::string, int>("GRIEWANK10", 1140800));
-	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN10", 29024));
-	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK10", 577440));
-	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES10", 9520));
-	max_cfo_map->insert(pair<std::string, int>("TRID10", 819880));
-	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV10", 214192));
-	max_cfo_map->insert(pair<std::string, int>("GRIEWANK20", 2270904));
-	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN20", 65755));
-	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK20", 438273));
-	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES20", 18920));
-	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV20", 2020618));
-	max_cfo_map->insert(pair<std::string, int>("POWELL24", 90290));
-	max_cfo_map->insert(pair<std::string, int>("DIXONPRICE25", 64700));
-	max_cfo_map->insert(pair<std::string, int>("ACKLEY30", 690420));
-	max_cfo_map->insert(pair<std::string, int>("LEVY30", 182640));
-	max_cfo_map->insert(pair<std::string, int>("SPHERE30", 197193));
+	max_cfo_map->insert(pair<std::string, int>("BEALE2", 10939));
+	max_cfo_map->insert(pair<std::string, int>("BOHACHEVSKY2", 201196));
+	max_cfo_map->insert(pair<std::string, int>("BOOTH2", 100105));
+	max_cfo_map->insert(pair<std::string, int>("BRANIN2", 11999));
+	max_cfo_map->insert(pair<std::string, int>("EASOM2", 102765));
+	max_cfo_map->insert(pair<std::string, int>("GOLDSTEINPRICE2", 14620));
+	max_cfo_map->insert(pair<std::string, int>("MATYAS2", 2104));
+	max_cfo_map->insert(pair<std::string, int>("HUMP2", 9466));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK2", 7755));
+	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL2", 136605));
+	max_cfo_map->insert(pair<std::string, int>("SHUBERT2", 14339));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV2", 66771));
+	max_cfo_map->insert(pair<std::string, int>("SPHERE3", 9443));
+	max_cfo_map->insert(pair<std::string, int>("HARTMANN3", 4470));
+	max_cfo_map->insert(pair<std::string, int>("COLVILLE4",652347));
+	max_cfo_map->insert(pair<std::string, int>("PERM4", 813418));
+	max_cfo_map->insert(pair<std::string, int>("PERM04", 1.07404e+06));
+	max_cfo_map->insert(pair<std::string, int>("POWERSUM4", 274536));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL45", 680741));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL47", 611827));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL410", 6.87419e+06));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK5", 1.09184e+07));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV5", 113071));
+	max_cfo_map->insert(pair<std::string, int>("HARTMANN6", 106850));
+	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL6", 2.30E+08));
+	max_cfo_map->insert(pair<std::string, int>("TRID6", 62510));
+	max_cfo_map->insert(pair<std::string, int>("GRIEWANK10", 1.31649e+07));
+	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN10", 237339));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK10", 2.21233e+07));
+	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES10", 104057));
+	max_cfo_map->insert(pair<std::string, int>("TRID10", 1.13991e+06));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV10", 4.32147e+06));
+	max_cfo_map->insert(pair<std::string, int>("GRIEWANK20", 4.48394e+07));
+	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN20", 819181));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK20", 1.11063e+07));
+	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES20", 370371));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV20", 6.12727e+07));
+	max_cfo_map->insert(pair<std::string, int>("POWELL24", 638299));
+	max_cfo_map->insert(pair<std::string, int>("DIXONPRICE25", 1.52986e+06));
+	max_cfo_map->insert(pair<std::string, int>("ACKLEY30", 1.79728e+07));
+	max_cfo_map->insert(pair<std::string, int>("LEVY30", 4.82452e+06));
+	max_cfo_map->insert(pair<std::string, int>("SPHERE30", 3.79675e+06));
 
 	return *max_cfo_map;
 }
@@ -976,7 +985,7 @@ int main(int argc, char **argv)
 
 	int max_cfos = max_cfo_map[funcCode];
 	bool success = 0;
-	int number_of_iterations = 20;
+	int number_of_iterations = 40;
 	
 	double soma = 0.0;
 	double min = 1.0e+30;
@@ -987,24 +996,34 @@ int main(int argc, char **argv)
 	double s_CPU_inicial, s_CPU_final;
   	double s_total_inicial, s_total_final;
 	
+	std::ofstream sol_file(algCode + "_sol_file.dat");	
 	int num_runs = 100;
 	for (int i = 0; i < num_runs; i++)
 	{
 		seed = 270000 + i + 1;
-		//seed = 270100;
+
 		Funcao *func;
+
+		
 		Parameters parameters = getParameters(iFuncNumb, problemDim, &func);
 
+		int dimension = problemDim;
 		if (iFuncNumb == Funcao::SHEKEL) 
-			problemDim = 4;
+			dimension = 4;
+
+		//double x[5] = { 1, 1, 1, 1, 1 };
+		//cout << "Best: " << func->calc(x) << endl;
 
 		Tempo_CPU_Sistema(&s_CPU_inicial, &s_total_inicial);
-		result = cgrasp(algCode.c_str(), dmFreqStrategy, dmStartMoment, patternPercentUsed, eliteSize, problemDim, parameters.l, parameters.u, func, parameters.hs, 
+		result = cgrasp(algCode.c_str(), dmFreqStrategy, dmStartMoment, patternPercentUsed, eliteSize, dimension, parameters.l, parameters.u, func, parameters.hs, 
 			parameters.he, parameters.plo, number_of_iterations, max_cfos, seed, success, standardDeviation);
 		Tempo_CPU_Sistema(&s_CPU_final, &s_total_final);
 
 		if (result < min)
 			min = result;
+
+		//if (success)
+			sol_file << (s_CPU_final - s_CPU_inicial) << endl;
 
 		//cout << "result: " << result << endl;
 		soma += result;
@@ -1020,7 +1039,7 @@ int main(int argc, char **argv)
 	//success_rate = success_rate * 100 / num_runs;
 	avg_time /= num_runs;
 
-	string filepath("out(" + arguments + ")");
+	string filepath("out(" + arguments + ").csv");
 
 	std::ofstream outfile;
 	if (!exist(filepath.c_str())) {
@@ -1032,6 +1051,7 @@ int main(int argc, char **argv)
 
 	outfile << funcCode << ";" << problemDim << ";" << min << ";" << average << ";" << avg_cfos << ";" << avg_time << ";" << success_rate << endl;
 	outfile.close();
+	sol_file.close();
 
 	//if (print) 
 	//	cout << "Result: " << result << endl;

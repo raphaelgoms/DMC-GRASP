@@ -16,6 +16,7 @@
 #include <string.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <math.h>
 
 //#include "module.h"
 
@@ -28,7 +29,15 @@
 #include<numeric>
 #include "xmeans.h"
 
+
+
+
 using namespace std;
+
+#include <random>
+std::random_device rd;  // Will be used to obtain a seed for the random number engine
+std::mt19937 gen(1); // Standard mersenne_twister_engine seeded with rd()
+std::uniform_real_distribution<> dis(0, 1);
 
 int debugLevel = DEBUG_LEVEL0_;
 
@@ -118,8 +127,10 @@ double urand()
 int urand_ind(int max_ind)
 {
 	//return rand()%max_ind;
-	return (int)(genrand_real1() * max_ind);
-	//return (int)genrand_int32() % max_ind;
+	//return (int)(genrand_real1() * max_ind);
+
+	//unsigned long r = genrand_int32();
+	return floor (dis(gen)* max_ind);
 }
 
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -205,6 +216,8 @@ int * getRandSubSet(int n, int k, int use_rank) {
 	return set;
 }
 
+
+
 void UnifRand(int n, double *l, double *u, double *x, int *fixed, double *__template_, double percent)
 {
 	int i;
@@ -239,9 +252,13 @@ void UnifRand(int n, double *l, double *u, double *x, int *fixed, double *__temp
 	}
 	else
 	{
+		
+
 		for (i = 0; i < n; i++)	{
-			x[i] = l[i]  + genrand_real1() * (u[i] - l[i]);
+			x[i] = l[i]  + dis(gen) * (u[i] - l[i]);
 		}
+
+		//Util::printX(x, n); cout << endl;
 	}
 }
 
@@ -881,6 +898,7 @@ void line_search(int n, double h, double *l, double *u,
 				  double *x, int i, double *z_i, double *g_i, float t2, double *x_s, double f,
 				  double opt, FILE *outFile, int *count_calc_cost, int *fecount, int stp, int fes, Funcao* func)
 {
+	//cout << "line_search" << endl;
 	int j, start, end, z;
 	double x_i, c, s_domain, e_domain;
 
@@ -909,7 +927,7 @@ void line_search(int n, double h, double *l, double *u,
 	// 	xCurr+=h;
 	// }
 
-	start = (int)floor(fabs(x_i - s_domain) / h);
+	start = (int)floor((x_i - s_domain) / h);
 
 	for (j = -start; j < 0; j++)
 	{
@@ -923,8 +941,8 @@ void line_search(int n, double h, double *l, double *u,
 		}
 	}
 
-	end = (int)floor(fabs(e_domain - x_i) / h);
-	for (j = 1; j < end; j++)
+	end = (int)floor((e_domain - x_i) / h);
+	for (j = 1; j <= end; j++)
 	{
 		*(x_ + i) = x_i + j * h;
 		c = func->calc(x_);
@@ -948,35 +966,52 @@ void construct_greedy_randomized(int n, double ro, double h, double *l, double *
 								 double *x, int *imprc, float t2, double *x_s, double f, double opt, FILE *outFile, 
 								 int *count_calc_cost, int *fecount, int stp, int fes, int *fixed, Funcao *func)
 {
+	//cout << "construct_greedy_randomized " << h << endl;
 	std::vector<int> unfixed (n);
 	std::iota(unfixed.begin(), unfixed.end(), 0);
 	
-	double alpha = genrand_real1();
+	double alpha = dis(gen);
 	bool reuse = false;
 	double g_min, g_max;
 
-	double *z = new double[n];
-	double *g = new double[n];
+	double *z = (double*) malloc(n *sizeof(double));
+	double *g =  (double*) malloc(n *sizeof(double));
+
+	// for (int i = 0; i < n; i++) z[i] = INFINITY;
+	// for (int i = 0; i < n; i++) g[i] = INFINITY;
+
 	std::vector<int> rcl;
 
 	double cost = func->calc(x);
 
+	//Util::printX(x, n);
+	//cout << ", cost: " << cost << ", h = " << h << endl;
+
 	*(imprc) = 0;
 	//cout << "construção - unfixed size: " << unfixed.size() << endl;
 	while(unfixed.size()) {
-		g_min = 1e+20;
-		g_max = -1e+20;
+		//cout << "construção - while" << endl;
+		g_min = INFINITY;
+		g_max = -INFINITY;
+
+		// cout << "unfixed: " ;
+		// for (int i : unfixed) {
+		// 	cout << i << " ";
+		// } cout << endl;
 
 		for (int i : unfixed)
 		{
 			if (!reuse) {
 				line_search(n, h, l, u, x, i, &z[i], &g[i], t2, x_s, f, opt, outFile, count_calc_cost, fecount, stp, fes, func);
 			}
+			//cout << " z_" << i << " " << z[i] << " g_" << i << " " << g[i] << endl;
 
 			if (g_min > g[i]) g_min = g[i];
 			if (g_max < g[i]) g_max = g[i];
 		}
 
+		//cout << "construção - g_min: " << g_min << " g_max: " << g_max << endl;
+		
 		rcl.clear();
 		double threshold = g_min + alpha * (g_max - g_min);
 		for (int i : unfixed)
@@ -986,12 +1021,24 @@ void construct_greedy_randomized(int n, double ro, double h, double *l, double *
 			}
 		}
 		
-		int j = urand_ind(rcl.size()-1);
+		// cout << "rcl: ";
+		// for (int i : rcl) {
+		// 	cout << i << " ";
+		// } cout << endl;
+		int j = urand_ind(rcl.size());
+		//cout << "construção - rcl size: " << rcl.size() << " j: " << j << endl;
 		int selected = rcl[j];
 
-		
+		// cout << "j = " << j << " selected = " << selected << endl; 
+
+		// cout << "x: ";
+		// Util::printX(x, n); cout << endl;
+
+		// cout << "z: ";
+		// Util::printX(z, n); cout << endl;
+
 		//cout << x[selected] << " - " << z[selected];
-		if (x[selected] == z[selected]) {
+		if (Util::equals(x[selected],z[selected])) {
 			reuse = true;
 		} else {
 			x[selected] = z[selected];
@@ -999,163 +1046,20 @@ void construct_greedy_randomized(int n, double ro, double h, double *l, double *
 			*(imprc) = 1;
 		}
 
-		//cout << reuse << endl;
-
-		unfixed.erase(std::find(unfixed.begin(), unfixed.end(), selected));		
+		unfixed.erase(std::find(unfixed.begin(), unfixed.end(), selected));	
+		//cout << unfixed.size() << " ";	
 	}
+	//cout << endl;
 
 	// double cost_new = func->calc(x);
 	// if	(cost_new < cost) {
 	// 	*(imprc) = 1;
 	// }
 
+	//cout << "fim construct_greedy_randomized" << endl;
+
 	delete[] z;
 	delete[] g;
-}
-
-
-void construct_greedy_randomized_cfunction(int n, double ro, double h, double *l, double *u,
-								 double *x, int *imprc, float t2, double *x_s, double f, double opt, FILE *outFile, 
-								 int *count_calc_cost, int *fecount, int stp, int fes, int *fixed, Funcao *func)
-{
-	//debugLevel = DEBUG_LEVEL2_;
-	int i, reuse;
-	double alpha, g_floor, g_ceil, z_i, g_i;
-	double *xBackup;
-
-	xBackup = (double *) malloc (n * sizeof(double));
-	copy_double_vector(xBackup, x, n);
-
-	*(imprc) = 0;
-
-	item *element;
-	list_t unfixed;
-	list_t rcl;
-	int rcl_size;
-
-	item *it_u;
-
-	element = (item *)malloc(sizeof(item));
-	list_init(&unfixed);
-	list_attributes_copy(&unfixed, mymeter, 1);
-	list_attributes_comparator(&unfixed, mycomparator);
-	list_attributes_seeker(&unfixed, seeker);
-
-	list_init(&rcl);
-	list_attributes_copy(&rcl, mymeter, 1);
-	list_attributes_comparator(&rcl, mycomparator);
-	list_attributes_seeker(&rcl, seeker);
-
-	if (extraiu && useDataMining)
-	{
-		for (i = 0; i < n; i++)
-		{
-			if (!fixed[i])
-			{
-				element->i = i;
-				list_append(&unfixed, element);
-			}
-		}
-	}
-	else
-	{
-		for (i = 0; i < n; i++)
-		{
-			element->i = i;
-			list_append(&unfixed, element);
-		}
-	}
-
-	alpha = genrand_real1();
-	reuse = 0;
-
-	while (list_size(&unfixed) && list_iterator_start(&unfixed))
-	{
-		g_floor = _infinity;
-		g_ceil = -_infinity;
-		while (list_iterator_hasnext(&unfixed))
-		{
-
-			it_u = (item *)list_iterator_next(&unfixed);
-			if (reuse == 0)
-			{
-
-				i = it_u->i;
-				line_search(n, h, l, u, x, i, &z_i, &g_i, t2, x_s, f, opt, outFile, count_calc_cost, fecount, stp, fes, func);
-				it_u->z_i = z_i;
-				it_u->g_i = g_i;				
-			}
-			else
-			{
-				g_i = it_u->g_i;
-			}
-
-			if (g_floor > g_i) {
-				g_floor = g_i;
-			}
-
-			if (g_ceil < g_i) {
-				g_ceil = g_i;
-			}
-		
-		}
-		list_iterator_stop(&unfixed);
-
-		if (debugLevel == DEBUG_LEVEL2_) printf("\n\t[DEBUG:] Teste de refatoração do metodo de construção. \n");
-
-		double threshold = g_floor + alpha * (g_ceil - g_floor);
-
-		if (debugLevel == DEBUG_LEVEL2_) printf("\n\t[DEBUG:] Threshold: %lf\n", threshold);
-		
-		rcl_size = 0;
-		list_iterator_start(&unfixed);
-		list_init(&rcl);
-		while (list_iterator_hasnext(&unfixed)) {
-			it_u = (item *)list_iterator_next(&unfixed);
-			if (debugLevel == DEBUG_LEVEL2_) printf("\n\t[DEBUG:] \t g_i: %lf\n", it_u->g_i);
-			if (it_u->g_i <= threshold) {
-				list_append(&rcl, it_u);
-				rcl_size++;
-			}
-		}
-		list_iterator_stop(&unfixed);
-
-		if (debugLevel == DEBUG_LEVEL2_) printf("\n\t[DEBUG:] Construiu a RCL \n");
-
-		int j = urand_ind(rcl_size-1);
-		if (debugLevel == DEBUG_LEVEL2_) printf("\n\t[DEBUG:] Tamanho da RCL: %d\n", rcl_size);
-
-		item * selected = (item *) list_get_at(&rcl, j);
-
-		if (debugLevel == DEBUG_LEVEL2_) printf("\n\t[DEBUG:] elemento selecionado: %d, %lf\n", selected->i, selected->z_i);
-
-		if (debugLevel == DEBUG_LEVEL2_) printf("\n\t[DEBUG:] %d, %lf, %lf, %lf, %lf\n", selected->i, x[selected->i], selected->z_i, func->calc(x), selected->g_i);
-		
-		if (x[selected->i] == selected->z_i) {
-			reuse = 1;
-		}
-		else //if (func->calc(x) > selected->g_i)
-		{
-			x[selected->i] = selected->z_i;
-			reuse = 0;
-			*(imprc) = 1;
-			if (debugLevel == DEBUG_LEVEL2_) 
-				printf(" Veio aqui: %d - %lf\n", *(imprc), func->calc(x));
-		
-		}
-
-		int k = selected->i;
-		if (rcl_size)
-			list_delete_at(&unfixed, k);
-		list_clear(&rcl);
-		
-		//if (debugLevel == DEBUG_LEVEL2_) 
-		if (debugLevel == DEBUG_LEVEL2_) printf("\n\t[DEBUG:] Passou da etapa de alteração da solução \n");
-	}
-
-	list_destroy(&unfixed);
-
-	if (debugLevel == DEBUG_LEVEL2_) printf("[DEBUG:] TERMINOU: %lf\n", func->calc(x));
 }
 
 double calcNorma(double *x, double *xGrid, int n)
@@ -1282,7 +1186,7 @@ void local_search(int n, double ro, double h, double *l, double *u, double max_p
 {
 	//cout << "local_search" << endl;
 	int ok, i, num_points_examined;
-	double f_str, c, norm, s_domain = l[0], e_domain = u[0];
+	long double f_str, c, norm, s_domain = l[0], e_domain = u[0];
 
 	double *y = (double *)malloc(n * sizeof(double));
 	double *z = (double *)malloc(n * sizeof(double));
@@ -1292,21 +1196,24 @@ void local_search(int n, double ro, double h, double *l, double *u, double max_p
 	f_str = func->calc(x);
 	
 
-	int num_grid_points = pow((int)floor((e_domain - s_domain)/h),n);
+	long long unsigned num_grid_points = pow(ceil((e_domain - s_domain)/h),n);
+	//cout << "e_domain " << e_domain << " s_domain " << s_domain << " h " << h << " n " << n << " num_grid_points " << num_grid_points << endl; 
+
 	int max_num_pts = floor(ro*num_grid_points);
 
-	// max_points = 100;
-	// if ( max_num_pts > max_points ){
-	// 		max_num_pts = max_points;
-	// }
+	//max_points = 100000;
+	max_points = 1.0e+3;
+	if ( max_num_pts > max_points ) {
+			max_num_pts = max_points;
+	}
 
 	num_points_examined = 0;
 	
-
+	//cout << "ro: " << ro << endl;
+	//cout << "max_num_pts: " << max_num_pts << endl;
 	while (num_points_examined <= max_num_pts)
 	{
 		//cout << "num_points_examined: " << num_points_examined << endl;
-
 		ok = 0;
 		do
 		{
@@ -1316,7 +1223,7 @@ void local_search(int n, double ro, double h, double *l, double *u, double max_p
 
 				s_domain = (*(l + i));
 				e_domain = (*(u + i));
-				if (genrand_real1() <= 0.5)
+				if (dis(gen) <= 0.5)
 				{
 					*(z + i) = (double)urand_ind((int)ceil((e_domain - (*(x + i))) / h));
 				}
@@ -1349,12 +1256,14 @@ void local_search(int n, double ro, double h, double *l, double *u, double max_p
 			f_str = c;
 			num_points_examined = 0;
 			*(impr) = 1;
+
+			//cout << "f_str: " << f_str << endl;
 		}
 
 		num_points_examined++;
 	}
 
-	f_str = func->calc(x);
+	//f_str = func->calc(x);
 
 	free(y);
 	free(z);
@@ -1393,7 +1302,16 @@ EliteSet *createEliteSet(int problem_dimension, int elite_size) {
 	return elite;
 }
 
-
+double isNearToOptimum(Funcao *func, double best, double precision)
+{
+	double optimum = func->getMinValue();
+	double GAP = fabs(optimum - best);
+	
+	if (!optimum)
+		return GAP <= precision;
+	else 
+		return GAP <= precision * fabs(optimum);
+}
 
 bool IsStopCriterionReached(int current_itr, double best_fo, ExperimentType exp_type, Funcao *func, bool &isSignClose) {
 	switch (exp_type)
@@ -1407,19 +1325,20 @@ bool IsStopCriterionReached(int current_itr, double best_fo, ExperimentType exp_
 		break;
 	
 	case BY_CFOs:
+
 		return func->getFnEvals() >= MAX_nCFOs;
 		break;
 	
 	case BY_GAP:
-		if (func->isNearOptimum(best_fo)) {
+		if (isNearToOptimum(func, best_fo, 1.0e-3)) {
 			//cout << "NEAR OPTIMUM" << endl;
 			isSignClose = true;
 			return true;
 		}
 		
 		isSignClose = false;
-		//return false;
-		return current_itr >= MAX_ITERATION;
+		return false;
+		//return current_itr >= MAX_ITERATION;
 	default:
 		break;
 	}
@@ -1465,12 +1384,16 @@ double distance(map<int, double> & v1, map<int, double> & v2) {
 	return sqrt(sum);
 }
 
+
+
 double cgrasp(const char * mining_strategy, int isContinuousMining, double dmStartMoment, double patternPercentUsed, int eliteSize, int dimension, double *lower_bounds, double *upper_bounds, 
         Funcao *func, double hs, double he, double plo, int number_of_iterations, int max_functions_calls, unsigned long seed, bool &success, double standardDeviation)
 {
 	int i, n, count_calc_cost, imprc, imprl, ls_opt, size, iterations, function_evaluations, count = 0, countin, loop = 1, fecount = 0, stp = 0;
 	double opt, h_s, h_e, ro, max_points, ep, cost_x, h, f_star, threshold, *x, *x_star, *best_solution, *l, *u;
 	float t2;
+
+	gen.seed(seed);
 
 	success = false;
 	int xmeansStrategy = 0; // 0 means dont use xmeans (clustering)
@@ -1498,7 +1421,7 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
  	//--- initializing parameters ----------------------------------
 	l = lower_bounds;
 	u = upper_bounds;	
-	f_star = 1.0e+10;
+	
 	h_s = hs;
 	h_e = he;
 	ro = plo;
@@ -1519,6 +1442,10 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 	//--- initializing data structures ----------------------------------
 	x = (double *)malloc(dimension * sizeof(double));
 	x_star = (double *)malloc(dimension * sizeof(double));
+	f_star = 1.0e+20;
+	cost_x = 1.0e+20;
+
+
 	EliteSet* elite;
 	if (useDataMining)
 		elite = createEliteSet(dimension, g_elite_size);
@@ -1529,9 +1456,11 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 
 	int deviations_register_count = 0;
 
-	init_genrand(seed);
+	//init_genrand(seed);
+	//out << "seed: " << seed << endl;
 
-	ExperimentType expType = BY_CFOs;
+	ExperimentType expType = BY_GAP;
+	ExperimentType phaseIStopCriterion = BY_CFOs;
 	MAX_ITERATION = number_of_iterations;
 	MAX_nCFOs = max_functions_calls;
 
@@ -1542,11 +1471,11 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 	
 	//debugLevel = DEBUG_LEVEL1_;
 	int n_its = 0;
-	while (!IsStopCriterionReached(count, f_star, BY_GAP, func, success)) 
+	while (!IsStopCriterionReached(count, f_star, expType, func, success)) 
 	{
 		n_its++;
 		if (useDataMining) {
-			if (phaseI_IsEnded(count, f_star, BY_ITERATION, func, dmStartMoment) && (!extraiu || isContinuousMining)) {
+			if (phaseI_IsEnded(count, f_star, phaseIStopCriterion, func, dmStartMoment) && (!extraiu || isContinuousMining)) {
 				if (!xmeansStrategy) {
 					FindPatterns(elite, n, fixedPositions, l, u, h);
 				} else {
@@ -1614,7 +1543,8 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 		//cout << "h_s: " << h_s << " - h_e: " << h_e << endl;
 		while (h >= h_e) 
 		{
-			if (IsStopCriterionReached(count, f_star, BY_GAP, func, success))
+
+			if (IsStopCriterionReached(count, f_star, expType, func, success))
 				break;
 
 			res = f_star;
@@ -1636,13 +1566,10 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 
 			if (debugLevel == DEBUG_LEVEL1_) 
 			{
-				
 				printf("build: ");
 				Util::printX(x, n); printf(" - %lf ", cost_x);
 				printf("\n");
 			}
-
-
 
 			local_search(n, ro, h, l, u, max_points, x, &imprl,	t2, x_star, f_star, opt, outFile, &count_calc_cost, &fecount, stp, function_evaluations, func);
 			cost_x = func->calc(x) ;
@@ -1654,14 +1581,13 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 				Util::printX(x, n); printf(" - %lf ", cost_x);
 				printf("\n");
 			}
-
 			if (cost_x < f_star) {
 				f_star = cost_x;
 				copy_double_vector(x_star, x, dimension);
 			}
 
-			if (debugLevel == DEBUG_LEVEL1_) 
-				printf("%d - %d \n", imprc, imprl);
+			//if (debugLevel == DEBUG_LEVEL1_) 
+			//	printf("%d - %d \n", imprc, imprl);
 
 			if ((imprc == 0) && (imprl == 0)) {
 				h = h / 2.0;
@@ -1674,16 +1600,17 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 			}
 		}
 
-		cout << "best: " << f_star << endl;
+		//cout << "iteration " << count + 1 << " - best: " << f_star  << " - founded: " << cost_x << endl;
+		//Util::printX(x_star, n); cout << endl;
 		count++;
 	}
 
-	//cout << "Nº of Iterations: " << n_its << endl;
+	cout << "Nº of Iterations: " << n_its << endl;
 	//cout << "best: " << f_star;
-	delete[] x;
-	delete[] x_star;
-	delete[] fixedPositions;
-	delete[] _template;
+	free(x);
+	free(x_star);
+	free(fixedPositions);
+	free(_template);
 
 	return f_star;
 }

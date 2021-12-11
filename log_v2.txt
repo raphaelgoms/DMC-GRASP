@@ -1436,3 +1436,2290 @@
 [Sat Nov 13 14:51:55 -03 2021]: Iniciou a exec. para a configuração --c
 [Sat Nov 13 14:51:55 -03 2021]: >> Função har34
 [Sat Nov 13 14:54:09 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 13 15:56:37 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 13 15:56:37 -03 2021]: >> Função bra
+[Sat Nov 13 15:59:48 -03 2021]: >> Função gol
+[Sat Nov 13 16:04:44 -03 2021]: >> Função eas
+[Sat Nov 13 22:47:22 -03 2021]: >> Função shu
+[Sat Nov 13 22:52:23 -03 2021]: >> Função har34
+[Sat Nov 13 22:54:55 -03 2021]: >> Função har64
+[Sat Nov 13 23:12:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 13 23:12:41 -03 2021]: >> Função eas
+[Sun Nov 14 13:03:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 13:03:23 -03 2021]: >> Função eas
+[Sun Nov 14 14:01:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 14:01:10 -03 2021]: >> Função eas
+[Sun Nov 14 16:28:07 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 16:28:07 -03 2021]: >> Função eas
+[Sun Nov 14 16:34:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 16:34:24 -03 2021]: >> Função eas
+[Sun Nov 14 16:42:34 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 16:42:34 -03 2021]: >> Função eas
+[Sun Nov 14 16:42:42 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 16:45:07 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 16:45:07 -03 2021]: >> Função eas
+[Sun Nov 14 16:45:15 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 16:46:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 16:46:56 -03 2021]: >> Função gol
+[Sun Nov 14 16:47:06 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 16:54:05 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 16:54:05 -03 2021]: >> Função gol
+[Sun Nov 14 16:55:21 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 16:58:34 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 16:58:34 -03 2021]: >> Função gol
+[Sun Nov 14 16:58:35 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 16:59:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 16:59:14 -03 2021]: >> Função gol
+[Sun Nov 14 16:59:14 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 17:07:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 17:07:32 -03 2021]: >> Função gol
+[Sun Nov 14 17:07:35 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 17:09:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 17:09:49 -03 2021]: >> Função gol
+[Sun Nov 14 17:12:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 17:12:12 -03 2021]: >> Função gol
+[Sun Nov 14 17:17:06 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 18:05:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 18:05:49 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 18:05:53 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 18:05:53 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 14 18:06:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 18:06:10 -03 2021]: >> Função bra
+[Sun Nov 14 18:10:58 -03 2021]: >> Função gol
+[Sun Nov 14 18:16:11 -03 2021]: >> Função eas
+[Sun Nov 14 21:20:51 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:20:51 -03 2021]: >> Função eas
+[Sun Nov 14 21:21:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:21:41 -03 2021]: >> Função eas
+[Sun Nov 14 21:23:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:23:08 -03 2021]: >> Função eas
+[Sun Nov 14 21:24:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:24:15 -03 2021]: >> Função eas
+[Sun Nov 14 21:25:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:25:21 -03 2021]: >> Função eas
+[Sun Nov 14 21:27:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:27:09 -03 2021]: >> Função eas
+[Sun Nov 14 21:28:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:28:21 -03 2021]: >> Função eas
+[Sun Nov 14 21:34:54 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:34:54 -03 2021]: >> Função eas
+[Sun Nov 14 21:43:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:43:13 -03 2021]: >> Função eas
+[Sun Nov 14 21:44:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:44:44 -03 2021]: >> Função eas
+[Sun Nov 14 21:54:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:54:56 -03 2021]: >> Função eas
+[Sun Nov 14 21:55:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 21:55:49 -03 2021]: >> Função eas
+[Sun Nov 14 22:03:06 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 22:03:06 -03 2021]: >> Função eas
+[Sun Nov 14 22:24:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 22:24:10 -03 2021]: >> Função eas
+[Sun Nov 14 22:24:59 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 22:24:59 -03 2021]: >> Função eas
+[Sun Nov 14 23:39:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 14 23:39:45 -03 2021]: >> Função eas
+[Mon Nov 15 00:47:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 00:47:44 -03 2021]: >> Função eas
+[Mon Nov 15 00:57:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 00:57:48 -03 2021]: >> Função eas
+[Mon Nov 15 01:20:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 01:20:40 -03 2021]: >> Função bra
+[Mon Nov 15 01:24:21 -03 2021]: >> Função gol
+[Mon Nov 15 01:27:29 -03 2021]: >> Função eas
+[Mon Nov 15 05:07:27 -03 2021]: >> Função shu
+[Mon Nov 15 05:12:28 -03 2021]: >> Função har34
+[Mon Nov 15 08:03:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:03:13 -03 2021]: >> Função bra
+[Mon Nov 15 08:03:14 -03 2021]: >> Função gol
+[Mon Nov 15 08:03:15 -03 2021]: >> Função eas
+[Mon Nov 15 08:03:18 -03 2021]: >> Função shu
+[Mon Nov 15 08:03:19 -03 2021]: >> Função har34
+[Mon Nov 15 08:04:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:04:35 -03 2021]: >> Função bra
+[Mon Nov 15 08:04:37 -03 2021]: >> Função gol
+[Mon Nov 15 08:04:37 -03 2021]: >> Função eas
+[Mon Nov 15 08:04:41 -03 2021]: >> Função shu
+[Mon Nov 15 08:04:42 -03 2021]: >> Função har34
+[Mon Nov 15 08:09:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:09:41 -03 2021]: >> Função har34
+[Mon Nov 15 08:16:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:16:21 -03 2021]: >> Função har34
+[Mon Nov 15 08:16:52 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:16:52 -03 2021]: >> Função har34
+[Mon Nov 15 08:17:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:17:33 -03 2021]: >> Função har34
+[Mon Nov 15 08:18:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:18:24 -03 2021]: >> Função har34
+[Mon Nov 15 08:19:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:19:56 -03 2021]: >> Função har34
+[Mon Nov 15 08:20:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:20:35 -03 2021]: >> Função har34
+[Mon Nov 15 08:21:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:21:14 -03 2021]: >> Função har34
+[Mon Nov 15 08:21:20 -03 2021]: Finalizou para a configuração --c
+[Mon Nov 15 08:21:57 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:21:57 -03 2021]: >> Função har34
+[Mon Nov 15 08:22:01 -03 2021]: Finalizou para a configuração --c
+[Mon Nov 15 08:22:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:22:32 -03 2021]: >> Função har34
+[Mon Nov 15 08:22:33 -03 2021]: Finalizou para a configuração --c
+[Mon Nov 15 08:23:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:23:12 -03 2021]: >> Função bra
+[Mon Nov 15 08:23:14 -03 2021]: >> Função gol
+[Mon Nov 15 08:23:15 -03 2021]: >> Função eas
+[Mon Nov 15 08:23:21 -03 2021]: >> Função shu
+[Mon Nov 15 08:23:22 -03 2021]: >> Função har34
+[Mon Nov 15 08:23:23 -03 2021]: >> Função har64
+[Mon Nov 15 08:23:41 -03 2021]: >> Função ros2
+[Mon Nov 15 08:23:41 -03 2021]: >> Função ros5
+[Mon Nov 15 08:23:56 -03 2021]: >> Função ros10
+[Mon Nov 15 08:26:00 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:26:00 -03 2021]: >> Função bra
+[Mon Nov 15 08:26:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:26:23 -03 2021]: >> Função ros5
+[Mon Nov 15 08:27:05 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:27:05 -03 2021]: >> Função ros5
+[Mon Nov 15 08:31:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:31:32 -03 2021]: >> Função ros5
+[Mon Nov 15 08:38:03 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:38:03 -03 2021]: >> Função ros5
+[Mon Nov 15 08:39:06 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:39:06 -03 2021]: >> Função ros5
+[Mon Nov 15 08:39:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:39:47 -03 2021]: >> Função ros5
+[Mon Nov 15 08:40:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:40:47 -03 2021]: >> Função ros5
+[Mon Nov 15 08:44:27 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:44:27 -03 2021]: >> Função ros5
+[Mon Nov 15 08:44:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:44:58 -03 2021]: >> Função ros5
+[Mon Nov 15 08:45:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:45:10 -03 2021]: >> Função ros5
+[Mon Nov 15 08:47:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:47:01 -03 2021]: >> Função ros5
+[Mon Nov 15 08:53:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:53:19 -03 2021]: >> Função ros5
+[Mon Nov 15 08:53:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:53:48 -03 2021]: >> Função ros5
+[Mon Nov 15 08:54:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:54:49 -03 2021]: >> Função ros5
+[Mon Nov 15 08:55:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:55:35 -03 2021]: >> Função ros5
+[Mon Nov 15 08:56:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:56:39 -03 2021]: >> Função ros5
+[Mon Nov 15 08:57:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:57:19 -03 2021]: >> Função ros5
+[Mon Nov 15 08:58:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:58:56 -03 2021]: >> Função ros5
+[Mon Nov 15 08:59:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 08:59:48 -03 2021]: >> Função ros5
+[Mon Nov 15 09:00:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 09:00:50 -03 2021]: >> Função ros5
+[Mon Nov 15 11:55:17 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 11:55:17 -03 2021]: >> Função ros5
+[Mon Nov 15 11:56:07 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 11:56:07 -03 2021]: >> Função ros5
+[Mon Nov 15 11:57:59 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 11:57:59 -03 2021]: >> Função ros5
+[Mon Nov 15 11:58:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 11:58:24 -03 2021]: >> Função ros5
+[Mon Nov 15 11:58:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 11:58:48 -03 2021]: >> Função ros5
+[Mon Nov 15 12:00:22 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 12:00:22 -03 2021]: >> Função ros5
+[Mon Nov 15 12:00:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 12:00:48 -03 2021]: >> Função ros5
+[Mon Nov 15 12:10:51 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 12:10:51 -03 2021]: >> Função ros5
+[Mon Nov 15 12:19:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 12:19:47 -03 2021]: >> Função ros5
+[Mon Nov 15 12:21:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 12:21:19 -03 2021]: >> Função ros5
+[Mon Nov 15 13:08:46 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:08:46 -03 2021]: >> Função ros5
+[Mon Nov 15 13:09:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:09:24 -03 2021]: >> Função ros5
+[Mon Nov 15 13:10:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:10:08 -03 2021]: >> Função ros5
+[Mon Nov 15 13:15:20 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:15:20 -03 2021]: >> Função ros5
+[Mon Nov 15 13:18:06 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:18:06 -03 2021]: >> Função ros5
+[Mon Nov 15 13:41:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:41:32 -03 2021]: >> Função ros5
+[Mon Nov 15 13:41:59 -03 2021]: >> Função ros10
+[Mon Nov 15 13:45:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:45:02 -03 2021]: >> Função ros5
+[Mon Nov 15 13:46:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:46:19 -03 2021]: >> Função ros5
+[Mon Nov 15 13:47:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:47:32 -03 2021]: >> Função ros5
+[Mon Nov 15 13:48:17 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:48:17 -03 2021]: >> Função ros5
+[Mon Nov 15 13:49:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:49:02 -03 2021]: >> Função ros5
+[Mon Nov 15 13:49:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:49:49 -03 2021]: >> Função ros5
+[Mon Nov 15 13:50:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:50:35 -03 2021]: >> Função ros5
+[Mon Nov 15 13:54:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 13:54:38 -03 2021]: >> Função ros5
+[Mon Nov 15 14:00:34 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 14:00:34 -03 2021]: >> Função ros5
+[Mon Nov 15 15:47:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 15:47:14 -03 2021]: >> Função ros5
+[Mon Nov 15 15:53:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 15:53:49 -03 2021]: >> Função ros5
+[Mon Nov 15 15:54:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 15:54:32 -03 2021]: >> Função ros5
+[Mon Nov 15 15:55:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 15:55:41 -03 2021]: >> Função ros5
+[Mon Nov 15 15:59:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 15:59:49 -03 2021]: >> Função ros5
+[Mon Nov 15 16:02:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 16:02:30 -03 2021]: >> Função ros5
+[Mon Nov 15 16:08:04 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 16:08:04 -03 2021]: >> Função ros5
+[Mon Nov 15 16:09:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 16:09:21 -03 2021]: >> Função ros5
+[Mon Nov 15 16:09:28 -03 2021]: >> Função ros10
+[Mon Nov 15 16:09:37 -03 2021]: Finalizou para a configuração --c
+[Mon Nov 15 16:11:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 16:11:47 -03 2021]: >> Função ros5
+[Mon Nov 15 16:11:59 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 16:11:59 -03 2021]: >> Função ros5
+[Mon Nov 15 16:12:12 -03 2021]: >> Função ros10
+[Mon Nov 15 16:13:37 -03 2021]: Finalizou para a configuração --c
+[Mon Nov 15 17:50:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 17:50:49 -03 2021]: >> Função ros5
+[Mon Nov 15 17:51:25 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3985
+[Mon Nov 15 17:51:25 -03 2021]: >> Função ros5
+[Mon Nov 15 17:51:33 -03 2021]: >> Função ros10
+[Mon Nov 15 17:52:18 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3985
+[Mon Nov 15 17:52:18 -03 2021]: >> Função ros5
+[Mon Nov 15 17:55:22 -03 2021]: >> Função ros10
+[Mon Nov 15 18:05:57 -03 2021]: Finalizou para a configuração --amxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3985
+[Mon Nov 15 18:05:57 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 15 18:05:57 -03 2021]: >> Função ros5
+[Mon Nov 15 18:10:00 -03 2021]: >> Função ros10
+[Mon Nov 15 18:23:50 -03 2021]: Finalizou para a configuração --c
+[Mon Nov 15 18:57:05 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3985
+[Mon Nov 15 18:57:05 -03 2021]: >> Função ros5
+[Mon Nov 15 18:57:31 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3985
+[Mon Nov 15 18:57:31 -03 2021]: >> Função ros5
+[Mon Nov 15 18:57:59 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3985
+[Mon Nov 15 18:57:59 -03 2021]: >> Função ros5
+[Mon Nov 15 19:08:41 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3985
+[Mon Nov 15 19:08:41 -03 2021]: >> Função ros5
+[Mon Nov 15 20:21:08 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Mon Nov 15 20:21:08 -03 2021]: >> Função bra
+[Mon Nov 15 20:21:16 -03 2021]: >> Função gol
+[Mon Nov 15 20:21:17 -03 2021]: >> Função eas
+[Mon Nov 15 20:21:23 -03 2021]: >> Função shu
+[Mon Nov 15 20:21:28 -03 2021]: >> Função har34
+[Mon Nov 15 20:21:29 -03 2021]: >> Função har64
+[Mon Nov 15 20:22:13 -03 2021]: >> Função ros2
+[Mon Nov 15 20:22:14 -03 2021]: >> Função ros5
+[Mon Nov 15 23:22:20 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Mon Nov 15 23:22:20 -03 2021]: >> Função bra
+[Mon Nov 15 23:22:33 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Mon Nov 15 23:22:33 -03 2021]: >> Função bra
+[Mon Nov 15 23:22:40 -03 2021]: >> Função gol
+[Mon Nov 15 23:22:42 -03 2021]: >> Função eas
+[Mon Nov 15 23:22:47 -03 2021]: >> Função shu
+[Mon Nov 15 23:22:51 -03 2021]: >> Função har34
+[Mon Nov 15 23:22:53 -03 2021]: >> Função har64
+[Mon Nov 15 23:23:34 -03 2021]: >> Função ros2
+[Mon Nov 15 23:23:35 -03 2021]: >> Função ros5
+[Mon Nov 15 23:25:23 -03 2021]: >> Função ros10
+[Mon Nov 15 23:38:02 -03 2021]: >> Função she45
+[Mon Nov 15 23:59:03 -03 2021]: >> Função she47
+[Tue Nov 16 00:19:19 -03 2021]: >> Função she410
+[Tue Nov 16 00:39:28 -03 2021]: >> Função zak5
+[Tue Nov 16 00:39:35 -03 2021]: >> Função zak10
+[Tue Nov 16 01:02:33 -03 2021]: Finalizou para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Tue Nov 16 01:02:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 16 01:02:33 -03 2021]: >> Função bra
+[Tue Nov 16 01:02:40 -03 2021]: >> Função gol
+[Tue Nov 16 01:02:42 -03 2021]: >> Função eas
+[Tue Nov 16 01:02:48 -03 2021]: >> Função shu
+[Tue Nov 16 01:02:52 -03 2021]: >> Função har34
+[Tue Nov 16 01:02:53 -03 2021]: >> Função har64
+[Tue Nov 16 01:03:49 -03 2021]: >> Função ros2
+[Tue Nov 16 01:03:50 -03 2021]: >> Função ros5
+[Tue Nov 16 01:05:53 -03 2021]: >> Função ros10
+[Tue Nov 16 01:18:37 -03 2021]: >> Função she45
+[Tue Nov 16 01:43:54 -03 2021]: >> Função she47
+[Tue Nov 16 02:09:11 -03 2021]: >> Função she410
+[Tue Nov 16 02:34:23 -03 2021]: >> Função zak5
+[Tue Nov 16 02:34:31 -03 2021]: >> Função zak10
+[Tue Nov 16 03:10:13 -03 2021]: Finalizou para a configuração --c
+[Tue Nov 16 23:17:13 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Tue Nov 16 23:17:13 -03 2021]: >> Função bra
+[Tue Nov 16 23:17:29 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Tue Nov 16 23:17:29 -03 2021]: >> Função she45
+[Tue Nov 16 23:17:34 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Tue Nov 16 23:17:34 -03 2021]: >> Função she45
+[Tue Nov 16 23:17:53 -03 2021]: >> Função she47
+[Tue Nov 16 23:18:13 -03 2021]: >> Função she410
+[Tue Nov 16 23:18:33 -03 2021]: Finalizou para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Tue Nov 16 23:18:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 16 23:18:33 -03 2021]: >> Função she45
+[Tue Nov 16 23:18:53 -03 2021]: >> Função she47
+[Tue Nov 16 23:19:13 -03 2021]: >> Função she410
+[Tue Nov 16 23:19:34 -03 2021]: Finalizou para a configuração --c
+[Tue Nov 16 23:19:54 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Tue Nov 16 23:19:54 -03 2021]: >> Função she45
+[Tue Nov 16 23:26:37 -03 2021]: >> Função she47
+[Tue Nov 16 23:33:12 -03 2021]: >> Função she410
+[Tue Nov 16 23:37:47 -03 2021]: Finalizou para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Tue Nov 16 23:37:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 16 23:37:47 -03 2021]: >> Função she45
+[Tue Nov 16 23:42:44 -03 2021]: >> Função she47
+[Tue Nov 16 23:47:38 -03 2021]: >> Função she410
+[Tue Nov 16 23:52:29 -03 2021]: Finalizou para a configuração --c
+[Tue Nov 16 23:54:37 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Tue Nov 16 23:54:37 -03 2021]: >> Função she45
+[Wed Nov 17 09:43:41 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Wed Nov 17 09:43:41 -03 2021]: >> Função she45
+[Wed Nov 17 23:49:14 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Wed Nov 17 23:49:14 -03 2021]: >> Função she45
+[Wed Nov 17 23:50:23 -03 2021]: >> Função she47
+[Wed Nov 17 23:51:21 -03 2021]: >> Função she410
+[Wed Nov 17 23:52:38 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Wed Nov 17 23:52:38 -03 2021]: >> Função she45
+[Wed Nov 17 23:54:24 -03 2021]: >> Função she47
+[Wed Nov 17 23:56:00 -03 2021]: >> Função she410
+[Wed Nov 17 23:56:52 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Wed Nov 17 23:56:52 -03 2021]: >> Função she45
+[Thu Nov 18 00:01:00 -03 2021]: >> Função she47
+[Thu Nov 18 00:03:02 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Thu Nov 18 00:03:02 -03 2021]: >> Função she45
+[Thu Nov 18 00:12:11 -03 2021]: >> Função she47
+[Thu Nov 18 00:14:30 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Thu Nov 18 00:14:30 -03 2021]: >> Função she45
+[Thu Nov 18 11:20:57 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Thu Nov 18 11:20:57 -03 2021]: >> Função she45
+[Thu Nov 18 11:44:25 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Thu Nov 18 11:44:25 -03 2021]: >> Função she45
+[Thu Nov 18 12:02:25 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Thu Nov 18 12:02:25 -03 2021]: >> Função she45
+[Thu Nov 18 12:03:13 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Thu Nov 18 12:03:13 -03 2021]: >> Função she45
+[Thu Nov 18 12:08:10 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Thu Nov 18 12:08:10 -03 2021]: >> Função she45
+[Thu Nov 18 12:09:33 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Thu Nov 18 12:09:33 -03 2021]: >> Função she45
+[Thu Nov 18 12:11:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 12:11:12 -03 2021]: >> Função she45
+[Thu Nov 18 12:18:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 12:18:02 -03 2021]: >> Função she45
+[Thu Nov 18 12:19:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 12:19:26 -03 2021]: >> Função she45
+[Thu Nov 18 12:24:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 12:24:24 -03 2021]: >> Função she45
+[Thu Nov 18 12:25:18 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 12:25:18 -03 2021]: >> Função she45
+[Thu Nov 18 12:33:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 12:33:40 -03 2021]: >> Função she45
+[Thu Nov 18 12:46:28 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 12:46:28 -03 2021]: >> Função she45
+[Thu Nov 18 14:16:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:16:10 -03 2021]: >> Função she45
+[Thu Nov 18 14:18:55 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:18:55 -03 2021]: >> Função she45
+[Thu Nov 18 14:24:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:24:38 -03 2021]: >> Função she45
+[Thu Nov 18 14:30:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:30:08 -03 2021]: >> Função she45
+[Thu Nov 18 14:32:29 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:32:29 -03 2021]: >> Função she45
+[Thu Nov 18 14:33:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:33:23 -03 2021]: >> Função she45
+[Thu Nov 18 14:34:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:34:14 -03 2021]: >> Função she45
+[Thu Nov 18 14:50:05 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:50:05 -03 2021]: >> Função she45
+[Thu Nov 18 14:50:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:50:41 -03 2021]: >> Função she45
+[Thu Nov 18 14:51:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:51:42 -03 2021]: >> Função she45
+[Thu Nov 18 14:51:42 -03 2021]: >> Função she47
+[Thu Nov 18 14:51:42 -03 2021]: >> Função she410
+[Thu Nov 18 14:51:42 -03 2021]: Finalizou para a configuração --c
+[Thu Nov 18 14:52:18 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:52:18 -03 2021]: >> Função she45
+[Thu Nov 18 14:52:18 -03 2021]: >> Função she47
+[Thu Nov 18 14:52:18 -03 2021]: >> Função she410
+[Thu Nov 18 14:52:18 -03 2021]: Finalizou para a configuração --c
+[Thu Nov 18 14:53:00 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:53:00 -03 2021]: >> Função she45
+[Thu Nov 18 14:53:00 -03 2021]: >> Função she47
+[Thu Nov 18 14:53:00 -03 2021]: >> Função she410
+[Thu Nov 18 14:53:00 -03 2021]: Finalizou para a configuração --c
+[Thu Nov 18 14:54:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:54:58 -03 2021]: >> Função she45
+[Thu Nov 18 14:54:58 -03 2021]: >> Função she47
+[Thu Nov 18 14:54:58 -03 2021]: >> Função she410
+[Thu Nov 18 14:54:58 -03 2021]: Finalizou para a configuração --c
+[Thu Nov 18 14:55:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:55:30 -03 2021]: >> Função she45
+[Thu Nov 18 14:55:30 -03 2021]: >> Função she47
+[Thu Nov 18 14:55:30 -03 2021]: >> Função she410
+[Thu Nov 18 14:55:30 -03 2021]: Finalizou para a configuração --c
+[Thu Nov 18 14:56:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:56:15 -03 2021]: >> Função she45
+[Thu Nov 18 14:56:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:56:47 -03 2021]: >> Função she45
+[Thu Nov 18 14:57:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:57:09 -03 2021]: >> Função she45
+[Thu Nov 18 14:59:45 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 14:59:45 -03 2021]: >> Função she45
+[Thu Nov 18 15:01:45 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:01:45 -03 2021]: >> Função she45
+[Thu Nov 18 15:02:46 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:02:46 -03 2021]: >> Função she45
+[Thu Nov 18 15:03:55 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:03:55 -03 2021]: >> Função she45
+[Thu Nov 18 15:05:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:05:13 -03 2021]: >> Função she45
+[Thu Nov 18 15:11:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:11:49 -03 2021]: >> Função she45
+[Thu Nov 18 15:13:00 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:13:00 -03 2021]: >> Função she45
+[Thu Nov 18 15:13:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:13:09 -03 2021]: >> Função she45
+[Thu Nov 18 15:13:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:13:26 -03 2021]: >> Função she45
+[Thu Nov 18 15:13:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:13:56 -03 2021]: >> Função she45
+[Thu Nov 18 15:14:31 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:14:31 -03 2021]: >> Função she45
+[Thu Nov 18 15:15:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:15:41 -03 2021]: >> Função she45
+[Thu Nov 18 15:22:22 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:22:22 -03 2021]: >> Função she45
+[Thu Nov 18 15:23:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:23:39 -03 2021]: >> Função she45
+[Thu Nov 18 15:26:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:26:08 -03 2021]: >> Função she45
+[Thu Nov 18 15:30:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:30:43 -03 2021]: >> Função she45
+[Thu Nov 18 15:31:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:31:12 -03 2021]: >> Função she45
+[Thu Nov 18 15:31:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:31:41 -03 2021]: >> Função she45
+[Thu Nov 18 15:48:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:48:44 -03 2021]: >> Função she45
+[Thu Nov 18 15:49:17 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:49:17 -03 2021]: >> Função she45
+[Thu Nov 18 15:49:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:49:50 -03 2021]: >> Função she45
+[Thu Nov 18 15:50:59 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:50:59 -03 2021]: >> Função she45
+[Thu Nov 18 15:54:31 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:54:31 -03 2021]: >> Função she45
+[Thu Nov 18 15:55:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 15:55:50 -03 2021]: >> Função she45
+[Thu Nov 18 16:18:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 16:18:23 -03 2021]: >> Função she45
+[Thu Nov 18 16:26:36 -03 2021]: >> Função she47
+[Thu Nov 18 16:34:48 -03 2021]: >> Função she410
+[Thu Nov 18 22:50:27 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 22:50:27 -03 2021]: >> Função she45
+[Thu Nov 18 23:09:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:09:32 -03 2021]: >> Função she45
+[Thu Nov 18 23:09:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:09:58 -03 2021]: >> Função she45
+[Thu Nov 18 23:10:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:10:40 -03 2021]: >> Função she45
+[Thu Nov 18 23:12:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:12:15 -03 2021]: >> Função she45
+[Thu Nov 18 23:16:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:16:12 -03 2021]: >> Função she45
+[Thu Nov 18 23:19:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:19:08 -03 2021]: >> Função she45
+[Thu Nov 18 23:21:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:21:12 -03 2021]: >> Função she45
+[Thu Nov 18 23:23:34 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:23:34 -03 2021]: >> Função she45
+[Thu Nov 18 23:24:17 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:24:17 -03 2021]: >> Função she45
+[Thu Nov 18 23:33:37 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:33:37 -03 2021]: >> Função she45
+[Thu Nov 18 23:34:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:34:33 -03 2021]: >> Função she45
+[Thu Nov 18 23:37:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:37:48 -03 2021]: >> Função she45
+[Thu Nov 18 23:39:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 18 23:39:11 -03 2021]: >> Função she45
+[Fri Nov 19 00:00:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:00:26 -03 2021]: >> Função she45
+[Fri Nov 19 00:27:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:27:24 -03 2021]: >> Função she45
+[Fri Nov 19 00:27:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:27:47 -03 2021]: >> Função she45
+[Fri Nov 19 00:29:05 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:29:05 -03 2021]: >> Função she45
+[Fri Nov 19 00:29:22 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:29:22 -03 2021]: >> Função she45
+[Fri Nov 19 00:31:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:31:26 -03 2021]: >> Função she45
+[Fri Nov 19 00:33:20 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:33:20 -03 2021]: >> Função she45
+[Fri Nov 19 00:37:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:37:38 -03 2021]: >> Função she45
+[Fri Nov 19 00:40:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:40:19 -03 2021]: >> Função she45
+[Fri Nov 19 00:43:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:43:40 -03 2021]: >> Função she45
+[Fri Nov 19 00:46:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:46:13 -03 2021]: >> Função she45
+[Fri Nov 19 00:50:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:50:44 -03 2021]: >> Função she45
+[Fri Nov 19 00:53:52 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:53:52 -03 2021]: >> Função she45
+[Fri Nov 19 00:57:29 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 00:57:29 -03 2021]: >> Função she45
+[Fri Nov 19 01:04:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 01:04:24 -03 2021]: >> Função she45
+[Fri Nov 19 01:15:45 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 01:15:45 -03 2021]: >> Função she45
+[Fri Nov 19 01:17:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 01:17:24 -03 2021]: >> Função she45
+[Fri Nov 19 11:03:36 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 11:03:36 -03 2021]: >> Função she45
+[Fri Nov 19 11:11:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 11:11:01 -03 2021]: >> Função she45
+[Fri Nov 19 11:11:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 11:11:44 -03 2021]: >> Função she45
+[Fri Nov 19 11:12:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 11:12:48 -03 2021]: >> Função she45
+[Fri Nov 19 11:18:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 11:18:21 -03 2021]: >> Função she45
+[Fri Nov 19 11:31:00 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 11:31:00 -03 2021]: >> Função she45
+[Fri Nov 19 11:31:55 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 11:31:55 -03 2021]: >> Função she45
+[Fri Nov 19 11:32:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 11:32:40 -03 2021]: >> Função she45
+[Fri Nov 19 12:01:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 12:01:39 -03 2021]: >> Função she45
+[Fri Nov 19 12:33:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 12:33:23 -03 2021]: >> Função she45
+[Fri Nov 19 12:33:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 12:33:33 -03 2021]: >> Função she45
+[Fri Nov 19 12:34:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 12:34:01 -03 2021]: >> Função she45
+[Fri Nov 19 12:35:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 12:35:10 -03 2021]: >> Função she45
+[Fri Nov 19 12:38:51 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 12:38:51 -03 2021]: >> Função she45
+[Fri Nov 19 12:46:03 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 12:46:03 -03 2021]: >> Função she45
+[Fri Nov 19 12:56:37 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Fri Nov 19 12:56:37 -03 2021]: >> Função she45
+[Fri Nov 19 12:58:12 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 30 --dmstart 0.7 --dmfreq con --ptsz 1.0 --sd 0.5883
+[Fri Nov 19 12:58:12 -03 2021]: >> Função she45
+[Fri Nov 19 12:58:43 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 30 --dmstart 0.7 --dmfreq con --ptsz 1.0 --sd 0.5883
+[Fri Nov 19 12:58:43 -03 2021]: >> Função she45
+[Fri Nov 19 13:02:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:02:48 -03 2021]: >> Função she45
+[Fri Nov 19 13:07:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:07:58 -03 2021]: >> Função she45
+[Fri Nov 19 13:08:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:08:44 -03 2021]: >> Função she45
+[Fri Nov 19 13:10:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:10:15 -03 2021]: >> Função she45
+[Fri Nov 19 13:13:03 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:13:03 -03 2021]: >> Função she45
+[Fri Nov 19 13:14:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:14:20 -03 2021]: >> Função she45
+[Fri Nov 19 13:15:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:15:48 -03 2021]: >> Função she45
+[Fri Nov 19 13:16:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:16:40 -03 2021]: >> Função she45
+[Fri Nov 19 13:17:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:17:39 -03 2021]: >> Função she45
+[Fri Nov 19 13:19:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:19:39 -03 2021]: >> Função she45
+[Fri Nov 19 13:20:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:20:13 -03 2021]: >> Função she45
+[Fri Nov 19 13:27:53 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:27:53 -03 2021]: >> Função she45
+[Fri Nov 19 13:28:53 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:28:53 -03 2021]: >> Função she45
+[Fri Nov 19 13:38:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:38:10 -03 2021]: >> Função she45
+[Fri Nov 19 13:40:27 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:40:27 -03 2021]: >> Função she45
+[Fri Nov 19 13:43:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:43:11 -03 2021]: >> Função she45
+[Fri Nov 19 13:45:17 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:45:17 -03 2021]: >> Função she45
+[Fri Nov 19 13:50:05 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:50:05 -03 2021]: >> Função she45
+[Fri Nov 19 13:54:37 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:54:37 -03 2021]: >> Função she45
+[Fri Nov 19 13:59:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Nov 19 13:59:11 -03 2021]: >> Função she45
+[Sat Nov 20 00:32:29 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 00:32:29 -03 2021]: >> Função she45
+[Sat Nov 20 00:34:00 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 00:34:00 -03 2021]: >> Função she45
+[Sat Nov 20 00:49:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 00:49:14 -03 2021]: >> Função she45
+[Sat Nov 20 00:50:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 00:50:42 -03 2021]: >> Função she45
+[Sat Nov 20 00:52:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 00:52:38 -03 2021]: >> Função she45
+[Sat Nov 20 00:57:59 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 00:57:59 -03 2021]: >> Função she45
+[Sat Nov 20 00:59:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 00:59:26 -03 2021]: >> Função she45
+[Sat Nov 20 01:07:29 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:07:29 -03 2021]: >> Função she45
+[Sat Nov 20 01:07:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:07:49 -03 2021]: >> Função she45
+[Sat Nov 20 01:08:18 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:08:18 -03 2021]: >> Função she45
+[Sat Nov 20 01:11:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:11:09 -03 2021]: >> Função she45
+[Sat Nov 20 01:13:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:13:23 -03 2021]: >> Função she45
+[Sat Nov 20 01:14:36 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:14:36 -03 2021]: >> Função she45
+[Sat Nov 20 01:17:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:17:49 -03 2021]: >> Função she45
+[Sat Nov 20 01:19:07 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:19:07 -03 2021]: >> Função she45
+[Sat Nov 20 01:23:46 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:23:46 -03 2021]: >> Função she45
+[Sat Nov 20 01:24:27 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:24:27 -03 2021]: >> Função she45
+[Sat Nov 20 01:25:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:25:26 -03 2021]: >> Função she45
+[Sat Nov 20 01:26:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:26:09 -03 2021]: >> Função she45
+[Sat Nov 20 01:27:13 -03 2021]: >> Função she47
+[Sat Nov 20 01:28:20 -03 2021]: >> Função she410
+[Sat Nov 20 01:30:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:30:38 -03 2021]: >> Função ros5
+[Sat Nov 20 01:33:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:33:02 -03 2021]: >> Função ros5
+[Sat Nov 20 01:39:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:39:08 -03 2021]: >> Função ros5
+[Sat Nov 20 01:41:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:41:09 -03 2021]: >> Função ros5
+[Sat Nov 20 01:41:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:41:43 -03 2021]: >> Função ros5
+[Sat Nov 20 01:42:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:42:40 -03 2021]: >> Função ros5
+[Sat Nov 20 01:44:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:44:21 -03 2021]: >> Função ros5
+[Sat Nov 20 01:46:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:46:39 -03 2021]: >> Função ros5
+[Sat Nov 20 01:47:20 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:47:20 -03 2021]: >> Função ros5
+[Sat Nov 20 01:51:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 01:51:01 -03 2021]: >> Função ros5
+[Sat Nov 20 13:03:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 13:03:43 -03 2021]: >> Função ros5
+[Sat Nov 20 13:13:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 13:13:38 -03 2021]: >> Função ros5
+[Sat Nov 20 13:14:36 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 13:14:36 -03 2021]: >> Função ros5
+[Sat Nov 20 13:15:29 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 13:15:29 -03 2021]: >> Função ros5
+[Sat Nov 20 20:44:34 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 20:44:34 -03 2021]: >> Função ros5
+[Sat Nov 20 20:46:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 20:46:32 -03 2021]: >> Função ros5
+[Sat Nov 20 20:49:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 20:49:39 -03 2021]: >> Função ros5
+[Sat Nov 20 21:00:34 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 21:00:34 -03 2021]: >> Função ros5
+[Sat Nov 20 21:04:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 21:04:30 -03 2021]: >> Função ros5
+[Sat Nov 20 21:07:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 21:07:13 -03 2021]: >> Função ros5
+[Sat Nov 20 21:08:25 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 21:08:25 -03 2021]: >> Função ros5
+[Sat Nov 20 23:31:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 23:31:32 -03 2021]: >> Função ros5
+[Sat Nov 20 23:47:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 20 23:47:26 -03 2021]: >> Função ros5
+[Sun Nov 21 00:17:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 00:17:24 -03 2021]: >> Função ros5
+[Sun Nov 21 00:18:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 00:18:12 -03 2021]: >> Função ros5
+[Sun Nov 21 00:32:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 00:32:19 -03 2021]: >> Função ros5
+[Sun Nov 21 00:34:17 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 00:34:17 -03 2021]: >> Função ros5
+[Sun Nov 21 11:01:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 11:01:10 -03 2021]: >> Função ros5
+[Sun Nov 21 11:37:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 11:37:42 -03 2021]: >> Função ros5
+[Sun Nov 21 12:39:59 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 12:39:59 -03 2021]: >> Função ros5
+[Sun Nov 21 12:45:22 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 12:45:22 -03 2021]: >> Função ros5
+[Sun Nov 21 14:27:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 14:27:12 -03 2021]: >> Função ros5
+[Sun Nov 21 15:16:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 15:16:11 -03 2021]: >> Função ros5
+[Sun Nov 21 21:53:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 21:53:12 -03 2021]: >> Função ros5
+[Sun Nov 21 23:31:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 21 23:31:21 -03 2021]: >> Função ros5
+[Mon Nov 22 09:55:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 09:55:41 -03 2021]: >> Função ros10
+[Mon Nov 22 12:36:20 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 12:36:20 -03 2021]: >> Função ros10
+[Mon Nov 22 14:17:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 14:17:02 -03 2021]: >> Função ros10
+[Mon Nov 22 16:47:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 16:47:02 -03 2021]: >> Função ros10
+[Mon Nov 22 16:47:28 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 16:47:28 -03 2021]: >> Função ros10
+[Mon Nov 22 16:50:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 16:50:33 -03 2021]: >> Função ros10
+[Mon Nov 22 17:01:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:01:26 -03 2021]: >> Função ros10
+[Mon Nov 22 17:03:55 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:03:55 -03 2021]: >> Função ros10
+[Mon Nov 22 17:06:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:06:14 -03 2021]: >> Função ros10
+[Mon Nov 22 17:25:03 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:25:03 -03 2021]: >> Função ros10
+[Mon Nov 22 17:27:07 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:27:07 -03 2021]: >> Função ros10
+[Mon Nov 22 17:27:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:27:50 -03 2021]: >> Função ros10
+[Mon Nov 22 17:30:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:30:09 -03 2021]: >> Função ros10
+[Mon Nov 22 17:31:46 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:31:46 -03 2021]: >> Função ros10
+[Mon Nov 22 17:32:16 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:32:16 -03 2021]: >> Função ros10
+[Mon Nov 22 17:32:28 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:32:28 -03 2021]: >> Função ros10
+[Mon Nov 22 17:42:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:42:56 -03 2021]: >> Função ros10
+[Mon Nov 22 17:43:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:43:32 -03 2021]: >> Função ros10
+[Mon Nov 22 17:45:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 17:45:39 -03 2021]: >> Função ros10
+[Mon Nov 22 23:08:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 23:08:30 -03 2021]: >> Função ros10
+[Mon Nov 22 23:09:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 23:09:08 -03 2021]: >> Função ros10
+[Mon Nov 22 23:09:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 23:09:30 -03 2021]: >> Função ros10
+[Mon Nov 22 23:09:46 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 23:09:46 -03 2021]: >> Função ros10
+[Mon Nov 22 23:10:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Mon Nov 22 23:10:02 -03 2021]: >> Função ros10
+[Tue Nov 23 14:00:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 14:00:40 -03 2021]: >> Função ros10
+[Tue Nov 23 14:01:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 14:01:30 -03 2021]: >> Função ros10
+[Tue Nov 23 14:08:34 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 14:08:34 -03 2021]: >> Função ros10
+[Tue Nov 23 22:54:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 22:54:40 -03 2021]: >> Função zak5
+[Tue Nov 23 22:54:45 -03 2021]: Finalizou para a configuração --c
+[Tue Nov 23 22:55:03 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 22:55:03 -03 2021]: >> Função zak10
+[Tue Nov 23 23:07:05 -03 2021]: Finalizou para a configuração --c
+[Tue Nov 23 23:16:57 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:16:57 -03 2021]: >> Função zak10
+[Tue Nov 23 23:20:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:20:44 -03 2021]: >> Função zak10
+[Tue Nov 23 23:21:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:21:10 -03 2021]: >> Função zak10
+[Tue Nov 23 23:23:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:23:09 -03 2021]: >> Função zak10
+[Tue Nov 23 23:26:05 -03 2021]: Finalizou para a configuração --c
+[Tue Nov 23 23:27:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:27:11 -03 2021]: >> Função zak5
+[Tue Nov 23 23:28:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:28:43 -03 2021]: >> Função zak5
+[Tue Nov 23 23:29:17 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:29:17 -03 2021]: >> Função zak10
+[Tue Nov 23 23:29:55 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:29:55 -03 2021]: >> Função zak5
+[Tue Nov 23 23:32:45 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:32:45 -03 2021]: >> Função zak5
+[Tue Nov 23 23:32:52 -03 2021]: Finalizou para a configuração --c
+[Tue Nov 23 23:34:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:34:35 -03 2021]: >> Função zak5
+[Tue Nov 23 23:34:38 -03 2021]: Finalizou para a configuração --c
+[Tue Nov 23 23:35:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:35:30 -03 2021]: >> Função bra
+[Tue Nov 23 23:35:36 -03 2021]: >> Função gol
+[Tue Nov 23 23:35:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:35:49 -03 2021]: >> Função bra
+[Tue Nov 23 23:35:55 -03 2021]: >> Função gol
+[Tue Nov 23 23:35:57 -03 2021]: >> Função eas
+[Tue Nov 23 23:36:01 -03 2021]: >> Função shu
+[Tue Nov 23 23:36:05 -03 2021]: >> Função har34
+[Tue Nov 23 23:36:06 -03 2021]: >> Função har64
+[Tue Nov 23 23:36:50 -03 2021]: >> Função she45
+[Tue Nov 23 23:37:31 -03 2021]: >> Função she47
+[Tue Nov 23 23:38:28 -03 2021]: >> Função she410
+[Tue Nov 23 23:41:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:41:32 -03 2021]: >> Função she410
+[Tue Nov 23 23:41:57 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:41:57 -03 2021]: >> Função she410
+[Tue Nov 23 23:43:07 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:43:07 -03 2021]: >> Função she410
+[Tue Nov 23 23:45:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:45:01 -03 2021]: >> Função she410
+[Tue Nov 23 23:55:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Nov 23 23:55:12 -03 2021]: >> Função she410
+[Wed Nov 24 00:14:29 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:14:29 -03 2021]: >> Função she410
+[Wed Nov 24 00:14:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:14:40 -03 2021]: >> Função she410
+[Wed Nov 24 00:17:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:17:47 -03 2021]: >> Função she410
+[Wed Nov 24 00:23:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:23:09 -03 2021]: >> Função she410
+[Wed Nov 24 00:25:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:25:24 -03 2021]: >> Função she410
+[Wed Nov 24 00:25:59 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:25:59 -03 2021]: >> Função she410
+[Wed Nov 24 00:28:53 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:28:53 -03 2021]: >> Função she410
+[Wed Nov 24 00:34:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:34:47 -03 2021]: >> Função she410
+[Wed Nov 24 00:35:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:35:08 -03 2021]: >> Função she410
+[Wed Nov 24 00:37:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:37:11 -03 2021]: >> Função she410
+[Wed Nov 24 00:41:00 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:41:00 -03 2021]: >> Função she410
+[Wed Nov 24 00:46:34 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:46:34 -03 2021]: >> Função she410
+[Wed Nov 24 00:49:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:49:14 -03 2021]: >> Função she410
+[Wed Nov 24 00:54:57 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:54:57 -03 2021]: >> Função she410
+[Wed Nov 24 00:59:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 00:59:47 -03 2021]: >> Função she410
+[Wed Nov 24 01:00:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:00:38 -03 2021]: >> Função she410
+[Wed Nov 24 01:02:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:02:43 -03 2021]: >> Função she410
+[Wed Nov 24 01:03:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:03:58 -03 2021]: >> Função she410
+[Wed Nov 24 01:04:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:04:32 -03 2021]: >> Função she410
+[Wed Nov 24 01:08:18 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:08:18 -03 2021]: >> Função she410
+[Wed Nov 24 01:09:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:09:32 -03 2021]: >> Função she410
+[Wed Nov 24 01:09:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:09:40 -03 2021]: >> Função she410
+[Wed Nov 24 01:10:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:10:58 -03 2021]: >> Função she410
+[Wed Nov 24 01:12:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:12:08 -03 2021]: >> Função she410
+[Wed Nov 24 01:12:36 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:12:36 -03 2021]: >> Função she410
+[Wed Nov 24 01:13:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:13:08 -03 2021]: >> Função she410
+[Wed Nov 24 01:14:03 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:14:03 -03 2021]: >> Função she410
+[Wed Nov 24 01:17:16 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:17:16 -03 2021]: >> Função she410
+[Wed Nov 24 01:18:04 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:18:04 -03 2021]: >> Função she410
+[Wed Nov 24 01:19:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 01:19:13 -03 2021]: >> Função she410
+[Wed Nov 24 10:58:36 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 10:58:36 -03 2021]: >> Função she410
+[Wed Nov 24 10:59:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 10:59:13 -03 2021]: >> Função she410
+[Wed Nov 24 11:08:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 11:08:38 -03 2021]: >> Função she410
+[Wed Nov 24 11:12:02 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Wed Nov 24 11:12:02 -03 2021]: >> Função she410
+[Wed Nov 24 11:23:38 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.3184
+[Wed Nov 24 11:23:38 -03 2021]: >> Função she410
+[Wed Nov 24 11:28:51 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 11:28:51 -03 2021]: >> Função she47
+[Wed Nov 24 11:31:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 11:31:14 -03 2021]: >> Função she410
+[Wed Nov 24 11:35:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 11:35:08 -03 2021]: >> Função she47
+[Wed Nov 24 11:35:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 11:35:26 -03 2021]: >> Função she410
+[Wed Nov 24 11:35:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 11:35:38 -03 2021]: >> Função she45
+[Wed Nov 24 11:36:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 11:36:30 -03 2021]: >> Função she45
+[Wed Nov 24 11:36:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 11:36:44 -03 2021]: >> Função she410
+[Wed Nov 24 12:00:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:00:33 -03 2021]: >> Função she410
+[Wed Nov 24 12:01:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:01:10 -03 2021]: >> Função she410
+[Wed Nov 24 12:03:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:03:44 -03 2021]: >> Função she410
+[Wed Nov 24 12:05:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:05:43 -03 2021]: >> Função she410
+[Wed Nov 24 12:05:53 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:05:53 -03 2021]: >> Função she410
+[Wed Nov 24 12:25:02 -03 2021]: Finalizou para a configuração --c
+[Wed Nov 24 12:36:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:36:11 -03 2021]: >> Função zak5
+[Wed Nov 24 12:36:13 -03 2021]: >> Função zak10
+[Wed Nov 24 12:40:02 -03 2021]: Finalizou para a configuração --c
+[Wed Nov 24 12:41:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:41:39 -03 2021]: >> Função ros2
+[Wed Nov 24 12:41:39 -03 2021]: >> Função ros5
+[Wed Nov 24 12:55:57 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:55:57 -03 2021]: >> Função ros2
+[Wed Nov 24 12:55:57 -03 2021]: >> Função ros5
+[Wed Nov 24 12:56:45 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:56:45 -03 2021]: >> Função ros5
+[Wed Nov 24 12:56:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 12:56:49 -03 2021]: >> Função ros5
+[Wed Nov 24 13:29:20 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 13:29:20 -03 2021]: >> Função ros5
+[Wed Nov 24 13:35:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 13:35:12 -03 2021]: >> Função ros5
+[Wed Nov 24 13:44:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 13:44:40 -03 2021]: >> Função ros5
+[Wed Nov 24 13:47:27 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 13:47:27 -03 2021]: >> Função ros5
+[Wed Nov 24 14:18:51 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 14:18:51 -03 2021]: >> Função ros5
+[Wed Nov 24 14:27:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 14:27:12 -03 2021]: >> Função ros5
+[Wed Nov 24 14:28:00 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 14:28:00 -03 2021]: >> Função ros5
+[Wed Nov 24 14:30:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 14:30:10 -03 2021]: >> Função ros5
+[Wed Nov 24 14:30:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 14:30:47 -03 2021]: >> Função ros5
+[Wed Nov 24 14:32:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 14:32:19 -03 2021]: >> Função ros5
+[Wed Nov 24 14:33:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 14:33:43 -03 2021]: >> Função ros5
+[Wed Nov 24 14:42:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 14:42:39 -03 2021]: >> Função ros5
+[Wed Nov 24 15:05:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 15:05:26 -03 2021]: >> Função ros5
+[Wed Nov 24 15:12:55 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 15:12:55 -03 2021]: >> Função ros5
+[Wed Nov 24 15:21:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 15:21:30 -03 2021]: >> Função ros5
+[Wed Nov 24 15:28:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 15:28:42 -03 2021]: >> Função ros5
+[Wed Nov 24 15:40:25 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 15:40:25 -03 2021]: >> Função ros5
+[Wed Nov 24 16:10:59 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 16:10:59 -03 2021]: >> Função ros5
+[Wed Nov 24 16:38:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 16:38:23 -03 2021]: >> Função ros5
+[Wed Nov 24 19:39:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 19:39:09 -03 2021]: >> Função ros5
+[Wed Nov 24 19:42:25 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 19:42:25 -03 2021]: >> Função ros5
+[Wed Nov 24 19:43:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Nov 24 19:43:12 -03 2021]: >> Função bra
+[Wed Nov 24 19:43:14 -03 2021]: >> Função gol
+[Wed Nov 24 19:43:14 -03 2021]: >> Função eas
+[Wed Nov 24 19:43:18 -03 2021]: >> Função shu
+[Wed Nov 24 19:43:19 -03 2021]: >> Função har34
+[Wed Nov 24 19:43:19 -03 2021]: >> Função har64
+[Wed Nov 24 19:43:30 -03 2021]: >> Função she45
+[Wed Nov 24 19:44:05 -03 2021]: >> Função she47
+[Wed Nov 24 19:45:02 -03 2021]: >> Função she410
+[Wed Nov 24 20:01:48 -03 2021]: >> Função zak5
+[Wed Nov 24 20:01:50 -03 2021]: >> Função zak10
+[Thu Nov 25 00:03:53 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 25 00:03:53 -03 2021]: >> Função bea
+[Thu Nov 25 00:03:54 -03 2021]: >> Função bhc
+[Thu Nov 25 00:04:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 25 00:04:43 -03 2021]: >> Função bea
+[Thu Nov 25 00:04:44 -03 2021]: >> Função bhc
+[Thu Nov 25 00:06:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 25 00:06:39 -03 2021]: >> Função bea
+[Thu Nov 25 00:06:40 -03 2021]: >> Função bhc
+[Thu Nov 25 00:06:41 -03 2021]: >> Função boo
+[Thu Nov 25 00:06:41 -03 2021]: >> Função bra
+[Thu Nov 25 00:07:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 25 00:07:49 -03 2021]: >> Função bea
+[Thu Nov 25 00:07:50 -03 2021]: >> Função bhc
+[Thu Nov 25 00:07:51 -03 2021]: >> Função boo
+[Thu Nov 25 00:07:51 -03 2021]: >> Função bra
+[Thu Nov 25 00:07:53 -03 2021]: >> Função eas
+[Thu Nov 25 00:07:56 -03 2021]: >> Função gol
+[Thu Nov 25 00:07:56 -03 2021]: >> Função mat
+[Thu Nov 25 00:07:56 -03 2021]: >> Função shc
+[Thu Nov 25 00:07:58 -03 2021]: >> Função ros2
+[Thu Nov 25 00:07:59 -03 2021]: >> Função sch2
+[Thu Nov 25 00:08:02 -03 2021]: >> Função shu
+[Thu Nov 25 00:08:04 -03 2021]: >> Função zak2
+[Thu Nov 25 00:08:04 -03 2021]: >> Função dej
+[Thu Nov 25 00:08:05 -03 2021]: >> Função har34
+[Thu Nov 25 00:08:05 -03 2021]: >> Função col
+[Thu Nov 25 00:08:07 -03 2021]: >> Função perm
+[Thu Nov 25 00:08:47 -03 2021]: >> Função perm0
+[Thu Nov 25 00:09:27 -03 2021]: >> Função pws
+[Thu Nov 25 00:09:28 -03 2021]: >> Função she45
+[Thu Nov 25 00:09:29 -03 2021]: >> Função she47
+[Thu Nov 25 00:09:30 -03 2021]: >> Função she410
+[Thu Nov 25 00:09:30 -03 2021]: >> Função ros5
+[Thu Nov 25 00:09:41 -03 2021]: >> Função zak5
+[Thu Nov 25 00:09:42 -03 2021]: >> Função har64
+[Thu Nov 25 00:09:49 -03 2021]: >> Função sch6
+[Thu Nov 25 00:10:07 -03 2021]: >> Função tri6
+[Thu Nov 25 00:10:14 -03 2021]: >> Função gri10
+[Thu Nov 25 00:16:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Nov 25 00:16:42 -03 2021]: >> Função bea
+[Thu Nov 25 00:16:43 -03 2021]: >> Função bhc
+[Thu Nov 25 00:16:44 -03 2021]: >> Função boo
+[Thu Nov 25 00:16:44 -03 2021]: >> Função bra
+[Thu Nov 25 00:16:46 -03 2021]: >> Função eas
+[Thu Nov 25 00:16:49 -03 2021]: >> Função gol
+[Thu Nov 25 00:16:49 -03 2021]: >> Função mat
+[Thu Nov 25 00:16:49 -03 2021]: >> Função shc
+[Thu Nov 25 00:16:51 -03 2021]: >> Função ros2
+[Thu Nov 25 00:16:52 -03 2021]: >> Função sch2
+[Thu Nov 25 00:16:55 -03 2021]: >> Função shu
+[Thu Nov 25 00:16:57 -03 2021]: >> Função zak2
+[Thu Nov 25 00:16:58 -03 2021]: >> Função dej
+[Thu Nov 25 00:16:58 -03 2021]: >> Função har34
+[Thu Nov 25 00:16:59 -03 2021]: >> Função col
+[Thu Nov 25 00:17:01 -03 2021]: >> Função perm
+[Thu Nov 25 00:17:59 -03 2021]: >> Função perm0
+[Thu Nov 25 00:18:46 -03 2021]: >> Função pws
+[Thu Nov 25 00:18:48 -03 2021]: >> Função she45
+[Thu Nov 25 00:18:48 -03 2021]: >> Função she47
+[Thu Nov 25 00:18:49 -03 2021]: >> Função she410
+[Thu Nov 25 00:18:50 -03 2021]: >> Função ros5
+[Thu Nov 25 00:19:01 -03 2021]: >> Função zak5
+[Thu Nov 25 00:19:02 -03 2021]: >> Função har64
+[Thu Nov 25 00:19:08 -03 2021]: >> Função sch6
+[Thu Nov 25 00:19:27 -03 2021]: >> Função tri6
+[Thu Nov 25 00:19:35 -03 2021]: >> Função gri10
+[Thu Nov 25 00:24:45 -03 2021]: >> Função ras10
+[Thu Nov 25 00:24:52 -03 2021]: >> Função ros10
+[Thu Nov 25 00:25:53 -03 2021]: >> Função ssq10
+[Thu Nov 25 00:25:54 -03 2021]: >> Função tri10
+[Thu Nov 25 00:26:42 -03 2021]: >> Função zak10
+[Thu Nov 25 00:26:45 -03 2021]: >> Função gri20
+[Thu Nov 25 00:42:37 -03 2021]: >> Função ras20
+[Thu Nov 25 00:43:04 -03 2021]: >> Função ros20
+[Thu Nov 25 00:44:20 -03 2021]: >> Função ssq20
+[Thu Nov 25 00:44:20 -03 2021]: >> Função zak20
+[Thu Nov 25 00:45:06 -03 2021]: >> Função pow
+[Thu Nov 25 00:45:08 -03 2021]: >> Função dxp
+[Thu Nov 25 00:45:26 -03 2021]: >> Função ack30
+[Thu Nov 25 00:54:46 -03 2021]: >> Função lev
+[Thu Nov 25 00:59:59 -03 2021]: >> Função sph
+[Thu Nov 25 01:00:48 -03 2021]: Finalizou para a configuração --c
+[Thu Nov 25 01:00:48 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Thu Nov 25 01:00:48 -03 2021]: >> Função bea
+[Thu Nov 25 01:00:49 -03 2021]: >> Função bhc
+[Thu Nov 25 01:00:50 -03 2021]: >> Função boo
+[Thu Nov 25 01:00:51 -03 2021]: >> Função bra
+[Thu Nov 25 01:00:54 -03 2021]: >> Função eas
+[Thu Nov 25 01:00:58 -03 2021]: >> Função gol
+[Thu Nov 25 01:00:58 -03 2021]: >> Função mat
+[Thu Nov 25 01:00:59 -03 2021]: >> Função shc
+[Thu Nov 25 01:01:01 -03 2021]: >> Função ros2
+[Thu Nov 25 01:01:03 -03 2021]: >> Função sch2
+[Thu Nov 25 01:01:07 -03 2021]: >> Função shu
+[Thu Nov 25 01:01:11 -03 2021]: >> Função zak2
+[Thu Nov 25 01:01:12 -03 2021]: >> Função dej
+[Thu Nov 25 01:01:13 -03 2021]: >> Função har34
+[Thu Nov 25 01:01:13 -03 2021]: >> Função col
+[Thu Nov 25 01:01:16 -03 2021]: >> Função perm
+[Thu Nov 25 01:02:15 -03 2021]: >> Função perm0
+[Thu Nov 25 01:03:01 -03 2021]: >> Função pws
+[Thu Nov 25 01:03:02 -03 2021]: >> Função she45
+[Thu Nov 25 01:03:03 -03 2021]: >> Função she47
+[Thu Nov 25 01:03:03 -03 2021]: >> Função she410
+[Thu Nov 25 01:03:04 -03 2021]: >> Função ros5
+[Thu Nov 25 01:03:15 -03 2021]: >> Função zak5
+[Thu Nov 25 01:03:15 -03 2021]: >> Função har64
+[Thu Nov 25 01:03:21 -03 2021]: >> Função sch6
+[Thu Nov 25 01:03:42 -03 2021]: >> Função tri6
+[Thu Nov 25 01:03:50 -03 2021]: >> Função gri10
+[Thu Nov 25 01:08:39 -03 2021]: >> Função ras10
+[Thu Nov 25 01:08:44 -03 2021]: >> Função ros10
+[Thu Nov 25 01:09:42 -03 2021]: >> Função ssq10
+[Thu Nov 25 01:09:42 -03 2021]: >> Função tri10
+[Thu Nov 25 01:10:29 -03 2021]: >> Função zak10
+[Thu Nov 25 01:10:32 -03 2021]: >> Função gri20
+[Thu Nov 25 01:26:17 -03 2021]: >> Função ras20
+[Thu Nov 25 01:26:39 -03 2021]: >> Função ros20
+[Thu Nov 25 01:27:53 -03 2021]: >> Função ssq20
+[Thu Nov 25 01:27:54 -03 2021]: >> Função zak20
+[Thu Nov 25 01:28:23 -03 2021]: >> Função pow
+[Thu Nov 25 01:28:25 -03 2021]: >> Função dxp
+[Thu Nov 25 01:28:35 -03 2021]: >> Função ack30
+[Thu Nov 25 01:34:18 -03 2021]: >> Função lev
+[Thu Nov 25 01:37:11 -03 2021]: >> Função sph
+[Thu Nov 25 01:37:43 -03 2021]: Finalizou para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Thu Nov 25 01:37:43 -03 2021]: Iniciou a exec. para a configuração --xdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.2121
+[Thu Nov 25 01:37:43 -03 2021]: >> Função bea
+[Thu Nov 25 01:37:43 -03 2021]: >> Função bhc
+[Thu Nov 25 01:37:44 -03 2021]: >> Função boo
+[Thu Nov 25 01:37:45 -03 2021]: >> Função bra
+[Thu Nov 25 01:37:46 -03 2021]: >> Função eas
+[Thu Nov 25 01:37:49 -03 2021]: >> Função gol
+[Thu Nov 25 01:37:49 -03 2021]: >> Função mat
+[Thu Nov 25 01:37:50 -03 2021]: >> Função shc
+[Thu Nov 25 01:37:51 -03 2021]: >> Função ros2
+[Thu Nov 25 01:37:52 -03 2021]: >> Função sch2
+[Thu Nov 25 01:37:55 -03 2021]: >> Função shu
+[Thu Nov 25 01:37:57 -03 2021]: >> Função zak2
+[Thu Nov 25 01:37:58 -03 2021]: >> Função dej
+[Thu Nov 25 01:37:58 -03 2021]: >> Função har34
+[Thu Nov 25 01:37:59 -03 2021]: >> Função col
+[Thu Nov 25 01:38:01 -03 2021]: >> Função perm
+[Thu Nov 25 01:38:35 -03 2021]: >> Função perm0
+[Thu Nov 25 01:39:03 -03 2021]: >> Função pws
+[Thu Nov 25 01:39:04 -03 2021]: >> Função she45
+[Thu Nov 25 01:39:05 -03 2021]: >> Função she47
+[Thu Nov 25 01:39:05 -03 2021]: >> Função she410
+[Thu Nov 25 01:39:05 -03 2021]: >> Função ros5
+[Thu Nov 25 01:39:12 -03 2021]: >> Função zak5
+[Thu Nov 25 01:39:12 -03 2021]: >> Função har64
+[Thu Nov 25 01:39:16 -03 2021]: >> Função sch6
+[Thu Nov 25 01:39:28 -03 2021]: >> Função tri6
+[Thu Nov 25 01:39:33 -03 2021]: >> Função gri10
+[Thu Nov 25 01:42:45 -03 2021]: >> Função ras10
+[Thu Nov 25 01:42:49 -03 2021]: >> Função ros10
+[Thu Nov 25 01:43:26 -03 2021]: >> Função ssq10
+[Thu Nov 25 01:43:26 -03 2021]: >> Função tri10
+[Thu Nov 25 01:43:55 -03 2021]: >> Função zak10
+[Thu Nov 25 01:43:58 -03 2021]: >> Função gri20
+[Thu Nov 25 01:53:38 -03 2021]: >> Função ras20
+[Thu Nov 25 01:53:54 -03 2021]: >> Função ros20
+[Thu Nov 25 01:54:40 -03 2021]: >> Função ssq20
+[Thu Nov 25 01:54:40 -03 2021]: >> Função zak20
+[Thu Nov 25 01:55:08 -03 2021]: >> Função pow
+[Thu Nov 25 01:55:10 -03 2021]: >> Função dxp
+[Thu Nov 25 01:55:20 -03 2021]: >> Função ack30
+[Thu Nov 25 02:01:04 -03 2021]: >> Função lev
+[Thu Nov 25 02:03:57 -03 2021]: >> Função sph
+[Thu Nov 25 02:04:26 -03 2021]: Finalizou para a configuração --xdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.2121
+[Thu Nov 25 02:04:26 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Nov 25 02:04:26 -03 2021]: >> Função bea
+[Thu Nov 25 02:04:27 -03 2021]: >> Função bhc
+[Thu Nov 25 02:04:28 -03 2021]: >> Função boo
+[Thu Nov 25 02:04:28 -03 2021]: >> Função bra
+[Thu Nov 25 02:04:30 -03 2021]: >> Função eas
+[Thu Nov 25 02:04:33 -03 2021]: >> Função gol
+[Thu Nov 25 02:04:33 -03 2021]: >> Função mat
+[Thu Nov 25 02:04:34 -03 2021]: >> Função shc
+[Thu Nov 25 02:04:35 -03 2021]: >> Função ros2
+[Thu Nov 25 02:04:36 -03 2021]: >> Função sch2
+[Thu Nov 25 02:04:39 -03 2021]: >> Função shu
+[Thu Nov 25 02:04:41 -03 2021]: >> Função zak2
+[Thu Nov 25 02:04:42 -03 2021]: >> Função dej
+[Thu Nov 25 02:04:42 -03 2021]: >> Função har34
+[Thu Nov 25 02:04:43 -03 2021]: >> Função col
+[Thu Nov 25 02:04:45 -03 2021]: >> Função perm
+[Thu Nov 25 02:05:19 -03 2021]: >> Função perm0
+[Thu Nov 25 02:05:47 -03 2021]: >> Função pws
+[Thu Nov 25 02:05:48 -03 2021]: >> Função she45
+[Thu Nov 25 02:05:48 -03 2021]: >> Função she47
+[Thu Nov 25 02:05:49 -03 2021]: >> Função she410
+[Thu Nov 25 02:05:49 -03 2021]: >> Função ros5
+[Thu Nov 25 02:05:56 -03 2021]: >> Função zak5
+[Thu Nov 25 02:05:56 -03 2021]: >> Função har64
+[Thu Nov 25 02:06:00 -03 2021]: >> Função sch6
+[Thu Nov 25 02:06:13 -03 2021]: >> Função tri6
+[Thu Nov 25 02:06:18 -03 2021]: >> Função gri10
+[Thu Nov 25 02:09:22 -03 2021]: >> Função ras10
+[Thu Nov 25 02:09:26 -03 2021]: >> Função ros10
+[Thu Nov 25 02:10:04 -03 2021]: >> Função ssq10
+[Thu Nov 25 02:10:04 -03 2021]: >> Função tri10
+[Thu Nov 25 02:10:33 -03 2021]: >> Função zak10
+[Thu Nov 25 02:10:36 -03 2021]: >> Função gri20
+[Thu Nov 25 02:20:17 -03 2021]: >> Função ras20
+[Thu Nov 25 02:20:33 -03 2021]: >> Função ros20
+[Thu Nov 25 02:21:19 -03 2021]: >> Função ssq20
+[Thu Nov 25 02:21:19 -03 2021]: >> Função zak20
+[Thu Nov 25 02:21:47 -03 2021]: >> Função pow
+[Thu Nov 25 02:21:49 -03 2021]: >> Função dxp
+[Thu Nov 25 02:21:59 -03 2021]: >> Função ack30
+[Thu Nov 25 02:27:39 -03 2021]: >> Função lev
+[Thu Nov 25 02:30:31 -03 2021]: >> Função sph
+[Thu Nov 25 02:31:01 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Nov 25 02:31:01 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 80 --dmstart 0.7 --dmfreq con --ptsz 1.0 --sd 0.6322
+[Thu Nov 25 02:31:01 -03 2021]: >> Função bea
+[Thu Nov 25 02:31:02 -03 2021]: >> Função bhc
+[Thu Nov 25 02:31:03 -03 2021]: >> Função boo
+[Thu Nov 25 02:31:03 -03 2021]: >> Função bra
+[Thu Nov 25 02:31:05 -03 2021]: >> Função eas
+[Thu Nov 25 02:31:08 -03 2021]: >> Função gol
+[Thu Nov 25 02:31:08 -03 2021]: >> Função mat
+[Thu Nov 25 02:31:08 -03 2021]: >> Função shc
+[Thu Nov 25 02:31:10 -03 2021]: >> Função ros2
+[Thu Nov 25 02:31:11 -03 2021]: >> Função sch2
+[Thu Nov 25 02:31:13 -03 2021]: >> Função shu
+[Thu Nov 25 02:31:16 -03 2021]: >> Função zak2
+[Thu Nov 25 02:31:17 -03 2021]: >> Função dej
+[Thu Nov 25 02:31:17 -03 2021]: >> Função har34
+[Thu Nov 25 02:31:18 -03 2021]: >> Função col
+[Thu Nov 25 02:31:20 -03 2021]: >> Função perm
+[Thu Nov 25 02:31:54 -03 2021]: >> Função perm0
+[Thu Nov 25 02:32:22 -03 2021]: >> Função pws
+[Thu Nov 25 02:32:23 -03 2021]: >> Função she45
+[Thu Nov 25 02:32:24 -03 2021]: >> Função she47
+[Thu Nov 25 02:32:24 -03 2021]: >> Função she410
+[Thu Nov 25 02:32:25 -03 2021]: >> Função ros5
+[Thu Nov 25 02:32:31 -03 2021]: >> Função zak5
+[Thu Nov 25 02:32:31 -03 2021]: >> Função har64
+[Thu Nov 25 02:32:35 -03 2021]: >> Função sch6
+[Thu Nov 25 02:32:47 -03 2021]: >> Função tri6
+[Thu Nov 25 02:32:52 -03 2021]: >> Função gri10
+[Thu Nov 25 02:35:58 -03 2021]: >> Função ras10
+[Thu Nov 25 02:36:02 -03 2021]: >> Função ros10
+[Thu Nov 25 02:36:39 -03 2021]: >> Função ssq10
+[Thu Nov 25 02:36:39 -03 2021]: >> Função tri10
+[Thu Nov 25 02:37:09 -03 2021]: >> Função zak10
+[Thu Nov 25 02:37:11 -03 2021]: >> Função gri20
+[Thu Nov 25 02:47:00 -03 2021]: >> Função ras20
+[Thu Nov 25 02:47:16 -03 2021]: >> Função ros20
+[Thu Nov 25 02:48:06 -03 2021]: >> Função ssq20
+[Thu Nov 25 02:48:06 -03 2021]: >> Função zak20
+[Thu Nov 25 02:48:38 -03 2021]: >> Função pow
+[Thu Nov 25 02:48:39 -03 2021]: >> Função dxp
+[Thu Nov 25 02:48:51 -03 2021]: >> Função ack30
+[Thu Nov 25 02:54:37 -03 2021]: >> Função lev
+[Thu Nov 25 02:57:52 -03 2021]: >> Função sph
+[Thu Nov 25 02:58:22 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 80 --dmstart 0.7 --dmfreq con --ptsz 1.0 --sd 0.6322
+[Thu Nov 25 02:58:22 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.7962
+[Thu Nov 25 02:58:22 -03 2021]: >> Função bea
+[Thu Nov 25 02:58:22 -03 2021]: >> Função bhc
+[Thu Nov 25 02:58:24 -03 2021]: >> Função boo
+[Thu Nov 25 02:58:24 -03 2021]: >> Função bra
+[Thu Nov 25 02:58:26 -03 2021]: >> Função eas
+[Thu Nov 25 02:58:28 -03 2021]: >> Função gol
+[Thu Nov 25 02:58:28 -03 2021]: >> Função mat
+[Thu Nov 25 02:58:29 -03 2021]: >> Função shc
+[Thu Nov 25 02:58:31 -03 2021]: >> Função ros2
+[Thu Nov 25 02:58:32 -03 2021]: >> Função sch2
+[Thu Nov 25 02:58:34 -03 2021]: >> Função shu
+[Thu Nov 25 02:58:37 -03 2021]: >> Função zak2
+[Thu Nov 25 02:58:37 -03 2021]: >> Função dej
+[Thu Nov 25 02:58:38 -03 2021]: >> Função har34
+[Thu Nov 25 02:58:38 -03 2021]: >> Função col
+[Thu Nov 25 02:58:40 -03 2021]: >> Função perm
+[Thu Nov 25 02:59:15 -03 2021]: >> Função perm0
+[Thu Nov 25 02:59:42 -03 2021]: >> Função pws
+[Thu Nov 25 02:59:43 -03 2021]: >> Função she45
+[Thu Nov 25 02:59:44 -03 2021]: >> Função she47
+[Thu Nov 25 02:59:44 -03 2021]: >> Função she410
+[Thu Nov 25 02:59:45 -03 2021]: >> Função ros5
+[Thu Nov 25 02:59:51 -03 2021]: >> Função zak5
+[Thu Nov 25 02:59:52 -03 2021]: >> Função har64
+[Thu Nov 25 02:59:55 -03 2021]: >> Função sch6
+[Thu Nov 25 03:00:08 -03 2021]: >> Função tri6
+[Thu Nov 25 03:00:13 -03 2021]: >> Função gri10
+[Thu Nov 25 03:03:12 -03 2021]: >> Função ras10
+[Thu Nov 25 03:03:16 -03 2021]: >> Função ros10
+[Thu Nov 25 03:03:53 -03 2021]: >> Função ssq10
+[Thu Nov 25 03:03:53 -03 2021]: >> Função tri10
+[Thu Nov 25 03:04:23 -03 2021]: >> Função zak10
+[Thu Nov 25 03:04:25 -03 2021]: >> Função gri20
+[Thu Nov 25 03:14:05 -03 2021]: >> Função ras20
+[Thu Nov 25 03:14:20 -03 2021]: >> Função ros20
+[Thu Nov 25 03:15:06 -03 2021]: >> Função ssq20
+[Thu Nov 25 03:15:07 -03 2021]: >> Função zak20
+[Thu Nov 25 03:15:35 -03 2021]: >> Função pow
+[Thu Nov 25 03:15:37 -03 2021]: >> Função dxp
+[Thu Nov 25 03:15:47 -03 2021]: >> Função ack30
+[Thu Nov 25 03:21:24 -03 2021]: >> Função lev
+[Thu Nov 25 03:24:13 -03 2021]: >> Função sph
+[Thu Nov 25 03:24:42 -03 2021]: Finalizou para a configuração --amxdmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.7962
+[Sat Nov 27 09:31:36 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 09:31:36 -03 2021]: >> Função bea
+[Sat Nov 27 09:31:37 -03 2021]: >> Função bhc
+[Sat Nov 27 09:31:38 -03 2021]: >> Função boo
+[Sat Nov 27 09:37:07 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 09:37:07 -03 2021]: >> Função bra
+[Sat Nov 27 09:37:09 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 27 09:37:09 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sat Nov 27 09:37:09 -03 2021]: >> Função bra
+[Sat Nov 27 09:40:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 09:40:09 -03 2021]: >> Função bra
+[Sat Nov 27 09:40:10 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 27 09:40:10 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sat Nov 27 09:40:10 -03 2021]: >> Função bra
+[Sat Nov 27 09:43:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 09:43:24 -03 2021]: >> Função bra
+[Sat Nov 27 09:43:25 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 27 09:43:25 -03 2021]: Iniciou a exec. para a configuração --xdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.2121
+[Sat Nov 27 09:43:25 -03 2021]: >> Função bra
+[Sat Nov 27 09:51:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 09:51:32 -03 2021]: >> Função bra
+[Sat Nov 27 09:51:35 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 27 09:51:35 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sat Nov 27 09:51:35 -03 2021]: >> Função bra
+[Sat Nov 27 09:54:05 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 09:54:05 -03 2021]: >> Função bra
+[Sat Nov 27 09:54:07 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 27 09:54:07 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sat Nov 27 09:54:07 -03 2021]: >> Função bra
+[Sat Nov 27 09:56:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 09:56:50 -03 2021]: >> Função bra
+[Sat Nov 27 09:56:52 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 27 09:56:52 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sat Nov 27 09:56:52 -03 2021]: >> Função bra
+[Sat Nov 27 10:00:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 10:00:44 -03 2021]: >> Função bra
+[Sat Nov 27 10:00:45 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 27 10:00:45 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sat Nov 27 10:00:45 -03 2021]: >> Função bra
+[Sat Nov 27 10:00:46 -03 2021]: Finalizou para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sat Nov 27 10:07:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Nov 27 10:07:35 -03 2021]: >> Função bra
+[Sat Nov 27 10:07:36 -03 2021]: Finalizou para a configuração --c
+[Sat Nov 27 10:07:36 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sat Nov 27 10:07:36 -03 2021]: >> Função bra
+[Sat Nov 27 10:07:38 -03 2021]: Finalizou para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 17:45:45 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 17:45:45 -03 2021]: >> Função bra
+[Sun Nov 28 17:45:47 -03 2021]: Finalizou para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 17:52:10 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 17:52:10 -03 2021]: >> Função bra
+[Sun Nov 28 18:16:28 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 28 18:16:28 -03 2021]: >> Função bra
+[Sun Nov 28 18:16:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 28 18:16:38 -03 2021]: >> Função gol
+[Sun Nov 28 18:16:39 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 28 18:16:39 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 18:16:39 -03 2021]: >> Função gol
+[Sun Nov 28 18:16:40 -03 2021]: Finalizou para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 18:25:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 28 18:25:30 -03 2021]: >> Função zak5
+[Sun Nov 28 18:25:32 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 28 18:25:32 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 18:25:32 -03 2021]: >> Função zak5
+[Sun Nov 28 18:25:36 -03 2021]: Finalizou para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 18:29:06 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 28 18:29:06 -03 2021]: >> Função zak10
+[Sun Nov 28 18:34:30 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 28 18:34:30 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 18:34:30 -03 2021]: >> Função zak10
+[Sun Nov 28 18:40:03 -03 2021]: Finalizou para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 19:17:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 28 19:17:21 -03 2021]: >> Função ros2
+[Sun Nov 28 19:17:22 -03 2021]: Finalizou para a configuração --c
+[Sun Nov 28 19:17:22 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 19:17:22 -03 2021]: >> Função ros2
+[Sun Nov 28 19:17:22 -03 2021]: Finalizou para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Sun Nov 28 19:20:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Sun Nov 28 19:20:35 -03 2021]: >> Função ros5
+[Sun Nov 28 22:35:00 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Sun Nov 28 22:35:00 -03 2021]: >> Função ros5
+[Mon Nov 29 22:36:41 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 22:36:41 -03 2021]: >> Função ros5
+[Mon Nov 29 22:37:59 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 22:37:59 -03 2021]: >> Função ros5
+[Mon Nov 29 22:44:58 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 22:44:58 -03 2021]: >> Função ros5
+[Mon Nov 29 22:55:09 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 22:55:09 -03 2021]: >> Função ros5
+[Mon Nov 29 22:55:56 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 22:55:56 -03 2021]: >> Função ros5
+[Mon Nov 29 22:56:24 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 22:56:24 -03 2021]: >> Função ros5
+[Mon Nov 29 22:57:27 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 22:57:27 -03 2021]: >> Função ros5
+[Mon Nov 29 22:59:41 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 22:59:41 -03 2021]: >> Função ros5
+[Mon Nov 29 23:05:17 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 23:05:17 -03 2021]: >> Função ros5
+[Mon Nov 29 23:10:30 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 23:10:30 -03 2021]: >> Função ros5
+[Mon Nov 29 23:14:30 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 23:14:30 -03 2021]: >> Função ros5
+[Mon Nov 29 23:15:55 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 23:15:55 -03 2021]: >> Função ros5
+[Mon Nov 29 23:16:09 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Mon Nov 29 23:16:09 -03 2021]: >> Função ros5
+[Tue Nov 30 11:38:45 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 11:38:45 -03 2021]: >> Função ros5
+[Tue Nov 30 23:12:37 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:12:37 -03 2021]: >> Função ros5
+[Tue Nov 30 23:14:40 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:14:40 -03 2021]: >> Função ros5
+[Tue Nov 30 23:19:33 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:19:33 -03 2021]: >> Função ros5
+[Tue Nov 30 23:21:25 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:21:25 -03 2021]: >> Função ros5
+[Tue Nov 30 23:27:49 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:27:49 -03 2021]: >> Função ros5
+[Tue Nov 30 23:28:55 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:28:55 -03 2021]: >> Função ros5
+[Tue Nov 30 23:30:54 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:30:54 -03 2021]: >> Função ros5
+[Tue Nov 30 23:34:21 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:34:21 -03 2021]: >> Função ros5
+[Tue Nov 30 23:36:42 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Tue Nov 30 23:36:42 -03 2021]: >> Função ros5
+[Wed Dec  1 00:07:01 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 00:07:01 -03 2021]: >> Função ros5
+[Wed Dec  1 00:07:59 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 00:07:59 -03 2021]: >> Função ros5
+[Wed Dec  1 00:08:52 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 00:08:52 -03 2021]: >> Função ros5
+[Wed Dec  1 00:11:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 00:11:01 -03 2021]: >> Função ros5
+[Wed Dec  1 00:19:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 00:19:08 -03 2021]: >> Função ros5
+[Wed Dec  1 00:27:22 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 00:27:22 -03 2021]: >> Função ros5
+[Wed Dec  1 00:29:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 00:29:35 -03 2021]: >> Função ros5
+[Wed Dec  1 00:33:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 00:33:26 -03 2021]: >> Função ros5
+[Wed Dec  1 00:39:52 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 00:39:52 -03 2021]: >> Função ros5
+[Wed Dec  1 01:45:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 01:45:30 -03 2021]: >> Função ros5
+[Wed Dec  1 09:26:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 09:26:26 -03 2021]: >> Função ros5
+[Wed Dec  1 09:28:57 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 09:28:57 -03 2021]: >> Função ros5
+[Wed Dec  1 09:30:13 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 09:30:13 -03 2021]: >> Função ros5
+[Wed Dec  1 09:55:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 09:55:09 -03 2021]: >> Função ros5
+[Wed Dec  1 09:55:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 09:55:33 -03 2021]: >> Função ros5
+[Wed Dec  1 09:59:37 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 09:59:37 -03 2021]: >> Função ros5
+[Wed Dec  1 10:00:28 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:00:28 -03 2021]: >> Função ros5
+[Wed Dec  1 10:05:04 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:05:04 -03 2021]: >> Função ros5
+[Wed Dec  1 10:06:18 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:06:18 -03 2021]: >> Função ros5
+[Wed Dec  1 10:15:55 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:15:55 -03 2021]: >> Função ros5
+[Wed Dec  1 10:17:52 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:17:52 -03 2021]: >> Função ros5
+[Wed Dec  1 10:22:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:22:50 -03 2021]: >> Função ros5
+[Wed Dec  1 10:23:06 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:23:06 -03 2021]: >> Função ros5
+[Wed Dec  1 10:26:16 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:26:16 -03 2021]: >> Função ros5
+[Wed Dec  1 10:30:20 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:30:20 -03 2021]: >> Função ros5
+[Wed Dec  1 10:40:19 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:40:19 -03 2021]: >> Função ros5
+[Wed Dec  1 10:44:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 10:44:15 -03 2021]: >> Função ros5
+[Wed Dec  1 11:21:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 11:21:15 -03 2021]: >> Função ros5
+[Wed Dec  1 11:38:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 11:38:56 -03 2021]: >> Função har64
+[Wed Dec  1 11:45:54 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 11:45:54 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 11:45:54 -03 2021]: >> Função har64
+[Wed Dec  1 11:51:22 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 12:01:17 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 12:01:17 -03 2021]: >> Função har64
+[Wed Dec  1 12:08:33 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 12:14:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 12:14:01 -03 2021]: >> Função she410
+[Wed Dec  1 12:45:13 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 12:45:13 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 12:45:13 -03 2021]: >> Função she410
+[Wed Dec  1 13:16:40 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 13:47:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 13:47:11 -03 2021]: >> Função zak10
+[Wed Dec  1 13:47:52 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 13:47:52 -03 2021]: >> Função zak10
+[Wed Dec  1 13:53:11 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 13:53:11 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 13:53:11 -03 2021]: >> Função zak10
+[Wed Dec  1 13:58:40 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 14:11:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 14:11:43 -03 2021]: >> Função zak10
+[Wed Dec  1 14:15:54 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 14:15:54 -03 2021]: >> Função har64
+[Wed Dec  1 14:23:04 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 14:23:04 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 14:23:04 -03 2021]: >> Função har64
+[Wed Dec  1 14:28:38 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 14:34:00 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 14:34:00 -03 2021]: >> Função she410
+[Wed Dec  1 15:05:26 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 15:05:26 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 15:05:26 -03 2021]: >> Função she410
+[Wed Dec  1 15:36:26 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 16:47:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 16:47:50 -03 2021]: >> Função she410
+[Wed Dec  1 16:48:15 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 16:48:15 -03 2021]: >> Função she410
+[Wed Dec  1 16:54:55 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 16:54:55 -03 2021]: >> Função she410
+[Wed Dec  1 16:56:36 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 16:56:37 -03 2021]: >> Função she410
+[Wed Dec  1 16:57:27 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 16:57:27 -03 2021]: >> Função bea
+[Wed Dec  1 16:59:42 -03 2021]: >> Função bhc
+[Wed Dec  1 17:02:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 17:02:42 -03 2021]: >> Função bea
+[Wed Dec  1 17:03:46 -03 2021]: >> Função bhc
+[Wed Dec  1 17:05:50 -03 2021]: >> Função boo
+[Wed Dec  1 17:05:56 -03 2021]: >> Função bra
+[Wed Dec  1 17:06:42 -03 2021]: >> Função eas
+[Wed Dec  1 17:07:11 -03 2021]: >> Função gol
+[Wed Dec  1 17:07:24 -03 2021]: >> Função mat
+[Wed Dec  1 17:08:04 -03 2021]: >> Função shc
+[Wed Dec  1 17:10:03 -03 2021]: >> Função ros2
+[Wed Dec  1 17:10:06 -03 2021]: >> Função sch2
+[Wed Dec  1 17:12:53 -03 2021]: >> Função shu
+[Wed Dec  1 17:13:16 -03 2021]: >> Função zak2
+[Wed Dec  1 17:13:58 -03 2021]: >> Função dej
+[Wed Dec  1 17:16:54 -03 2021]: >> Função har34
+[Wed Dec  1 17:17:04 -03 2021]: >> Função col
+[Wed Dec  1 17:24:57 -03 2021]: >> Função perm
+[Wed Dec  1 17:40:54 -03 2021]: >> Função perm0
+[Wed Dec  1 17:58:33 -03 2021]: >> Função pws
+[Wed Dec  1 18:02:36 -03 2021]: >> Função she45
+[Wed Dec  1 18:04:47 -03 2021]: >> Função she47
+[Wed Dec  1 18:07:38 -03 2021]: >> Função she410
+[Wed Dec  1 18:31:33 -03 2021]: >> Função ros5
+[Wed Dec  1 21:10:15 -03 2021]: >> Função zak5
+[Wed Dec  1 21:10:31 -03 2021]: >> Função har64
+[Wed Dec  1 21:14:56 -03 2021]: >> Função sch6
+[Wed Dec  1 21:17:08 -03 2021]: >> Função tri6
+[Wed Dec  1 21:17:41 -03 2021]: >> Função gri10
+[Wed Dec  1 21:43:17 -03 2021]: >> Função ras10
+[Wed Dec  1 21:43:42 -03 2021]: >> Função ros10
+[Wed Dec  1 22:17:08 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 22:17:08 -03 2021]: >> Função ras10
+[Wed Dec  1 22:17:22 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 22:17:22 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 22:17:22 -03 2021]: >> Função ras10
+[Wed Dec  1 22:17:46 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:11:29 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:11:29 -03 2021]: >> Função mat
+[Wed Dec  1 23:11:48 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:11:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:11:48 -03 2021]: >> Função mat
+[Wed Dec  1 23:12:14 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:15:25 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:15:25 -03 2021]: >> Função bea
+[Wed Dec  1 23:15:57 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:15:57 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:15:57 -03 2021]: >> Função bea
+[Wed Dec  1 23:16:41 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:22:08 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:22:08 -03 2021]: >> Função bhc
+[Wed Dec  1 23:23:18 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:23:18 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:23:18 -03 2021]: >> Função bhc
+[Wed Dec  1 23:24:44 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:28:39 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:28:39 -03 2021]: >> Função boo
+[Wed Dec  1 23:28:42 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:28:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:28:42 -03 2021]: >> Função boo
+[Wed Dec  1 23:28:46 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:29:12 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:29:12 -03 2021]: >> Função boo
+[Wed Dec  1 23:29:15 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:29:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:29:15 -03 2021]: >> Função boo
+[Wed Dec  1 23:29:19 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:29:23 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:29:23 -03 2021]: >> Função boo
+[Wed Dec  1 23:29:26 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:29:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:29:26 -03 2021]: >> Função boo
+[Wed Dec  1 23:29:29 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:31:54 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:31:54 -03 2021]: >> Função bra
+[Wed Dec  1 23:32:16 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:32:16 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:32:16 -03 2021]: >> Função bra
+[Wed Dec  1 23:32:45 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:34:16 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:34:16 -03 2021]: >> Função bra
+[Wed Dec  1 23:34:58 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:34:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:34:58 -03 2021]: >> Função bra
+[Wed Dec  1 23:35:56 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:38:46 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:38:46 -03 2021]: >> Função eas
+[Wed Dec  1 23:39:46 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:39:46 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:39:46 -03 2021]: >> Função eas
+[Wed Dec  1 23:40:23 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:48:02 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:48:02 -03 2021]: >> Função gol
+[Wed Dec  1 23:48:21 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:48:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:48:21 -03 2021]: >> Função gol
+[Wed Dec  1 23:48:37 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:50:02 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:50:02 -03 2021]: >> Função mat
+[Wed Dec  1 23:50:37 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:50:37 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:50:37 -03 2021]: >> Função mat
+[Wed Dec  1 23:51:28 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  1 23:54:24 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:54:24 -03 2021]: >> Função shc
+[Wed Dec  1 23:56:58 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Wed Dec  1 23:56:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  1 23:56:58 -03 2021]: >> Função shc
+[Wed Dec  1 23:59:37 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:00:00 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:00:00 -03 2021]: >> Função shc
+[Thu Dec  2 00:01:12 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:01:12 -03 2021]: >> Função ros2
+[Thu Dec  2 00:01:15 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:01:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:01:15 -03 2021]: >> Função ros2
+[Thu Dec  2 00:01:19 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:01:50 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:01:50 -03 2021]: >> Função sch2
+[Thu Dec  2 00:06:03 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:06:03 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:06:03 -03 2021]: >> Função sch2
+[Thu Dec  2 00:11:18 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:13:46 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:13:46 -03 2021]: >> Função shu
+[Thu Dec  2 00:14:26 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:14:26 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:14:26 -03 2021]: >> Função shu
+[Thu Dec  2 00:15:22 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:17:39 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:17:39 -03 2021]: >> Função dej
+[Thu Dec  2 00:21:51 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:21:51 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:21:51 -03 2021]: >> Função dej
+[Thu Dec  2 00:27:14 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:30:57 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:30:57 -03 2021]: >> Função dej
+[Thu Dec  2 00:32:37 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:32:37 -03 2021]: >> Função boo
+[Thu Dec  2 00:32:43 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:32:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:32:43 -03 2021]: >> Função boo
+[Thu Dec  2 00:32:51 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:33:05 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:33:05 -03 2021]: >> Função boo
+[Thu Dec  2 00:33:11 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:33:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:33:11 -03 2021]: >> Função boo
+[Thu Dec  2 00:33:19 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:34:44 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:34:44 -03 2021]: >> Função boo
+[Thu Dec  2 00:34:50 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:34:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:34:50 -03 2021]: >> Função boo
+[Thu Dec  2 00:34:58 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:35:41 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:35:41 -03 2021]: >> Função boo
+[Thu Dec  2 00:35:47 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:35:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:35:47 -03 2021]: >> Função boo
+[Thu Dec  2 00:35:54 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:36:29 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:36:29 -03 2021]: >> Função boo
+[Thu Dec  2 00:36:35 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:36:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:36:35 -03 2021]: >> Função boo
+[Thu Dec  2 00:36:42 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:38:02 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:38:02 -03 2021]: >> Função sch2
+[Thu Dec  2 00:38:47 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:38:47 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:38:47 -03 2021]: >> Função sch2
+[Thu Dec  2 00:39:36 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:41:17 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:41:17 -03 2021]: >> Função zak2
+[Thu Dec  2 00:41:40 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:41:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 00:41:40 -03 2021]: >> Função zak2
+[Thu Dec  2 00:42:10 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 00:42:32 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 00:42:32 -03 2021]: >> Função zak2
+[Thu Dec  2 13:07:08 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 13:07:08 -03 2021]: >> Função dej
+[Thu Dec  2 13:07:20 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 13:07:20 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 13:07:20 -03 2021]: >> Função dej
+[Thu Dec  2 13:07:32 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 13:07:32 -03 2021]: >> Função col
+[Thu Dec  2 13:15:16 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 13:15:16 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 13:15:16 -03 2021]: >> Função col
+[Thu Dec  2 13:26:20 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 13:29:38 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 13:29:38 -03 2021]: >> Função perm
+[Thu Dec  2 13:31:47 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 13:31:47 -03 2021]: >> Função har64
+[Thu Dec  2 13:32:40 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 13:32:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 13:32:40 -03 2021]: >> Função har64
+[Thu Dec  2 13:33:33 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 14:23:43 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:23:43 -03 2021]: >> Função dej
+[Thu Dec  2 14:24:17 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:24:17 -03 2021]: >> Função perm
+[Thu Dec  2 14:24:46 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:24:46 -03 2021]: >> Função perm0
+[Thu Dec  2 14:27:28 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:27:28 -03 2021]: >> Função pws
+[Thu Dec  2 14:28:38 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:28:38 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 14:28:38 -03 2021]: >> Função pws
+[Thu Dec  2 14:29:48 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 14:30:59 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:30:59 -03 2021]: >> Função she45
+[Thu Dec  2 14:36:32 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:36:32 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 14:36:32 -03 2021]: >> Função she45
+[Thu Dec  2 14:39:41 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 14:40:04 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:40:04 -03 2021]: >> Função she45
+[Thu Dec  2 14:41:00 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:41:00 -03 2021]: >> Função she47
+[Thu Dec  2 14:47:30 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:47:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 14:47:30 -03 2021]: >> Função she47
+[Thu Dec  2 14:51:25 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 14:58:01 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 14:58:01 -03 2021]: >> Função she410
+[Thu Dec  2 15:46:56 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 15:46:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 15:46:56 -03 2021]: >> Função she410
+[Thu Dec  2 16:16:23 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  2 16:30:47 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 16:30:47 -03 2021]: >> Função ros5
+[Thu Dec  2 19:47:25 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Thu Dec  2 19:47:25 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  2 19:47:25 -03 2021]: >> Função ros5
+[Fri Dec  3 11:20:39 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 11:20:39 -03 2021]: >> Função ros5
+[Fri Dec  3 12:23:46 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 12:23:46 -03 2021]: >> Função ros5
+[Fri Dec  3 14:37:24 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 14:37:24 -03 2021]: >> Função boo
+[Fri Dec  3 16:07:30 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 16:07:30 -03 2021]: >> Função bea
+[Fri Dec  3 16:07:37 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 16:07:37 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec  3 16:07:37 -03 2021]: >> Função bea
+[Fri Dec  3 16:07:44 -03 2021]: Finalizou para a configuração --c
+[Fri Dec  3 16:11:46 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 16:11:46 -03 2021]: >> Função bhc
+[Fri Dec  3 16:13:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec  3 16:13:23 -03 2021]: >> Função bhc
+[Fri Dec  3 16:32:53 -03 2021]: Finalizou para a configuração --c
+[Fri Dec  3 16:32:53 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 16:32:53 -03 2021]: >> Função bhc
+[Fri Dec  3 16:34:36 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 16:34:36 -03 2021]: >> Função bhc
+[Fri Dec  3 16:39:58 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 90 --dmstart 0.2 --dmfreq con --ptsz 1.0 --sd 0.1923
+[Fri Dec  3 16:39:58 -03 2021]: >> Função bhc
+[Fri Dec  3 16:44:17 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 80 --dmstart 0.7 --dmfreq con --ptsz 1.0 --sd 0.6322
+[Fri Dec  3 16:44:17 -03 2021]: >> Função bhc
+[Fri Dec  3 16:46:42 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.7962
+[Fri Dec  3 16:46:42 -03 2021]: >> Função bhc
+[Fri Dec  3 16:51:45 -03 2021]: Iniciou a exec. para a configuração --dmc --elsz 30 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.0299
+[Fri Dec  3 16:51:45 -03 2021]: >> Função bhc
+[Fri Dec  3 17:04:26 -03 2021]: Iniciou a exec. para a configuração --xdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.2121
+[Fri Dec  3 17:04:26 -03 2021]: >> Função bhc
+[Fri Dec  3 17:08:49 -03 2021]: Iniciou a exec. para a configuração --xdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.2121
+[Fri Dec  3 17:08:49 -03 2021]: >> Função bhc
+[Fri Dec  3 17:26:52 -03 2021]: Finalizou para a configuração --xdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.2121
+[Fri Dec  3 17:30:51 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.9971
+[Fri Dec  3 17:30:51 -03 2021]: >> Função bhc
+[Fri Dec  3 17:31:06 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.9971
+[Fri Dec  3 17:31:07 -03 2021]: >> Função bhc
+[Fri Dec  3 17:47:36 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.9971
+[Fri Dec  3 22:46:36 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.9971
+[Fri Dec  3 22:46:36 -03 2021]: >> Função bea
+[Fri Dec  3 22:49:11 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.9971
+[Fri Dec  3 22:49:11 -03 2021]: >> Função bea
+[Fri Dec  3 22:49:30 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.9971
+[Fri Dec  3 22:49:30 -03 2021]: >> Função bea
+[Fri Dec  3 22:49:37 -03 2021]: >> Função bhc
+[Fri Dec  3 22:52:50 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.9971
+[Fri Dec  3 22:52:50 -03 2021]: >> Função bea
+[Fri Dec  3 22:52:57 -03 2021]: >> Função bhc
+[Fri Dec  3 22:53:46 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.9971
+[Fri Dec  3 22:53:46 -03 2021]: >> Função bea
+[Fri Dec  3 22:53:53 -03 2021]: Finalizou para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 0.7 --sd 0.9971
+[Fri Dec  3 22:56:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec  3 22:56:01 -03 2021]: >> Função bea
+[Fri Dec  3 22:56:07 -03 2021]: Finalizou para a configuração --c
+[Fri Dec  3 22:57:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec  3 22:57:15 -03 2021]: >> Função bea
+[Fri Dec  3 22:57:21 -03 2021]: >> Função bhc
+[Fri Dec  3 23:15:53 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec  3 23:15:53 -03 2021]: >> Função bea
+[Fri Dec  3 23:16:00 -03 2021]: >> Função bhc
+[Fri Dec  3 23:16:39 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec  3 23:16:39 -03 2021]: >> Função bea
+[Fri Dec  3 23:16:44 -03 2021]: >> Função bhc
+[Fri Dec  3 23:23:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec  3 23:23:15 -03 2021]: >> Função bea
+[Fri Dec  3 23:23:25 -03 2021]: >> Função bhc
+[Fri Dec  3 23:40:29 -03 2021]: >> Função boo
+[Fri Dec  3 23:41:57 -03 2021]: >> Função bra
+[Fri Dec  3 23:42:06 -03 2021]: >> Função eas
+[Fri Dec  3 23:42:47 -03 2021]: >> Função gol
+[Fri Dec  3 23:42:59 -03 2021]: >> Função mat
+[Fri Dec  3 23:43:00 -03 2021]: >> Função shc
+[Fri Dec  3 23:43:07 -03 2021]: >> Função ros2
+[Fri Dec  3 23:43:11 -03 2021]: >> Função sch2
+[Fri Dec  3 23:44:09 -03 2021]: >> Função shu
+[Fri Dec  3 23:44:19 -03 2021]: >> Função zak2
+[Fri Dec  3 23:44:58 -03 2021]: >> Função dej
+[Fri Dec  3 23:45:10 -03 2021]: >> Função har34
+[Fri Dec  3 23:45:19 -03 2021]: >> Função col
+[Sat Dec  4 00:36:24 -03 2021]: >> Função perm
+[Sat Dec  4 01:56:14 -03 2021]: >> Função perm0
+[Sat Dec  4 08:58:17 -03 2021]: >> Função pws
+[Sat Dec  4 08:59:40 -03 2021]: >> Função she45
+[Sat Dec  4 09:03:27 -03 2021]: >> Função she47
+[Sat Dec  4 09:08:12 -03 2021]: >> Função she410
+[Sat Dec  4 16:54:27 -03 2021]: >> Função ros5
+[Sun Dec  5 12:58:43 -03 2021]: >> Função zak5
+[Sun Dec  5 12:59:05 -03 2021]: >> Função har64
+[Sun Dec  5 12:59:53 -03 2021]: >> Função sch6
+[Sun Dec  5 18:13:19 -03 2021]: >> Função tri6
+[Sun Dec  5 18:13:22 -03 2021]: >> Função gri10
+[Tue Dec  7 10:48:33 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 10:48:33 -03 2021]: >> Função bea
+[Tue Dec  7 10:48:40 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 10:48:40 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 10:48:40 -03 2021]: >> Função bea
+[Tue Dec  7 10:48:45 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 10:57:25 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 10:57:25 -03 2021]: >> Função bhc
+[Tue Dec  7 11:12:18 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:12:18 -03 2021]: >> Função boo
+[Tue Dec  7 11:12:51 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:12:51 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 11:12:51 -03 2021]: >> Função boo
+[Tue Dec  7 11:14:11 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 11:21:36 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:21:36 -03 2021]: >> Função bra
+[Tue Dec  7 11:21:45 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:21:45 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 11:21:45 -03 2021]: >> Função bra
+[Tue Dec  7 11:21:55 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 11:24:24 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:24:24 -03 2021]: >> Função bra
+[Tue Dec  7 11:25:55 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:25:55 -03 2021]: >> Função bra
+[Tue Dec  7 11:26:04 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:26:04 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 11:26:04 -03 2021]: >> Função bra
+[Tue Dec  7 11:26:13 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 11:27:05 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:27:05 -03 2021]: >> Função eas
+[Tue Dec  7 11:27:58 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:27:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 11:27:58 -03 2021]: >> Função eas
+[Tue Dec  7 11:28:42 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 11:38:58 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:38:58 -03 2021]: >> Função gol
+[Tue Dec  7 11:39:10 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 11:39:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 11:39:10 -03 2021]: >> Função gol
+[Tue Dec  7 11:39:22 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:41:14 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:41:14 -03 2021]: >> Função mat
+[Tue Dec  7 12:41:15 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:41:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 12:41:15 -03 2021]: >> Função mat
+[Tue Dec  7 12:41:15 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:42:02 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:42:02 -03 2021]: >> Função shc
+[Tue Dec  7 12:42:09 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:42:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 12:42:09 -03 2021]: >> Função shc
+[Tue Dec  7 12:42:16 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:43:29 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:43:29 -03 2021]: >> Função ros2
+[Tue Dec  7 12:43:33 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:43:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 12:43:33 -03 2021]: >> Função ros2
+[Tue Dec  7 12:43:37 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:44:17 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:44:17 -03 2021]: >> Função sch2
+[Tue Dec  7 12:45:37 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:45:37 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 12:45:37 -03 2021]: >> Função sch2
+[Tue Dec  7 12:46:31 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:47:31 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:47:31 -03 2021]: >> Função shu
+[Tue Dec  7 12:47:41 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:47:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 12:47:41 -03 2021]: >> Função shu
+[Tue Dec  7 12:47:51 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:48:27 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:48:27 -03 2021]: >> Função zak2
+[Tue Dec  7 12:49:10 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:49:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 12:49:10 -03 2021]: >> Função zak2
+[Tue Dec  7 12:49:47 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:55:58 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:55:58 -03 2021]: >> Função dej
+[Tue Dec  7 12:56:10 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:56:10 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 12:56:10 -03 2021]: >> Função dej
+[Tue Dec  7 12:56:23 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:57:21 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:57:21 -03 2021]: >> Função har34
+[Tue Dec  7 12:57:31 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:57:31 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 12:57:31 -03 2021]: >> Função har34
+[Tue Dec  7 12:57:39 -03 2021]: Finalizou para a configuração --c
+[Tue Dec  7 12:58:33 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 12:58:33 -03 2021]: >> Função col
+[Tue Dec  7 13:12:08 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 13:12:08 -03 2021]: >> Função perm
+[Tue Dec  7 14:42:30 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 14:42:30 -03 2021]: >> Função perm
+[Tue Dec  7 14:42:35 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 14:42:35 -03 2021]: >> Função perm
+[Tue Dec  7 15:29:21 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.9837
+[Tue Dec  7 15:29:21 -03 2021]: >> Função perm
+[Tue Dec  7 15:42:24 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.7 --sd 0.9837
+[Tue Dec  7 15:42:24 -03 2021]: >> Função perm
+[Tue Dec  7 15:46:36 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.7 --sd 0.9837
+[Tue Dec  7 15:46:36 -03 2021]: >> Função perm
+[Tue Dec  7 15:54:58 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.5 --sd 0.9837
+[Tue Dec  7 15:54:58 -03 2021]: >> Função perm
+[Tue Dec  7 15:55:18 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.5 --sd 0.9837
+[Tue Dec  7 15:55:18 -03 2021]: >> Função perm
+[Tue Dec  7 15:55:28 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.1 --dmfreq con --ptsz 0.5 --sd 0.9837
+[Tue Dec  7 15:55:28 -03 2021]: >> Função perm
+[Tue Dec  7 15:57:52 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 80 --dmstart 0.5 --dmfreq con --ptsz 0.5 --sd 0.9837
+[Tue Dec  7 15:57:52 -03 2021]: >> Função perm
+[Tue Dec  7 19:04:27 -03 2021]: Finalizou para a configuração --amxdmc --elsz 80 --dmstart 0.5 --dmfreq con --ptsz 0.5 --sd 0.9837
+[Tue Dec  7 19:04:27 -03 2021]: Iniciou a exec. para a configuração --c
+[Tue Dec  7 19:04:27 -03 2021]: >> Função perm
+[Tue Dec  7 20:23:55 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  8 02:04:40 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 02:04:40 -03 2021]: >> Função perm
+[Wed Dec  8 02:05:12 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 02:05:12 -03 2021]: >> Função shu
+[Wed Dec  8 02:05:24 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 02:05:24 -03 2021]: >> Função ros2
+[Wed Dec  8 02:05:39 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 02:05:39 -03 2021]: >> Função perm
+[Wed Dec  8 09:28:25 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 09:28:25 -03 2021]: >> Função boo
+[Wed Dec  8 09:28:54 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 09:28:54 -03 2021]: >> Função boo
+[Wed Dec  8 10:04:51 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 10:04:51 -03 2021]: >> Função boo
+[Wed Dec  8 10:07:45 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 10:07:45 -03 2021]: >> Função boo
+[Wed Dec  8 10:07:54 -03 2021]: Finalizou para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 10:07:54 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 10:07:54 -03 2021]: >> Função boo
+[Wed Dec  8 10:08:02 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  8 10:09:27 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 10:09:27 -03 2021]: >> Função boo
+[Wed Dec  8 10:09:35 -03 2021]: Finalizou para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 10:09:35 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 10:09:35 -03 2021]: >> Função boo
+[Wed Dec  8 10:09:44 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  8 10:10:21 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 10:10:21 -03 2021]: >> Função boo
+[Wed Dec  8 10:10:29 -03 2021]: Finalizou para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 10:10:29 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 10:10:29 -03 2021]: >> Função boo
+[Wed Dec  8 10:10:36 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  8 11:51:46 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:51:46 -03 2021]: >> Função boo
+[Wed Dec  8 11:52:39 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:52:39 -03 2021]: >> Função boo
+[Wed Dec  8 11:53:22 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:53:22 -03 2021]: >> Função boo
+[Wed Dec  8 11:53:35 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:53:35 -03 2021]: >> Função boo
+[Wed Dec  8 11:54:49 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:54:49 -03 2021]: >> Função boo
+[Wed Dec  8 11:55:20 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:55:20 -03 2021]: >> Função boo
+[Wed Dec  8 11:55:48 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:55:48 -03 2021]: >> Função boo
+[Wed Dec  8 11:55:59 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:56:00 -03 2021]: >> Função boo
+[Wed Dec  8 11:57:10 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:57:10 -03 2021]: >> Função boo
+[Wed Dec  8 11:58:03 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:58:03 -03 2021]: >> Função boo
+[Wed Dec  8 11:58:40 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:58:40 -03 2021]: >> Função boo
+[Wed Dec  8 11:59:39 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 11:59:39 -03 2021]: >> Função boo
+[Wed Dec  8 12:00:27 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 12:00:27 -03 2021]: >> Função boo
+[Wed Dec  8 12:01:18 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 12:01:18 -03 2021]: >> Função boo
+[Wed Dec  8 12:02:10 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 12:02:10 -03 2021]: >> Função boo
+[Wed Dec  8 12:02:25 -03 2021]: Finalizou para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 12:02:25 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:02:25 -03 2021]: >> Função boo
+[Wed Dec  8 12:02:42 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  8 12:03:38 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 12:03:38 -03 2021]: >> Função boo
+[Wed Dec  8 12:04:21 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:04:21 -03 2021]: >> Função boo
+[Wed Dec  8 12:06:09 -03 2021]: Finalizou para a configuração --c
+[Wed Dec  8 12:06:09 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 12:06:09 -03 2021]: >> Função boo
+[Wed Dec  8 12:15:33 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:15:33 -03 2021]: >> Função ros5
+[Wed Dec  8 12:29:31 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:29:31 -03 2021]: >> Função ros5
+[Wed Dec  8 12:30:14 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:30:14 -03 2021]: >> Função ros5
+[Wed Dec  8 12:31:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:31:30 -03 2021]: >> Função ros5
+[Wed Dec  8 12:32:09 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:32:09 -03 2021]: >> Função ros5
+[Wed Dec  8 12:33:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:33:23 -03 2021]: >> Função ros5
+[Wed Dec  8 12:35:23 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:35:23 -03 2021]: >> Função ros5
+[Wed Dec  8 12:36:49 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 12:36:49 -03 2021]: >> Função ros5
+[Wed Dec  8 14:54:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 14:54:41 -03 2021]: >> Função ros5
+[Wed Dec  8 14:56:04 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 14:56:04 -03 2021]: >> Função ros5
+[Wed Dec  8 14:56:52 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 14:56:52 -03 2021]: >> Função ros5
+[Wed Dec  8 14:59:01 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 14:59:01 -03 2021]: >> Função ros5
+[Wed Dec  8 14:59:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 14:59:44 -03 2021]: >> Função ros5
+[Wed Dec  8 15:01:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:01:15 -03 2021]: >> Função ros5
+[Wed Dec  8 15:02:08 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:02:08 -03 2021]: >> Função ros5
+[Wed Dec  8 15:05:24 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:05:24 -03 2021]: >> Função ros5
+[Wed Dec  8 15:11:20 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:11:20 -03 2021]: >> Função ros5
+[Wed Dec  8 15:12:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:12:41 -03 2021]: >> Função ros5
+[Wed Dec  8 15:19:27 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:19:27 -03 2021]: >> Função ros5
+[Wed Dec  8 15:20:06 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:20:06 -03 2021]: >> Função ros5
+[Wed Dec  8 15:21:28 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:21:28 -03 2021]: >> Função ros5
+[Wed Dec  8 15:22:43 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:22:43 -03 2021]: >> Função ros5
+[Wed Dec  8 15:29:29 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 15:29:29 -03 2021]: >> Função ros5
+[Wed Dec  8 15:50:44 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 15:50:44 -03 2021]: >> Função ros5
+[Wed Dec  8 15:53:32 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1.0 --sd 0.3511
+[Wed Dec  8 15:53:32 -03 2021]: >> Função ros5
+[Wed Dec  8 15:56:30 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 0.7 --sd 0.3511
+[Wed Dec  8 15:56:30 -03 2021]: >> Função ros5
+[Wed Dec  8 16:03:06 -03 2021]: Iniciou a exec. para a configuração --c
+[Wed Dec  8 16:03:06 -03 2021]: >> Função ros5
+[Thu Dec  9 11:18:28 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  9 11:18:28 -03 2021]: >> Função ros2
+[Thu Dec  9 11:18:29 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  9 11:18:30 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 0.7 --sd 0.3511
+[Thu Dec  9 11:18:30 -03 2021]: >> Função ros2
+[Thu Dec  9 11:18:32 -03 2021]: Finalizou para a configuração --amxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 0.7 --sd 0.3511
+[Thu Dec  9 11:18:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  9 11:18:42 -03 2021]: >> Função she410
+[Thu Dec  9 11:19:58 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  9 11:19:58 -03 2021]: >> Função she47
+[Thu Dec  9 11:22:59 -03 2021]: Finalizou para a configuração --c
+[Thu Dec  9 11:22:59 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 0.7 --sd 0.3511
+[Thu Dec  9 11:22:59 -03 2021]: >> Função she47
+[Thu Dec  9 11:28:02 -03 2021]: Finalizou para a configuração --amxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 0.7 --sd 0.3511
+[Thu Dec  9 12:14:13 -03 2021]: Iniciou a exec. para a configuração --amxdmc --elsz 40 --dmstart 0.5 --dmfreq con --ptsz 1 --sd 0.3511
+[Thu Dec  9 12:14:13 -03 2021]: >> Função she47
+[Thu Dec  9 12:28:14 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.0751
+[Thu Dec  9 12:28:14 -03 2021]: >> Função she47
+[Thu Dec  9 12:28:19 -03 2021]: Iniciou a exec. para a configuração --mxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.0751
+[Thu Dec  9 12:28:19 -03 2021]: >> Função she47
+[Thu Dec  9 12:39:28 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 30 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.0751
+[Thu Dec  9 12:39:28 -03 2021]: >> Função she47
+[Thu Dec  9 14:02:10 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 90 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 0.4536
+[Thu Dec  9 14:02:10 -03 2021]: >> Função she47
+[Thu Dec  9 14:13:20 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 90 --dmstart 0.6 --dmfreq con --ptsz 0.9 --sd 0.4536
+[Thu Dec  9 14:13:20 -03 2021]: >> Função she47
+[Thu Dec  9 14:13:59 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 90 --dmstart 0.6 --dmfreq con --ptsz 0.8 --sd 0.4536
+[Thu Dec  9 14:13:59 -03 2021]: >> Função she47
+[Thu Dec  9 16:50:09 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.3 --dmfreq con --ptsz 0.8 --sd 0.8851
+[Thu Dec  9 16:50:09 -03 2021]: >> Função she47
+[Thu Dec  9 17:01:24 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.3 --dmfreq con --ptsz 0.8 --sd 0.8851
+[Thu Dec  9 17:01:24 -03 2021]: >> Função she45
+[Thu Dec  9 17:13:56 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.3 --dmfreq con --ptsz 0.8 --sd 0.8851
+[Thu Dec  9 17:13:56 -03 2021]: >> Função bea
+[Thu Dec  9 17:13:58 -03 2021]: >> Função bhc
+[Thu Dec  9 17:15:04 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.3 --dmfreq con --ptsz 0.8 --sd 0.8851
+[Thu Dec  9 17:15:04 -03 2021]: >> Função bea
+[Thu Dec  9 17:15:05 -03 2021]: >> Função bhc
+[Thu Dec  9 17:15:41 -03 2021]: >> Função boo
+[Thu Dec  9 17:15:52 -03 2021]: >> Função bra
+[Thu Dec  9 17:15:54 -03 2021]: >> Função eas
+[Thu Dec  9 17:16:03 -03 2021]: >> Função gol
+[Thu Dec  9 17:16:05 -03 2021]: >> Função mat
+[Thu Dec  9 17:16:05 -03 2021]: >> Função shc
+[Thu Dec  9 17:16:06 -03 2021]: >> Função ros2
+[Thu Dec  9 17:16:07 -03 2021]: >> Função sch2
+[Thu Dec  9 17:16:12 -03 2021]: >> Função shu
+[Thu Dec  9 17:16:14 -03 2021]: >> Função zak2
+[Thu Dec  9 17:16:20 -03 2021]: >> Função dej
+[Thu Dec  9 17:16:22 -03 2021]: >> Função har34
+[Thu Dec  9 17:16:24 -03 2021]: >> Função col
+[Thu Dec  9 17:18:45 -03 2021]: >> Função perm
+[Thu Dec  9 17:28:24 -03 2021]: >> Função perm0
+[Thu Dec  9 17:41:32 -03 2021]: >> Função pws
+[Thu Dec  9 17:42:58 -03 2021]: >> Função she45
+[Thu Dec  9 17:51:07 -03 2021]: >> Função she47
+[Thu Dec  9 18:01:32 -03 2021]: >> Função she410
+[Thu Dec  9 20:08:47 -03 2021]: >> Função ros5
+[Thu Dec  9 21:22:42 -03 2021]: Iniciou a exec. para a configuração --c
+[Thu Dec  9 21:22:42 -03 2021]: >> Função bea
+[Thu Dec  9 21:22:44 -03 2021]: >> Função bhc
+[Thu Dec  9 21:23:20 -03 2021]: >> Função boo
+[Thu Dec  9 21:23:31 -03 2021]: >> Função bra
+[Thu Dec  9 21:23:33 -03 2021]: >> Função eas
+[Thu Dec  9 21:23:40 -03 2021]: >> Função gol
+[Thu Dec  9 21:23:42 -03 2021]: >> Função mat
+[Thu Dec  9 21:23:42 -03 2021]: >> Função shc
+[Thu Dec  9 21:23:43 -03 2021]: >> Função ros2
+[Thu Dec  9 21:23:44 -03 2021]: >> Função sch2
+[Thu Dec  9 21:23:50 -03 2021]: >> Função shu
+[Thu Dec  9 21:23:51 -03 2021]: >> Função zak2
+[Thu Dec  9 21:23:58 -03 2021]: >> Função dej
+[Thu Dec  9 21:24:00 -03 2021]: >> Função har34
+[Thu Dec  9 21:24:02 -03 2021]: >> Função col
+[Thu Dec  9 21:26:23 -03 2021]: >> Função perm
+[Thu Dec  9 21:36:07 -03 2021]: >> Função perm0
+[Thu Dec  9 22:06:33 -03 2021]: >> Função pws
+[Thu Dec  9 22:08:07 -03 2021]: >> Função she45
+[Thu Dec  9 22:09:42 -03 2021]: >> Função she47
+[Thu Dec  9 22:11:36 -03 2021]: >> Função she410
+[Thu Dec  9 22:45:03 -03 2021]: >> Função ros5
+[Fri Dec 10 09:58:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 09:58:02 -03 2021]: >> Função bea
+[Fri Dec 10 09:58:03 -03 2021]: >> Função bhc
+[Fri Dec 10 09:58:48 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 09:58:48 -03 2021]: >> Função she410
+[Fri Dec 10 10:12:22 -03 2021]: >> Função ros5
+[Fri Dec 10 10:17:26 -03 2021]: >> Função zak5
+[Fri Dec 10 10:17:28 -03 2021]: >> Função har64
+[Fri Dec 10 10:17:32 -03 2021]: >> Função sch6
+[Fri Dec 10 10:19:13 -03 2021]: >> Função tri6
+[Fri Dec 10 10:19:15 -03 2021]: >> Função gri10
+[Fri Dec 10 10:58:02 -03 2021]: >> Função ras10
+[Fri Dec 10 10:58:36 -03 2021]: >> Função ros10
+[Fri Dec 10 11:18:54 -03 2021]: >> Função ssq10
+[Fri Dec 10 11:18:55 -03 2021]: >> Função tri10
+[Fri Dec 10 11:19:41 -03 2021]: >> Função zak10
+[Fri Dec 10 11:20:25 -03 2021]: >> Função gri20
+[Fri Dec 10 14:40:02 -03 2021]: >> Função ras20
+[Fri Dec 10 14:43:38 -03 2021]: >> Função ros20
+[Fri Dec 10 15:03:16 -03 2021]: >> Função ssq20
+[Fri Dec 10 15:03:20 -03 2021]: >> Função zak20
+[Fri Dec 10 15:18:13 -03 2021]: >> Função pow
+[Fri Dec 10 15:18:23 -03 2021]: >> Função dxp
+[Fri Dec 10 15:22:32 -03 2021]: >> Função ack30
+[Fri Dec 10 17:34:25 -03 2021]: >> Função lev
+[Fri Dec 10 18:47:10 -03 2021]: >> Função sph
+[Fri Dec 10 18:57:05 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 20:21:12 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 20:21:12 -03 2021]: >> Função bea
+[Fri Dec 10 20:21:13 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 20:22:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 20:22:11 -03 2021]: >> Função she410
+[Fri Dec 10 20:22:30 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 20:22:30 -03 2021]: >> Função bea
+[Fri Dec 10 20:22:31 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 20:22:31 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.3 --dmfreq con --ptsz 0.8 --sd 0.8851
+[Fri Dec 10 20:22:31 -03 2021]: >> Função bea
+[Fri Dec 10 20:22:32 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 20 --dmstart 0.3 --dmfreq con --ptsz 0.8 --sd 0.8851
+[Fri Dec 10 20:58:31 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 20:58:31 -03 2021]: >> Função bea
+[Fri Dec 10 20:58:32 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 20:58:32 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 20:58:32 -03 2021]: >> Função bea
+[Fri Dec 10 20:58:35 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 20:59:50 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 20:59:50 -03 2021]: >> Função bea
+[Fri Dec 10 20:59:50 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 20:59:50 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 20:59:50 -03 2021]: >> Função bea
+[Fri Dec 10 20:59:54 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 21:01:15 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 21:01:15 -03 2021]: >> Função eas
+[Fri Dec 10 21:01:18 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 21:01:18 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 21:01:18 -03 2021]: >> Função eas
+[Fri Dec 10 21:01:41 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 21:01:41 -03 2021]: >> Função shu
+[Fri Dec 10 21:01:42 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 21:01:42 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 21:01:42 -03 2021]: >> Função shu
+[Fri Dec 10 21:01:43 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 21:02:02 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 21:02:02 -03 2021]: >> Função tri6
+[Fri Dec 10 21:02:04 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 21:02:04 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 21:02:04 -03 2021]: >> Função tri6
+[Fri Dec 10 21:02:06 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 21:02:18 -03 2021]: Iniciou a exec. para a configuração --c
+[Fri Dec 10 21:02:18 -03 2021]: >> Função tri10
+[Fri Dec 10 21:03:05 -03 2021]: Finalizou para a configuração --c
+[Fri Dec 10 21:03:05 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Fri Dec 10 21:03:05 -03 2021]: >> Função tri10
+[Fri Dec 10 21:03:47 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.3601
+[Sat Dec 11 10:36:51 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Dec 11 10:36:51 -03 2021]: >> Função tri10
+[Sat Dec 11 10:37:46 -03 2021]: Finalizou para a configuração --c
+[Sat Dec 11 10:37:46 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
+[Sat Dec 11 10:37:46 -03 2021]: >> Função tri10
+[Sat Dec 11 10:38:36 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
+[Sat Dec 11 10:44:11 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Dec 11 10:44:11 -03 2021]: >> Função she45
+[Sat Dec 11 10:44:59 -03 2021]: Finalizou para a configuração --c
+[Sat Dec 11 10:44:59 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
+[Sat Dec 11 10:44:59 -03 2021]: >> Função she45
+[Sat Dec 11 10:47:12 -03 2021]: Finalizou para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
+[Sat Dec 11 10:48:56 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Dec 11 10:48:56 -03 2021]: >> Função she47
+[Sat Dec 11 10:50:04 -03 2021]: Finalizou para a configuração --c
+[Sat Dec 11 10:50:04 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
+[Sat Dec 11 10:50:04 -03 2021]: >> Função she47
+[Sat Dec 11 10:52:44 -03 2021]: Iniciou a exec. para a configuração --c
+[Sat Dec 11 10:52:44 -03 2021]: >> Função perm0
+[Sat Dec 11 10:53:27 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
+[Sat Dec 11 10:53:27 -03 2021]: >> Função perm0
+[Sat Dec 11 10:54:25 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
+[Sat Dec 11 10:54:25 -03 2021]: >> Função perm0

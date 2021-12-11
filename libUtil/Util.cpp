@@ -48,7 +48,7 @@
  void Util::printX(double *x, int n){
 	printf("(");
 	for (int i = 0; i < n; i++){
-		printf(" %lf", x[i]);
+		printf(" %.8lf", x[i]);
 		if (i < n-1){
 			printf(",");
 		}
