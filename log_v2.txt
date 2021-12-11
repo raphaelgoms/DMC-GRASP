@@ -3723,3 +3723,5 @@
 [Sat Dec 11 10:53:27 -03 2021]: >> Função perm0
 [Sat Dec 11 10:54:25 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
 [Sat Dec 11 10:54:25 -03 2021]: >> Função perm0
+[Sat Dec 11 18:19:04 -03 2021]: Iniciou a exec. para a configuração --rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
+[Sat Dec 11 18:19:04 -03 2021]: >> Função perm0

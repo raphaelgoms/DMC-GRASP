@@ -26,6 +26,6 @@ echo "[$(date)]: Iniciou a exec. para a configuração $config" | tee -a log_v2.
 		./CGrasp -i ${funcFullName[$func]} --nvar ${funcDim[$func]} $config
 	done
 echo "[$(date)]: Finalizou para a configuração $config" | tee -a log_v2.txt
-done < configurations.txt
+done < configurations
 
 
