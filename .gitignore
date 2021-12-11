@@ -1,0 +1,11 @@
+*.dat
+*.gpl
+*.csv
+*.ps
+*.gz
+*.zip
+./CFOs
+./it10
+./backup
+.vscode
+./.ipynb_checkpoints

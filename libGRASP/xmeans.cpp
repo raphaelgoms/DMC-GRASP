@@ -2,6 +2,37 @@
 #include <math.h>
 #include <iostream>
 
+vector<map<int, double>> Xmeans::extractPatterns(const vector<vector<double>>& elite, const vector<double>& lower_bound, const vector<double>& upper_bound) {
+	
+	// Clusteriza elite:
+	int elite_size = elite.size();
+	int problem_size = elite.front().size();
+	vector<MCluster> clusters = xMeans(elite, elite_size, lower_bound, upper_bound);
+	
+	int idx = -1;
+	int maxSize = 0;
+
+	max_radius = 0;
+	vector<map<int, double>> patterns;
+	for (int i = 0; i < clusters.size(); i++)
+	{
+		if (clusters[i].points.size()) {
+			vector<double> centroid = getCentroid(clusters[i].points);
+			map<int, double> pattern;
+			for (int i = 0; i < problem_size; i++)
+				pattern.insert(pair<int, double>(i, centroid[i]));
+			
+			patterns.push_back(pattern);
+			if (max_radius < clusters[i].radius) {
+				max_radius = clusters[i].radius;
+			}
+		}		
+	}
+
+	return patterns;	
+}
+
+
 map<int, double> Xmeans::extractPatternAfterClustering(const vector<vector<double>>& elite, const vector<double>& lower_bound, const vector<double>& upper_bound) {
 	
 	// Clusteriza elite:
@@ -189,6 +220,7 @@ vector<MCluster> Xmeans::kMeans(const vector<vector<double>> &data, int k, vecto
 
 	for (int i = 0; i < k; i++)	{
 		MCluster c;
+		c.radius = 0;
 		c.centroid = vector<double>();
 		for (int j = 0; j < dim; j++) {
 			c.centroid.push_back((max[j] - min[j]) * randDouble() + min[j]);
@@ -208,14 +240,19 @@ vector<MCluster> Xmeans::kMeans(const vector<vector<double>> &data, int k, vecto
 
 		for (int i = 0; i < data.size(); i++) {
 			double min_dist = INFINITY;
+			double selected_dist = 0;
 			for (int j = 0; j < k; j++)
 			{
 				double dist = distance(data[i], clusters[j].centroid);
 				if (dist < min_dist) {				
 					min_dist = dist;
 					nearest = j;
+					selected_dist = dist;
 				}
 			}
+
+			if (selected_dist > clusters[nearest].radius) 
+				  clusters[nearest].radius = selected_dist;
 
 			clusters[nearest].points.push_back(data[i]);
 		}

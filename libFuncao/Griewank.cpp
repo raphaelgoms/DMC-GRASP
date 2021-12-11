@@ -43,11 +43,12 @@ double Griewank::calc(double *x){
 	long double value = 0, sum = 0, prod = 1;
 	int i;
 
-	for (i =0; i<n; i++){		sum += pow(x[i],2)/4000;
+	for (i =0; i<n; i++){
+		sum += pow(x[i],2)/4000;
 		prod *= cos(x[i]/sqrt((long double) i + 1));
 	}
 	value = sum - prod + 1;
-
+	
 	return value;
 }
 

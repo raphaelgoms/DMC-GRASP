@@ -36,7 +36,17 @@ bool Rosenbrock2::isNearOptimum(double fBest){
 	double deltaValue =	fabs(fBest - minValue);
 	double equation;
 	
-	equation = fabs(minValue)*0.0001 + 0.000001;	
+	// if (fabs(minValue) > 0)
+	// 	equation = fabs(minValue)*0.0001 + 0.000001;	
+	// else 
+	// 	equation = 0.0001 + 0.000001;
+
+	if (fabs(minValue) > 0)
+		equation = fabs(minValue)*0.001;	
+	else 
+		equation = 0.001;
+
+	//std::cout << deltaValue << std::endl;
 	//equation = fabs(bestValue)*0.0001 + 0.01;	
 	if ((deltaValue < equation) || (Util::equals(deltaValue, equation))){
 		return true;
@@ -51,10 +61,11 @@ double Rosenbrock2::calc(double *x){
 	double fx = 0.0; 
 	cont++;
 		
-	for (int i = 0; i < n-1; i++){		parent1 = pow(((x[i]*x[i]) - x[i+1]), 2); //(x[0]^2 - x[1])^2
+	for (int i = 0; i < n-1; i++){
+		parent1 = pow(((x[i]*x[i]) - x[i+1]), 2); //(x[0]^2 - x[1])^2
 		parent2 = pow((x[i] - 1), 2);           //(x[0] - 1)^2
 	
-		fx += (100*parent1 + parent2); 
+		fx += (100.0*parent1 + parent2); 
 	}
 
 	//printf("Fx = %lf \n", fx);
@@ -66,7 +77,8 @@ double Rosenbrock2::calc2(ap::real_1d_array x){
 	double parent1, parent2;
 	double fx = 0.0; 
 	cont++;
-	for (int i = 1; i < n; i++){		parent1 = pow(((x(i)*x(i))-x(i+1)), 2); //(x[0]^2 - x[1])^2
+	for (int i = 1; i < n; i++){
+		parent1 = pow(((x(i)*x(i))-x(i+1)), 2); //(x[0]^2 - x[1])^2
 		parent2 = pow((x(i) - 1), 2);           //(x[0] - 1)^2
 	
 		fx += (100*parent1 + parent2); 

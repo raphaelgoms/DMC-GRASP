@@ -1,7 +1,9 @@
 #!/bin/bash
 
-F=(bea bhc boo bra eas gol mat shc ros2 sch2 shu zak2 dej har34 \
-  col perm perm0 pws she45 she47 she410 ros5 zak5 har64 sch6 tri6 \
+# bea bhc boo bra eas gol mat shc ros2 sch2 shu zak2 dej har34 \
+#  col perm perm0 pws she45 she47 
+
+F=(she410 ros5 zak5 har64 sch6 tri6 \
   gri10 ras10 ros10 ssq10 tri10 zak10 \
   gri20 ras20 ros20 ssq20 zak20 pow dxp ack30 lev sph)
 
@@ -20,13 +22,15 @@ declare -A funcFullName=([bea]=BEALE [bhc]=BOHACHEVSKY [boo]=BOOTH [bra]=BRANIN 
 						[ack30]=ACKLEY [lev]=LEVY [sph]=SPHERE)
 E=(10)
 
-for e in ${E[@]}; do
-  for func in ${F[@]}; do
-    echo "[$(date)]: Iniciou a exec. para a função $func" | tee -a log_v2.txt
-	./CGrasp ${funcFullName[$func]} ${funcDim[$func]} 0
-	./CGrasp ${funcFullName[$func]} ${funcDim[$func]} 1
-    echo "[$(date)]: Finalizou para a função $func" | tee -a log_v2.txt
-  done
-done
+
+
+while read config; do
+echo "[$(date)]: Iniciou a exec. para a configuração $config" | tee -a log_v2.txt
+	for func in ${F[@]}; do
+		echo "[$(date)]: >> Função $func" | tee -a log_v2.txt
+		./CGrasp -i ${funcFullName[$func]} --nvar ${funcDim[$func]} $config
+	done
+echo "[$(date)]: Finalizou para a configuração $config" | tee -a log_v2.txt
+done < configurations.txt
 
 
