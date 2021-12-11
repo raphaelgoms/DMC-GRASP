@@ -43,7 +43,7 @@ double Branin::calc(double *x){
 	cont++;
 	long double fX,pi=3.14159265;
 
-  	fX = pow(x[1] - (5.1*pow(x[0],2))/(4*pow(pi,2)) + 5*x[0]/pi - 6, 2) +
+  	fX = pow(x[1] - (5*pow(x[0],2))/(4*pow(pi,2)) + 5*x[0]/pi - 6, 2) +
           10*(1.0 - 1.0/(8*pi)) * cos(x[0]) + 10.0;
 	
    return fX;

@@ -60,7 +60,7 @@ bool Shekel::isNearOptimum(double fBest){
 double Shekel::calc(double *x){
 	cont++;
 	long double value,sum,totsum,temp;
-  	long double a[10][4]={{4,4,4,4},{1,1,1,1},{8,8,8,8},{6,6,6,6},{3,7,3,7},{2,9,2,9},
+  	long double a[10][4]={{4,4,4,4},{1,1,1,1},{8,8,8,8},{6,6,6,6},{7,3,7,3},{2,9,2,9},
                    {5,5,3,3},{8,1,8,1},{6,2,6,2},{7,3.6,7,3.6}};
   	long double c[10]={0.1,0.2,0.2,0.4,0.4,0.6,0.3,0.7,0.5,0.5};
   	int i,j;
@@ -73,7 +73,7 @@ double Shekel::calc(double *x){
     	  sum += temp;
     	}
     	sum += c[i];
-    	totsum += pow(sum,-1);
+    	totsum += pow(sum,-1.0);
   	}	
 
   	value = -totsum;
@@ -110,7 +110,7 @@ double Shekel::calc(double *x){
 	contGrad++;
 	long double sum,totsum,temp;
   	long double a[10][4]={{4,4,4,4},{1,1,1,1},{8,8,8,8},{6,6,6,6},{3,7,3,7},{2,9,2,9},
-                   {5,5,3,3},{8,1,8,1},{6,2,6,2},{7,3.6,7,3.6}};
+                   {5,5,3,3},{8,1,8,1},{6,2,6,2},{7,2.6,7,3.6}};
   	long double c[10]={0.1,0.2,0.2,0.4,0.4,0.6,0.3,0.7,0.5,0.5};
   	int i,j;
 

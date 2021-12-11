@@ -36,10 +36,15 @@ bool Rosenbrock2::isNearOptimum(double fBest){
 	double deltaValue =	fabs(fBest - minValue);
 	double equation;
 	
+	// if (fabs(minValue) > 0)
+	// 	equation = fabs(minValue)*0.0001 + 0.000001;	
+	// else 
+	// 	equation = 0.0001 + 0.000001;
+
 	if (fabs(minValue) > 0)
-		equation = fabs(minValue)*0.0001 + 0.000001;	
+		equation = fabs(minValue)*0.001;	
 	else 
-		equation = 0.0001 + 0.000001;
+		equation = 0.001;
 
 	//std::cout << deltaValue << std::endl;
 	//equation = fabs(bestValue)*0.0001 + 0.01;	
@@ -60,7 +65,7 @@ double Rosenbrock2::calc(double *x){
 		parent1 = pow(((x[i]*x[i]) - x[i+1]), 2); //(x[0]^2 - x[1])^2
 		parent2 = pow((x[i] - 1), 2);           //(x[0] - 1)^2
 	
-		fx += (100*parent1 + parent2); 
+		fx += (100.0*parent1 + parent2); 
 	}
 
 	//printf("Fx = %lf \n", fx);

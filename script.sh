@@ -1,7 +1,9 @@
 #!/bin/bash
 
-F=(bea bhc boo bra eas gol mat shc ros2 sch2 shu zak2 dej har34 \
-  col perm perm0 pws she45 she47 she410 ros5 zak5 har64 sch6 tri6 \
+# bea bhc boo bra eas gol mat shc ros2 sch2 shu zak2 dej har34 \
+#  col perm perm0 pws she45 she47 
+
+F=(she410 ros5 zak5 har64 sch6 tri6 \
   gri10 ras10 ros10 ssq10 tri10 zak10 \
   gri20 ras20 ros20 ssq20 zak20 pow dxp ack30 lev sph)
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-F=(har34)
-#F=(bra gol eas shu har34 har64 ros2 ros5 ros10 she45 she47 she410 zak5 zak10)
+F=(perm0)
+#F=(bra gol eas shu har34 har64 she45 she47 she410 zak5 zak10 ros2 ros5 ros10 )
 
 declare -A funcDim=([eas]=2 [shc]=2 [bea]=2 [tri6]=6 [tri10]=10 [boo]=2 [she45]=5 [she410]=10 [zak5]=5 [bra]=2 [gol]=2 [ros2]=2 [shu]=2 \
 		   	[har34]=3 [she47]=7 [ros5]=5 [bhc]=2 \
