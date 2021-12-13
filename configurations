@@ -1,3 +1,3 @@
---rmxdmc --elsz 20 --dmstart 0.9 --dmfreq con --ptsz 1.0 --sd 0.2046
 --c
+--rmxdmc --elsz 40 --dmstart 0.2 --dmfreq con --ptsz 0.9 --sd 0.8808
 .
