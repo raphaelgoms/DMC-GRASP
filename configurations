@@ -1,3 +1,7 @@
 --c
---rmxdmc --elsz 40 --dmstart 0.2 --dmfreq con --ptsz 0.9 --sd 0.8808
+--dmc --elsz 40 --dmstart 0.4 --dmfreq con --ptsz 1.0 --sd 0.685
+--xdmc --elsz 40 --dmstart 0.1 --dmfreq con --ptsz 0.8 --sd 0.0814
+--mxdmc --elsz 70 --dmstart 0.1 --dmfreq con --ptsz 0.9 --sd 0.0712
+--rmxdmc --elsz 70 --dmstart 0.4 --dmfreq con --ptsz 0.9 --sd 0.3723
+--amxdmc --elsz 60 --dmstart 0.6 --dmfreq con --ptsz 1.0 --sd 1.0
 .

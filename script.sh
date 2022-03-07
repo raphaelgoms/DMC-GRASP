@@ -3,9 +3,11 @@
 # bea bhc boo bra eas gol mat shc ros2 sch2 shu zak2 dej har34 \
 #  col perm perm0 pws she45 she47 
 
-F=(she410 ros5 zak5 har64 sch6 tri6 \
-  gri10 ras10 ros10 ssq10 tri10 zak10 \
-  gri20 ras20 ros20 ssq20 zak20 pow dxp ack30 lev sph)
+F=(bea bhc boo bra eas gol mat shc ros2 sch2 shu zak2 dej har34 \
+  col perm perm0 pws she45 she47 she410) 
+  #zak5 ros5 har64 sch6 tri6 \
+  #gri10 ras10 ros10 ssq10 tri10 zak10 \
+  #gri20 ras20 ros20 ssq20 zak20 pow dxp ack30 lev sph)
 
 declare -A funcDim=([eas]=2 [shc]=2 [bea]=2 [tri6]=6 [tri10]=10 [boo]=2 [she45]=5 [she410]=10 [zak5]=5 [bra]=2 [gol]=2 [ros2]=2 [shu]=2 \
 		   	[har34]=3 [she47]=7 [ros5]=5 [bhc]=2 \

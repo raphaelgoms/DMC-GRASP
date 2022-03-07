@@ -7,6 +7,12 @@
 #include <sys/time.h>
 #include <string>
 
+#include <fstream>
+#include <vector>
+#include <utility> // std::pair
+#include <stdexcept> // std::runtime_error
+#include <sstream> // std::stringstream
+
 //#include "DMCGrasp.h"
 #include "Funcao.h"
 #include "MersenneTwister.h"
@@ -44,7 +50,6 @@
 #include "cgrasp.h"
 #include <sys/resource.h>
 #include <iostream>
-#include <fstream>
 #include <boost/algorithm/string.hpp>
 #include <map>
 
@@ -83,12 +88,14 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 	u = new double[n];
 	int exp_number = 1;
 
-	plo = 0.7;			
-	switch(iFuncNum){
+	plo = 0.7;
+				
+	switch(iFuncNum)
+	{
 		case Funcao::ROSENBROCK: 
-				hs = 1;
-				he = 0.005;
-				if (n == 20){
+				hs = 0.5;
+				he = 0.0001;
+				if (n == 20) {
 					hs = 0.1;
 					he = 0.05;
 				}
@@ -106,14 +113,14 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				}			
 				else if (n == 10) {
 					hs = 1.0;
-					he = 0.0001;
+					he = 0.001;
 				}			
 				else if (n == 20){			
-					hs = 2.0;
-					he = 0.05;
+					hs = 1.0;
+					he = 0.0001;
 				} else {
 					hs = 1.0;
-					he = 0.1;
+					he = 0.01;
 				}
 
 				for (int i =0; i < n; i++){
@@ -124,7 +131,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				break;
 		case Funcao::SUMSQUARES:
 				hs = 1.0;
-				he = 0.5;
+				he = 0.001;
 				for (int i =0; i < n; i++){
 					l[i] = -5.0;
 					u[i] = 10.0;
@@ -174,11 +181,11 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				u = new double[n];				
 
 				hs = 1;
-				he = 0.0005;
+				he = 0.005;
 
 				if (m==10){
 					hs = 1;
-					he = 0.0001;
+					he = 0.001;
 					//cout << "m = " << m << " n = " << n << endl; 
 				}
 
@@ -197,7 +204,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				if (n == 3)
 					he = 0.005;
 				else 
-					he = 0.005;		
+					he = 0.001;		
  
 				for (int i =0; i < n; i++){
 					l[i] = 0.0;
@@ -230,7 +237,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::BOOTH:
 				hs = 1.0;
-				he = 0.5;
+				he = 0.05;
 				for (int i =0; i < n; i++){
 					l[i] = -10.0;
 					u[i] = 10.0;
@@ -240,7 +247,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::BOHACHEVSKY:
 				hs = 1.0;
-				he = 0.5;
+				he = 0.01;
 				for (int i =0; i < n; i++){
 					l[i] = -50.0;
 					u[i] = 100.0;
@@ -271,11 +278,11 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 		case Funcao::SCHWEFEL:
 				if (n == 2){	
 					hs = 5.0;
-					he = 0.25;
+					he = 0.001;;
 				}
 				else if (n==6){
 					hs = 50.0;
-					he = 0.25;
+					he = 0.001;;
 				}
 
 				for (int i =0; i < n; i++){
@@ -287,7 +294,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 	
 		case Funcao::COLVILLE:
 				hs = 1.0;
-				he = 0.1;
+				he = 0.0005;
 				for (int i =0; i < n; i++){
 					l[i] = -10.0;
 					u[i] = 10.0;
@@ -299,7 +306,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				//hs = 1.0;
 				//he = 0.01;
 				hs = 0.1;
-				he = 0.0125;
+				he = 0.0001;
 				for (int i =0; i < n; i++){
 					l[i] = (double) -n;
 					u[i] = (double) n;
@@ -309,7 +316,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::PERM0:
 				hs = 1.0;
-				he = 0.01;
+				he = 0.0001;
 				//hs = 0.1;
 				//he = 0.0125;
 				for (int i =0; i < n; i++){
@@ -321,7 +328,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::POWERSUM:
 				hs = 1.0;
-				he = 0.1;
+				he = 0.01;
 				for (int i =0; i < n; i++){
 					l[i] = (double) 0.0;
 					u[i] = (double) n;
@@ -332,7 +339,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::GRIEWANK:
 				hs = 10.0;
-				he = 0.25;
+				he = 0.001;
 				for (int i =0; i < n; i++){
 					l[i] = -300.0;
 					u[i] = 600.0;
@@ -344,7 +351,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 				//hs = 1.0;
 				//he = 0.1;
 				hs = 0.5;
-				he = 0.1;
+				he = 0.0005;
 				for (int i =0; i < n; i++){
 					l[i] = -2.56;
 					u[i] = 5.12;
@@ -373,7 +380,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::POWELL:
 				hs = 1.0;
-				he = 0.1;
+				he = 0.0005;
 				for (int i =0; i < n; i++){
 					l[i] = -4.0;
 					u[i] = 5.0;
@@ -383,7 +390,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::DIXONPRICE:
 				hs = 5.0;
-				he = 0.25;
+				he = 0.0005;//25;
 				for (int i =0; i < n; i++){
 					l[i] = -10.0;
 					u[i] = 10.0;
@@ -393,7 +400,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::ACKLEY:
 				hs = 5.0;
-				he = 0.05;
+				he = 0.0005;
 				for (int i =0; i < n; i++){
 					l[i] = -15.0;
 					u[i] = 30.0;
@@ -404,7 +411,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::LEVY:
 				hs = 1.0;
-				he = 0.1;
+				he = 0.0005;
 				for (int i =0; i < n; i++){
 					l[i] = -10.0;
 					u[i] = 10.0;
@@ -414,7 +421,7 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 		case Funcao::SPHERE:
 				hs = 2.0;
-				he = 0.05;
+				he = 0.005;
 				for (int i =0; i < n; i++){
 					l[i] = -2.56;
 					u[i] = 5.12;
@@ -425,6 +432,18 @@ Parameters getParameters(int iFuncNum, int n, Funcao **func){
 
 	}
 
+	hs = 0.5;
+
+	// if (n < 10) {
+	// 	he = 0.01;
+	// } else {
+	// 	he = 0.001;
+	// }
+
+	//he = 0.01;
+	he = 0.0005;
+
+	
 
 	Parameters parameters;
 	parameters.l = l;
@@ -812,46 +831,46 @@ map<std::string, std::vector<int>> createMaxCFObySeedMap(std::string funcName)
 
 map<std::string, int> createMaxCFOMap() {
 	map<std::string, int> *max_cfo_map = new map<std::string, int>();
-	max_cfo_map->insert(pair<std::string, int>("BEALE2", 10939));
-	max_cfo_map->insert(pair<std::string, int>("BOHACHEVSKY2", 201196));
-	max_cfo_map->insert(pair<std::string, int>("BOOTH2", 100105));
-	max_cfo_map->insert(pair<std::string, int>("BRANIN2", 11999));
-	max_cfo_map->insert(pair<std::string, int>("EASOM2", 102765));
-	max_cfo_map->insert(pair<std::string, int>("GOLDSTEINPRICE2", 14620));
-	max_cfo_map->insert(pair<std::string, int>("MATYAS2", 2104));
-	max_cfo_map->insert(pair<std::string, int>("HUMP2", 9466));
-	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK2", 7755));
-	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL2", 136605));
-	max_cfo_map->insert(pair<std::string, int>("SHUBERT2", 14339));
-	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV2", 66771));
-	max_cfo_map->insert(pair<std::string, int>("SPHERE3", 9443));
-	max_cfo_map->insert(pair<std::string, int>("HARTMANN3", 4470));
-	max_cfo_map->insert(pair<std::string, int>("COLVILLE4",652347));
-	max_cfo_map->insert(pair<std::string, int>("PERM4", 813418));
-	max_cfo_map->insert(pair<std::string, int>("PERM04", 1.07404e+06));
-	max_cfo_map->insert(pair<std::string, int>("POWERSUM4", 274536));
-	max_cfo_map->insert(pair<std::string, int>("SHEKEL45", 680741));
-	max_cfo_map->insert(pair<std::string, int>("SHEKEL47", 611827));
-	max_cfo_map->insert(pair<std::string, int>("SHEKEL410", 6.87419e+06));
-	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK5", 1.09184e+07));
-	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV5", 113071));
-	max_cfo_map->insert(pair<std::string, int>("HARTMANN6", 106850));
-	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL6", 2.30E+08));
-	max_cfo_map->insert(pair<std::string, int>("TRID6", 62510));
+	max_cfo_map->insert(pair<std::string, int>("BEALE2", 504005));
+	max_cfo_map->insert(pair<std::string, int>("BOHACHEVSKY2", 190894));
+	max_cfo_map->insert(pair<std::string, int>("BOOTH2", 15044));
+	max_cfo_map->insert(pair<std::string, int>("BRANIN2", 14318));
+	max_cfo_map->insert(pair<std::string, int>("EASOM2", 2.02724e+07));
+	max_cfo_map->insert(pair<std::string, int>("GOLDSTEINPRICE2", 71087));
+	max_cfo_map->insert(pair<std::string, int>("MATYAS2", 1850));
+	max_cfo_map->insert(pair<std::string, int>("HUMP2", 8314));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK2", 6978));
+	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL2", 166836));
+	max_cfo_map->insert(pair<std::string, int>("SHUBERT2", 19425));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV2", 10332));
+	max_cfo_map->insert(pair<std::string, int>("SPHERE3", 8793));
+	max_cfo_map->insert(pair<std::string, int>("HARTMANN3", 28678));
+	max_cfo_map->insert(pair<std::string, int>("COLVILLE4",272563));
+	max_cfo_map->insert(pair<std::string, int>("PERM4", 3.746e+06));
+	max_cfo_map->insert(pair<std::string, int>("PERM04", 3.15803e+06));
+	max_cfo_map->insert(pair<std::string, int>("POWERSUM4", 1.92637e+06));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL45", 4.9803e+06));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL47", 6.47833e+06));
+	max_cfo_map->insert(pair<std::string, int>("SHEKEL410", 8.90985e+06));
+	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK5", 1.09573e+07));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV5", 27199));
+	max_cfo_map->insert(pair<std::string, int>("HARTMANN6", 10356));
+	max_cfo_map->insert(pair<std::string, int>("SCHWEFEL6", 2.22138e+06));
+	max_cfo_map->insert(pair<std::string, int>("TRID6", 15865));
 	max_cfo_map->insert(pair<std::string, int>("GRIEWANK10", 1.31649e+07));
-	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN10", 237339));
+	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN10",600119));
 	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK10", 2.21233e+07));
-	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES10", 104057));
-	max_cfo_map->insert(pair<std::string, int>("TRID10", 1.13991e+06));
-	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV10", 4.32147e+06));
+	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES10", 249864));
+	max_cfo_map->insert(pair<std::string, int>("TRID10", 110000));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV10", 91973));
 	max_cfo_map->insert(pair<std::string, int>("GRIEWANK20", 4.48394e+07));
-	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN20", 819181));
+	max_cfo_map->insert(pair<std::string, int>("RASTRIGIN20", 3.78949e+06));
 	max_cfo_map->insert(pair<std::string, int>("ROSENBROCK20", 1.11063e+07));
-	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES20", 370371));
-	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV20", 6.12727e+07));
-	max_cfo_map->insert(pair<std::string, int>("POWELL24", 638299));
+	max_cfo_map->insert(pair<std::string, int>("SUMSQUARES20", 1.62598e+06));
+	max_cfo_map->insert(pair<std::string, int>("ZAKHAROV20", 654126));
+	max_cfo_map->insert(pair<std::string, int>("POWELL24", 18808));
 	max_cfo_map->insert(pair<std::string, int>("DIXONPRICE25", 1.52986e+06));
-	max_cfo_map->insert(pair<std::string, int>("ACKLEY30", 1.79728e+07));
+	max_cfo_map->insert(pair<std::string, int>("ACKLEY30", 5.50139e+07));
 	max_cfo_map->insert(pair<std::string, int>("LEVY30", 4.82452e+06));
 	max_cfo_map->insert(pair<std::string, int>("SPHERE30", 3.79675e+06));
 
@@ -887,6 +906,61 @@ bool isAlgorithmCode(const char *str, string &algorithmName)
 
 }
 
+int getMaxCFOsNumber(std::string filename, std::string func_name) {
+
+	std::ifstream myFile(filename);
+    if(!myFile.is_open()) cout << "Could not open file" << endl;
+
+	int CFOsColumn = -1;
+	std::string line, colname, val;
+    int col_number;
+
+    // Read the column names
+    if(myFile.good())
+    {
+        // Extract the first line in the file
+        std::getline(myFile, line);
+        std::stringstream ss(line);
+
+        // Extract each column name
+		col_number = 0;
+        while(std::getline(ss, colname, ';')){
+			if (colname == "CFOs")
+				CFOsColumn = col_number;
+
+			col_number++;
+        }
+    }
+
+	while(std::getline(myFile, line))
+    {
+        // Create a stringstream of the current line
+        std::stringstream ss(line);
+        
+        // Keep track of the current column index
+        int colIdx = 0;
+        
+        while(std::getline(ss, val, ';')){
+			//cout << "val: "<<  val << endl;
+			if (colIdx == 0 && val != func_name) {
+				break;
+			}	
+			
+			if (colIdx == CFOsColumn) {
+				return floor(stof(val));
+			}
+
+			//if(ss.peek() == ';') ss.ignore();
+            colIdx++;
+        }
+    }
+
+	myFile.close();
+	return -1;
+}
+
+
+
 
 int main(int argc, char **argv)
 {	
@@ -898,8 +972,8 @@ int main(int argc, char **argv)
 	int eliteSize;
 	double dmStartMoment;
 	int dmFreqStrategy; 
-	double patternPercentUsed;
-	double standardDeviation;
+	double patternPercentUsed = 0.0;
+	double standardDeviation = 0.0;
 
 	string arguments("");
 
@@ -982,10 +1056,18 @@ int main(int argc, char **argv)
 	} else {
 		funcCode += to_string(problemDim);
 	}
+	
 
-	int max_cfos = max_cfo_map[funcCode];
+	int max_cfos = 0;
+	if (algCode.compare("c"))
+		max_cfos = getMaxCFOsNumber("./out(c ).csv", funcCode);
+
+	//cout << funcCode << ": " << max_cfos << endl;
+	//return 0;
+	//int max_cfos = max_cfo_map[funcCode];
+
 	bool success = 0;
-	int number_of_iterations = 40;
+	int number_of_iterations = 20;
 	
 	double soma = 0.0;
 	double min = 1.0e+30;
@@ -996,15 +1078,16 @@ int main(int argc, char **argv)
 	double s_CPU_inicial, s_CPU_final;
   	double s_total_inicial, s_total_final;
 	
-	std::ofstream sol_file(algCode + "_sol_file.dat");	
-	int num_runs = 100;
+	bool save_results = true;
+	//std::ofstream ttt_time_file("./tttplots_data/" + algCode +"_" + funcCode + "_time_file.dat");	
+	//std::ofstream ttt_cfo_file("./tttplots_data/" +algCode +"_" + funcCode + "_cfo_file.dat");	
+	std::ofstream fo_file("./fobj/" +algCode +"_" + funcCode + "_fo_file.dat");
+	int num_runs = 30;
 	for (int i = 0; i < num_runs; i++)
 	{
 		seed = 270000 + i + 1;
 
 		Funcao *func;
-
-		
 		Parameters parameters = getParameters(iFuncNumb, problemDim, &func);
 
 		int dimension = problemDim;
@@ -1015,17 +1098,25 @@ int main(int argc, char **argv)
 		//cout << "Best: " << func->calc(x) << endl;
 
 		Tempo_CPU_Sistema(&s_CPU_inicial, &s_total_inicial);
-		result = cgrasp(algCode.c_str(), dmFreqStrategy, dmStartMoment, patternPercentUsed, eliteSize, dimension, parameters.l, parameters.u, func, parameters.hs, 
+		result = cgrasp(funcCode.c_str(), algCode.c_str(), dmFreqStrategy, dmStartMoment, patternPercentUsed, eliteSize, dimension, parameters.l, parameters.u, func, parameters.hs, 
 			parameters.he, parameters.plo, number_of_iterations, max_cfos, seed, success, standardDeviation);
-		Tempo_CPU_Sistema(&s_CPU_final, &s_total_final);
+		Tempo_CPU_Sistema(&s_CPU_final, & s_total_final);
 
 		if (result < min)
 			min = result;
 
-		//if (success)
-			sol_file << (s_CPU_final - s_CPU_inicial) << endl;
+		if (save_results) {
+			// if (success) {
+			//  	ttt_time_file << (s_CPU_final - s_CPU_inicial) << endl;
+			//  	ttt_cfo_file << func->getFnEvals() << endl;
+			// }
+
+			fo_file << result << endl;
+		}
 
 		//cout << "result: " << result << endl;
+		
+		
 		soma += result;
 		success_rate += success;
 		avg_cfos += func->getFnEvals();
@@ -1038,7 +1129,7 @@ int main(int argc, char **argv)
 	avg_time /= num_runs;
 	//success_rate = success_rate * 100 / num_runs;
 	avg_time /= num_runs;
-
+	
 	string filepath("out(" + arguments + ").csv");
 
 	std::ofstream outfile;
@@ -1051,7 +1142,9 @@ int main(int argc, char **argv)
 
 	outfile << funcCode << ";" << problemDim << ";" << min << ";" << average << ";" << avg_cfos << ";" << avg_time << ";" << success_rate << endl;
 	outfile.close();
-	sol_file.close();
+	// ttt_time_file.close();
+	// ttt_cfo_file.close();
+	fo_file.close();
 
 	//if (print) 
 	//	cout << "Result: " << result << endl;

@@ -26,17 +26,15 @@
 
 #include <sys/resource.h>
 #include <algorithm>
-#include<numeric>
+#include <numeric>
+#include <fstream>
 #include "xmeans.h"
-
-
-
 
 using namespace std;
 
 #include <random>
-std::random_device rd;  // Will be used to obtain a seed for the random number engine
-std::mt19937 gen(1); // Standard mersenne_twister_engine seeded with rd()
+std::random_device rd; // Will be used to obtain a seed for the random number engine
+std::mt19937 gen(1);   // Standard mersenne_twister_engine seeded with rd()
 std::uniform_real_distribution<> dis(0, 1);
 
 int debugLevel = DEBUG_LEVEL0_;
@@ -55,7 +53,7 @@ int g_elite_size;
 int extraiu = 0;
 int numDivisions = 0;
 int CURRENTSIZE = 0;
-double * deviations;
+double *deviations;
 
 double currentStep;
 
@@ -130,20 +128,21 @@ int urand_ind(int max_ind)
 	//return (int)(genrand_real1() * max_ind);
 
 	//unsigned long r = genrand_int32();
-	return floor (dis(gen)* max_ind);
+	return floor(dis(gen) * max_ind);
 }
 
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-int * dimSortedByDeviations;
+int *dimSortedByDeviations;
 
-void sortByDeviations(int size) 
+void sortByDeviations(int size)
 {
 	//printf("sort by deviation\n");
 	int i, j;
-	dimSortedByDeviations = (int*) malloc(size * sizeof(int));
-	for (i = 0; i < size; i++) {
-		dimSortedByDeviations[i]=i;
+	dimSortedByDeviations = (int *)malloc(size * sizeof(int));
+	for (i = 0; i < size; i++)
+	{
+		dimSortedByDeviations[i] = i;
 	}
 
 	for (j = 1; j < size; j++)
@@ -172,51 +171,59 @@ int selectByRank(int n)
 	int rank = n;
 	int selected = 0;
 
-	double full_sum = (n *(n+1))/2;
-	double cum_prob = (double)rank/full_sum;
-	while (r > cum_prob) {
+	double full_sum = (n * (n + 1)) / 2;
+	double cum_prob = (double)rank / full_sum;
+	while (r > cum_prob)
+	{
 		selected++;
 		rank--;
-		cum_prob += (double)rank/full_sum;
+		cum_prob += (double)rank / full_sum;
 	}
-	
+
 	return selected;
 }
 
-int * getRandSubSet(int n, int k, int use_rank) {
+int *getRandSubSet(int n, int k, int use_rank)
+{
 	int i, *set, *aux;
 
 	if (use_rank)
 		sortByDeviations(n);
-	
-	set = (int*) malloc (k*sizeof(int));
 
-	if (use_rank) {
+	set = (int *)malloc(k * sizeof(int));
+
+	if (use_rank)
+	{
 		aux = dimSortedByDeviations;
-	} else {
-		aux = (int*) malloc (n*sizeof(int));
-		for (i=0; i<n; i++) {
+	}
+	else
+	{
+		aux = (int *)malloc(n * sizeof(int));
+		for (i = 0; i < n; i++)
+		{
 			aux[i] = i;
 		}
 	}
 
-	int m = n-1, r;
-	for (i=0; i<k; i++) {
-		if (use_rank) {
+	int m = n - 1, r;
+	for (i = 0; i < k; i++)
+	{
+		if (use_rank)
+		{
 			r = selectByRank(m);
-		} else {
+		}
+		else
+		{
 			r = urand_ind(m);
 		}
 
-		set[i] = aux[r]; 
+		set[i] = aux[r];
 		aux[r] = aux[m];
 		m--;
 	}
 
 	return set;
 }
-
-
 
 void UnifRand(int n, double *l, double *u, double *x, int *fixed, double *__template_, double percent)
 {
@@ -225,19 +232,22 @@ void UnifRand(int n, double *l, double *u, double *x, int *fixed, double *__temp
 	if (extraiu && useDataMining)
 	{
 		//printf("USING PATTERN!\n");
-		if (percent == 1.0) {
-			//printf("COMPLETE!\n");	
+		if (percent == 1.0)
+		{
+			//printf("COMPLETE!\n");
 			for (i = 0; i < n; i++)
 			{
-				if(fixed[i])
+				if (fixed[i])
 					(*(x + i)) = __template_[i];
 				else
 					(*(x + i)) = (*(l + i)) + genrand_real1() * ((*(u + i)) - (*(l + i)));
 			}
-		} else {
-			
+		}
+		else
+		{
+
 			int sss = percent * n;
-			int * sub = getRandSubSet(n, sss, 0);
+			int *sub = getRandSubSet(n, sss, 0);
 			for (i = 0; i < n; i++)
 			{
 				(*(x + i)) = (*(l + i)) + genrand_real1() * ((*(u + i)) - (*(l + i)));
@@ -245,17 +255,17 @@ void UnifRand(int n, double *l, double *u, double *x, int *fixed, double *__temp
 
 			for (i = 0; i < sss; i++)
 			{
-				if(fixed[sub[i]])
+				if (fixed[sub[i]])
 					(*(x + sub[i])) = __template_[sub[i]];
 			}
-		}		
+		}
 	}
 	else
 	{
-		
 
-		for (i = 0; i < n; i++)	{
-			x[i] = l[i]  + dis(gen) * (u[i] - l[i]);
+		for (i = 0; i < n; i++)
+		{
+			x[i] = l[i] + dis(gen) * (u[i] - l[i]);
 		}
 
 		//Util::printX(x, n); cout << endl;
@@ -385,7 +395,8 @@ bool updateEliteSet(double *solution, double cost, EliteSet *elite, int N)
 double calculateAverageCostElite(EliteSet *elite, int elite_size)
 {
 	double acc = 0.0;
-	for (int j = 0; j < elite_size; j++) {
+	for (int j = 0; j < elite_size; j++)
+	{
 		acc += elite->solutions[j].cost;
 	}
 
@@ -395,7 +406,8 @@ double calculateAverageCostElite(EliteSet *elite, int elite_size)
 double getWorstCostElite(EliteSet *elite, int elitesize)
 {
 	double worst = -INFINITY;
-	for (int j = 0; j < elitesize; j++) {
+	for (int j = 0; j < elitesize; j++)
+	{
 		if (worst < elite->solutions[j].cost)
 			worst = elite->solutions[j].cost;
 	}
@@ -406,7 +418,8 @@ double getWorstCostElite(EliteSet *elite, int elitesize)
 double getBestCostElite(EliteSet *elite, int elitesize)
 {
 	double best = INFINITY;
-	for (int j = 0; j < elitesize; j++) {
+	for (int j = 0; j < elitesize; j++)
+	{
 		if (best > elite->solutions[j].cost)
 			best = elite->solutions[j].cost;
 	}
@@ -414,14 +427,15 @@ double getBestCostElite(EliteSet *elite, int elitesize)
 	return best;
 }
 
-
-double* calculateAverageInElite(EliteSet *elite, int elite_size, int number_of_variables)
+double *calculateAverageInElite(EliteSet *elite, int elite_size, int number_of_variables)
 {
-	double* averages = new double[number_of_variables];
+	double *averages = new double[number_of_variables];
 
-	for (int i = 0; i < number_of_variables; i++) {
+	for (int i = 0; i < number_of_variables; i++)
+	{
 		double acc = 0.0;
-		for (int j = 0; j < elite_size; j++) {
+		for (int j = 0; j < elite_size; j++)
+		{
 			acc += elite->solutions[j].x[i];
 		}
 
@@ -436,19 +450,21 @@ double getNormalizedValue(double value, double min, double max)
 	return (value - min) / (max - min);
 }
 
-double* calculateDeviationsInElite(EliteSet *elite, int elite_size,
- int number_of_variables, double *min, double *max, double* averages = NULL)
+double *calculateDeviationsInElite(EliteSet *elite, int elite_size,
+								   int number_of_variables, double *min, double *max, double *averages = NULL)
 {
-	if (!averages) {
+	if (!averages)
+	{
 		averages = calculateAverageInElite(elite, elite_size, number_of_variables);
 	}
-	
+
 	double *standard_deviantions = new double[number_of_variables];
-	for (int i = 0; i < number_of_variables; i++)	{
+	for (int i = 0; i < number_of_variables; i++)
+	{
 		double acc = 0.0;
 		double normalized_mean = getNormalizedValue(averages[i], min[i], max[i]);
 		for (int j = 0; j < elite_size; j++)
-		{ 
+		{
 			Solution s = elite->solutions[j];
 			double normalized_value = getNormalizedValue(s.x[i], min[i], max[i]);
 
@@ -466,22 +482,27 @@ void FindPatterns(EliteSet *elite, int problem_dimension, int *toFix, double *l,
 {
 	double StdDevThresold = std_threshold;
 	int elite_size = CURRENTSIZE;
-	double* pattern = calculateAverageInElite(elite, elite_size, problem_dimension);
-	deviations = calculateDeviationsInElite(elite, elite_size, problem_dimension, l, u,  pattern);
+	double *pattern = calculateAverageInElite(elite, elite_size, problem_dimension);
+	deviations = calculateDeviationsInElite(elite, elite_size, problem_dimension, l, u, pattern);
 
 	// construir o conjunto de posições de fixas
-	for (int i = 0; i < problem_dimension; i++) {
+	for (int i = 0; i < problem_dimension; i++)
+	{
 		elite->_template[i] = pattern[i];
 
-		if (StdDevThresold > 0) {
-			if (StdDevThresold > deviations[i]) {
+		if (StdDevThresold > 0)
+		{
+			if (StdDevThresold > deviations[i])
+			{
 				toFix[i] = 1;
 			}
-			else {
+			else
+			{
 				toFix[i] = 0;
 			}
 		}
-		else {
+		else
+		{
 			toFix[i] = 1;
 		}
 	}
@@ -506,35 +527,36 @@ void FindPatternsWithXmeans(EliteSet *elite, int problem_dimension, int *toFix, 
 			point.push_back(elite->solutions[i].x[j]);
 		}
 		points.push_back(point);
-		
 	}
 
-    for (int i = 0; i < problem_dimension; i++)
+	for (int i = 0; i < problem_dimension; i++)
 	{
 		lower_bounds.push_back(l[i]);
 		upper_bounds.push_back(u[i]);
 	}
-	
+
 	map<int, double> pattern;
 	if (clustering_before)
 		pattern = xmeans.extractPatternAfterClustering(points, lower_bounds, upper_bounds);
 	else
 		pattern = xmeans.extractPatternXMeans(points, lower_bounds, upper_bounds);
 
-	for (int i = 0; i < problem_dimension; i++) {
+	for (int i = 0; i < problem_dimension; i++)
+	{
 		toFix[i] = 0;
 	}
 
-	double* average = calculateAverageInElite(elite, elite_size, problem_dimension);
+	double *average = calculateAverageInElite(elite, elite_size, problem_dimension);
 	deviations = calculateDeviationsInElite(elite, elite_size, problem_dimension, l, u, average);
 	std::map<int, double>::iterator it = pattern.begin();
-    while (it != pattern.end())
-    {
+	while (it != pattern.end())
+	{
 		elite->_template[it->first] = it->second;
 
-		if (StdDevThresold == 0 || deviations[it->first] < StdDevThresold) {
+		if (StdDevThresold == 0 || deviations[it->first] < StdDevThresold)
+		{
 			// selecionar somente variaveis menos dispersas
-			toFix[it->first] = 1; 
+			toFix[it->first] = 1;
 		}
 
 		it++;
@@ -558,10 +580,9 @@ void ChooseRandomPattern(EliteSet *elite, int problem_dimension, int *toFix, dou
 			point.push_back(elite->solutions[i].x[j]);
 		}
 		points.push_back(point);
-		
 	}
 
-    for (int i = 0; i < problem_dimension; i++)
+	for (int i = 0; i < problem_dimension; i++)
 	{
 		lower_bounds.push_back(l[i]);
 		upper_bounds.push_back(u[i]);
@@ -569,30 +590,31 @@ void ChooseRandomPattern(EliteSet *elite, int problem_dimension, int *toFix, dou
 
 	vector<map<int, double>> patterns = xmeans.extractPatterns(points, lower_bounds, upper_bounds);
 
-	for (int i = 0; i < problem_dimension; i++) {
+	for (int i = 0; i < problem_dimension; i++)
+	{
 		toFix[i] = 0;
 	}
 
-	double* average = calculateAverageInElite(elite, elite_size, problem_dimension);
+	double *average = calculateAverageInElite(elite, elite_size, problem_dimension);
 	deviations = calculateDeviationsInElite(elite, elite_size, problem_dimension, l, u, average);
-	
+
 	int r = urand_ind(patterns.size());
 	//cout << " -  r: " << r << endl;
 	map<int, double> pattern = patterns[r];
 	std::map<int, double>::iterator it = pattern.begin();
-    while (it != pattern.end())
-    {
+	while (it != pattern.end())
+	{
 		elite->_template[it->first] = it->second;
 
-		if (StdDevThresold == 0 || deviations[it->first] < StdDevThresold) {
+		if (StdDevThresold == 0 || deviations[it->first] < StdDevThresold)
+		{
 			// selecionar somente variaveis menos dispersas
-			toFix[it->first] = 1; 
+			toFix[it->first] = 1;
 		}
 
 		it++;
-	}	
+	}
 }
-
 
 vector<map<int, double>> ExtractPatterns(EliteSet *elite, int problem_dimension, int *toFix, double *l, double *u, double h, bool clustering_before, double &max_radius)
 {
@@ -611,10 +633,9 @@ vector<map<int, double>> ExtractPatterns(EliteSet *elite, int problem_dimension,
 			point.push_back(elite->solutions[i].x[j]);
 		}
 		points.push_back(point);
-		
 	}
 
-    for (int i = 0; i < problem_dimension; i++)
+	for (int i = 0; i < problem_dimension; i++)
 	{
 		lower_bounds.push_back(l[i]);
 		upper_bounds.push_back(u[i]);
@@ -624,7 +645,6 @@ vector<map<int, double>> ExtractPatterns(EliteSet *elite, int problem_dimension,
 	max_radius = xmeans.getMaxRadius();
 	return patterns;
 }
-
 
 void FindSubSetPatterns(EliteSet *elite, int N, int *toFix, double *l, double *u, double h, double threshold)
 {
@@ -657,12 +677,12 @@ void FindSubSetPatterns(EliteSet *elite, int N, int *toFix, double *l, double *u
 	{
 		stdDeviation[i] = 0.0;
 		for (j = 0; j < elite_size; j++)
-		{ 
+		{
 			Solution s = elite->solutions[j];
 
 			double normalized_value = (s.x[i] - l[i]) / (u[i] - l[i]);
 			double normalized_mean = (pattern[i] - l[i]) / (u[i] - l[i]);
-			
+
 			stdDeviation[i] += (normalized_value - normalized_mean) * (normalized_value - normalized_mean);
 			//stdDeviation[i] += (s->x[i] - pattern[i]) * (s->x[i] - pattern[i]);
 		}
@@ -673,22 +693,21 @@ void FindSubSetPatterns(EliteSet *elite, int N, int *toFix, double *l, double *u
 	// construir o conjunto de posi��es de fixas
 	int k = 0;
 	for (i = 0; i < N; i++)
-	{	
+	{
 		double normalized_mean = (pattern[i] - l[i]) / (u[i] - l[i]);
 		//printf(" %lf ", stdDeviation[i]/normalized_mean);
-		if (stdDeviation[i]/normalized_mean < threshold)
+		if (stdDeviation[i] / normalized_mean < threshold)
 		{
 			toFix[i] = 1;
 			elite->_template[i] = pattern[i];
-		} 
+		}
 		else
 		{
-			toFix[i]=0;
+			toFix[i] = 0;
 		}
 	}
 	//printf("\n");
 }
-
 
 void FindPatternsThr(EliteSet *elite, int N, int *toFix, double *l, double *u, double h)
 {
@@ -724,7 +743,7 @@ void FindPatternsThr(EliteSet *elite, int N, int *toFix, double *l, double *u, d
 	{
 		stdDeviation[i] = 0.0;
 		for (j = 0; j < elite_size; j++)
-		{ 
+		{
 			Solution s = elite->solutions[j];
 			double normalized = (s.x[i] - l[i]) / (u[i] - l[i]);
 			stdDeviation[i] += (normalized - media[i]) * (normalized - media[i]);
@@ -851,10 +870,6 @@ void FindPatternsPeak(EliteSet *elite, int N, int *toFix, double *l, double *u, 
 	}
 }
 
-
-
-
-
 double average(double *data, int n)
 {
 	if (n == 0)
@@ -895,14 +910,14 @@ double modulo(double value)
 }
 
 void line_search(int n, double h, double *l, double *u,
-				  double *x, int i, double *z_i, double *g_i, float t2, double *x_s, double f,
-				  double opt, FILE *outFile, int *count_calc_cost, int *fecount, int stp, int fes, Funcao* func)
+				 double *x, int i, double *z_i, double *g_i, float t2, double *x_s, double f,
+				 double opt, FILE *outFile, int *count_calc_cost, int *fecount, int stp, int fes, Funcao *func)
 {
 	//cout << "line_search" << endl;
 	int j, start, end, z;
 	double x_i, c, s_domain, e_domain;
 
-	double *x_ = (double *) malloc (n * sizeof(double));
+	double *x_ = (double *)malloc(n * sizeof(double));
 	copy_double_vector(x_, x, n);
 
 	x_i = *(x_ + i);
@@ -928,6 +943,8 @@ void line_search(int n, double h, double *l, double *u,
 	// }
 
 	start = (int)floor((x_i - s_domain) / h);
+	//if (start > 1e+7)
+	//cout << "start: " << start << endl;
 
 	for (j = -start; j < 0; j++)
 	{
@@ -953,29 +970,28 @@ void line_search(int n, double h, double *l, double *u,
 			*z_i = *(x_ + i);
 		}
 	}
-	
+
+	//cout << "end: " << start << endl;
+
 	//*(x + i) = *z_i;
-	
+
 	free(x_);
 }
 
-
-
-
 void construct_greedy_randomized(int n, double ro, double h, double *l, double *u,
-								 double *x, int *imprc, float t2, double *x_s, double f, double opt, FILE *outFile, 
+								 double *x, int *imprc, float t2, double *x_s, double f, double opt, FILE *outFile,
 								 int *count_calc_cost, int *fecount, int stp, int fes, int *fixed, Funcao *func)
 {
 	//cout << "construct_greedy_randomized " << h << endl;
-	std::vector<int> unfixed (n);
+	std::vector<int> unfixed(n);
 	std::iota(unfixed.begin(), unfixed.end(), 0);
-	
+
 	double alpha = dis(gen);
 	bool reuse = false;
 	double g_min, g_max;
 
-	double *z = (double*) malloc(n *sizeof(double));
-	double *g =  (double*) malloc(n *sizeof(double));
+	double *z = (double *)malloc(n * sizeof(double));
+	double *g = (double *)malloc(n * sizeof(double));
 
 	// for (int i = 0; i < n; i++) z[i] = INFINITY;
 	// for (int i = 0; i < n; i++) g[i] = INFINITY;
@@ -989,7 +1005,8 @@ void construct_greedy_randomized(int n, double ro, double h, double *l, double *
 
 	*(imprc) = 0;
 	//cout << "construção - unfixed size: " << unfixed.size() << endl;
-	while(unfixed.size()) {
+	while (unfixed.size())
+	{
 		//cout << "construção - while" << endl;
 		g_min = INFINITY;
 		g_max = -INFINITY;
@@ -1001,26 +1018,30 @@ void construct_greedy_randomized(int n, double ro, double h, double *l, double *
 
 		for (int i : unfixed)
 		{
-			if (!reuse) {
+			if (!reuse)
+			{
 				line_search(n, h, l, u, x, i, &z[i], &g[i], t2, x_s, f, opt, outFile, count_calc_cost, fecount, stp, fes, func);
 			}
 			//cout << " z_" << i << " " << z[i] << " g_" << i << " " << g[i] << endl;
 
-			if (g_min > g[i]) g_min = g[i];
-			if (g_max < g[i]) g_max = g[i];
+			if (g_min > g[i])
+				g_min = g[i];
+			if (g_max < g[i])
+				g_max = g[i];
 		}
 
 		//cout << "construção - g_min: " << g_min << " g_max: " << g_max << endl;
-		
+
 		rcl.clear();
 		double threshold = g_min + alpha * (g_max - g_min);
 		for (int i : unfixed)
 		{
-			if (g[i] <= threshold){
+			if (g[i] <= threshold)
+			{
 				rcl.push_back(i);
 			}
 		}
-		
+
 		// cout << "rcl: ";
 		// for (int i : rcl) {
 		// 	cout << i << " ";
@@ -1029,7 +1050,7 @@ void construct_greedy_randomized(int n, double ro, double h, double *l, double *
 		//cout << "construção - rcl size: " << rcl.size() << " j: " << j << endl;
 		int selected = rcl[j];
 
-		// cout << "j = " << j << " selected = " << selected << endl; 
+		// cout << "j = " << j << " selected = " << selected << endl;
 
 		// cout << "x: ";
 		// Util::printX(x, n); cout << endl;
@@ -1038,16 +1059,19 @@ void construct_greedy_randomized(int n, double ro, double h, double *l, double *
 		// Util::printX(z, n); cout << endl;
 
 		//cout << x[selected] << " - " << z[selected];
-		if (Util::equals(x[selected],z[selected])) {
+		if (Util::equals(x[selected], z[selected]))
+		{
 			reuse = true;
-		} else {
+		}
+		else
+		{
 			x[selected] = z[selected];
 			reuse = false;
 			*(imprc) = 1;
 		}
 
-		unfixed.erase(std::find(unfixed.begin(), unfixed.end(), selected));	
-		//cout << unfixed.size() << " ";	
+		unfixed.erase(std::find(unfixed.begin(), unfixed.end(), selected));
+		//cout << unfixed.size() << " ";
 	}
 	//cout << endl;
 
@@ -1067,72 +1091,74 @@ double calcNorma(double *x, double *xGrid, int n)
 	double aux = 0.0, norma;
 
 	int i;
-	for (i = 0; i < n; i++){
-		aux += pow((xGrid[i]-x[i]), 2);
+	for (i = 0; i < n; i++)
+	{
+		aux += pow((xGrid[i] - x[i]), 2);
 	}
 
 	norma = sqrt(aux);
 	return norma;
 }
 
-void randSelectElementBh(double *xCurr, double *xBestAux, double *l, double *u, int n, double h){
+void randSelectElementBh(double *xCurr, double *xBestAux, double *l, double *u, int n, double h)
+{
 	int auxI, i;
-	double gridI; 
+	double gridI;
 	double numPointsPos, numPointsNeg;
 	double numPoints = 0.0;
 	double r, normaVector;
-	double *xGrid = (double*) malloc(n *sizeof(double));
-	double *bhSelected = (double*) malloc(n *sizeof(double));
+	double *xGrid = (double *)malloc(n * sizeof(double));
+	double *bhSelected = (double *)malloc(n * sizeof(double));
 
 	double aux = 0.0, distancia = 0.0;
 	double sum = 0.0;
 	//printf("\trandSelectElementBh [1]\n");
 	// Escolhe aleatoriamente um ponto do Grid de tamanho de passo h.
-	do {
-		for (i = 0; i < n; i++){
+	do
+	{
+		for (i = 0; i < n; i++)
+		{
 			// Calcula o numero de pontos naquela direcao com tamanho de passo h.
-			numPointsPos = floor((u[i] - xBestAux[i])/h);
-			numPointsNeg = floor((xBestAux[i] - l[i])/h);
-					
+			numPointsPos = floor((u[i] - xBestAux[i]) / h);
+			numPointsNeg = floor((xBestAux[i] - l[i]) / h);
+
 			numPoints = numPointsPos + numPointsNeg;
 
 			//numPoints = floor((u[i]-l[i])/h);
 			// Escolhe aleatoriamente um dos indices do Grid na direcao i.
 			//r = dRand();
-			
+
 			r = genrand_real1();
 			auxI = (int)(r * (double)numPoints);
-			sum += auxI;	
-			gridI = ((double)auxI - numPointsNeg); 
-						
+			sum += auxI;
+			gridI = ((double)auxI - numPointsNeg);
+
 			// Calcula a posicao da direcao no eixo i.
-			xGrid[i] = xBestAux[i] + ((double)gridI*h);
+			xGrid[i] = xBestAux[i] + ((double)gridI * h);
 		}
 	} while (sum == 0.0);
-		//printf("sum; %lf\n", sum);
-
+	//printf("sum; %lf\n", sum);
 
 	//printf("\trandSelectElementBh [2]\n");
 	// Calcula a projecao do vetor de x a xGrid.
-	normaVector = calcNorma(xBestAux, xGrid, n); 
+	normaVector = calcNorma(xBestAux, xGrid, n);
 	// if (normaVector == 0)
 	//  	normaVector = 1.0;
-	for (i = 0; i < n; i++){
-		bhSelected[i] = xBestAux[i] + ((h* (xGrid[i]- xBestAux[i]))/normaVector);
+	for (i = 0; i < n; i++)
+	{
+		bhSelected[i] = xBestAux[i] + ((h * (xGrid[i] - xBestAux[i])) / normaVector);
 	}
 
-	
-	copy_double_vector(xCurr, bhSelected, n);			
+	copy_double_vector(xCurr, bhSelected, n);
 	free(xGrid);
 	free(bhSelected);
 
-	//printf("\trandSelectElementBh [3]\n");	
- }
-
+	//printf("\trandSelectElementBh [3]\n");
+}
 
 void local_search_1(int n, double ro, double h, double *l, double *u, double max_points,
-					double *x, int *impr, float t2, double *x_s, double f, double opt, 
-					FILE *outFile, int *count_calc_cost, int *fecount, int stp, int fes, Funcao * func)
+					double *x, int *impr, float t2, double *x_s, double f, double opt,
+					FILE *outFile, int *count_calc_cost, int *fecount, int stp, int fes, Funcao *func)
 {
 	int ok, i, num_points_examined;
 	double f_str, c, norm, s_domain = l[0], e_domain = u[0];
@@ -1141,32 +1167,35 @@ void local_search_1(int n, double ro, double h, double *l, double *u, double max
 
 	f_str = func->calc(x);
 
-	double *xCurr= (double *)malloc(n * sizeof(double));
+	double *xCurr = (double *)malloc(n * sizeof(double));
 	double *xBest = (double *)malloc(n * sizeof(double));
 
 	copy_double_vector(xBest, x, n);
-	
+
 	*(impr) = 0;
 
 	s_domain = l[0];
 	e_domain = u[0];
 
-	int num_grid_points =(int) pow(floor((e_domain - s_domain)/h),n);
-	int max_num_pts = floor(ro*num_grid_points);
+	int num_grid_points = (int)pow(floor((e_domain - s_domain) / h), n);
+	int max_num_pts = floor(ro * num_grid_points);
 
 	max_points = 1000;
-	if ( max_num_pts > max_points ) {
-			max_num_pts = max_points;
+	if (max_num_pts > max_points)
+	{
+		max_num_pts = max_points;
 	}
 
 	//printf("LOCAL SEARCH\n");
-	num_points_examined = 0; 
+	num_points_examined = 0;
 
-	while (num_points_examined <= max_num_pts) {
+	while (num_points_examined <= max_num_pts)
+	{
 		num_points_examined++;
 		randSelectElementBh(xCurr, xBest, l, u, n, h);
 		double fXTmp = func->calc(xCurr);
-		if (Util::feasible(x, l, u, n) && fXTmp < f_str) {
+		if (Util::feasible(x, l, u, n) && fXTmp < f_str)
+		{
 			copy_double_vector(xBest, xCurr, n);
 			f_str = fXTmp;
 			*(impr) = 1;
@@ -1179,10 +1208,9 @@ void local_search_1(int n, double ro, double h, double *l, double *u, double max
 	free(xCurr);
 }
 
-
 void local_search(int n, double ro, double h, double *l, double *u, double max_points,
-					double *x, int *impr, float t2, double *x_s, double f, double opt, 
-					FILE *outFile, int *count_calc_cost, int *fecount, int stp, int fes, Funcao *func)
+				  double *x, int *impr, float t2, double *x_s, double f, double opt,
+				  FILE *outFile, int *count_calc_cost, int *fecount, int stp, int fes, Funcao *func)
 {
 	//cout << "local_search" << endl;
 	int ok, i, num_points_examined;
@@ -1190,30 +1218,39 @@ void local_search(int n, double ro, double h, double *l, double *u, double max_p
 
 	double *y = (double *)malloc(n * sizeof(double));
 	double *z = (double *)malloc(n * sizeof(double));
-	for (i = 0; i < n; i++) z[i] = 0.0;
-	
+	for (i = 0; i < n; i++)
+		z[i] = 0.0;
+
 	*(impr) = 0;
 	f_str = func->calc(x);
-	
 
-	long long unsigned num_grid_points = pow(ceil((e_domain - s_domain)/h),n);
-	//cout << "e_domain " << e_domain << " s_domain " << s_domain << " h " << h << " n " << n << " num_grid_points " << num_grid_points << endl; 
+	long double num_grid_points = pow(ceil((e_domain - s_domain) / h), n);
+	//cout << "e_domain " << e_domain << " s_domain " << s_domain << " h " << h << " n " << n << " num_grid_points " << num_grid_points << endl;
 
-	int max_num_pts = floor(ro*num_grid_points);
-
-	//max_points = 100000;
-	max_points = 1.0e+3;
-	if ( max_num_pts > max_points ) {
+	double max_num_pts;
+	max_points = 256;
+	if (num_grid_points > max_points / ro)
+	{
+		max_num_pts = max_points;
+	}
+	else
+	{
+		max_num_pts = floor(ro * num_grid_points);
+		if (max_num_pts > max_points)
+		{
 			max_num_pts = max_points;
+		}
 	}
 
 	num_points_examined = 0;
-	
+	int number_of_improvements = 0;
+
 	//cout << "ro: " << ro << endl;
+
 	//cout << "max_num_pts: " << max_num_pts << endl;
 	while (num_points_examined <= max_num_pts)
-	{
-		//cout << "num_points_examined: " << num_points_examined << endl;
+	{ // && number_of_improvements <= max_num_pts
+		//cout << "num_points_examined: " << num_points_examined << " f_str: " << f_str << endl;
 		ok = 0;
 		do
 		{
@@ -1229,7 +1266,7 @@ void local_search(int n, double ro, double h, double *l, double *u, double max_p
 				}
 				else
 				{
-					*(z+i) = (double) -1.0*urand_ind( (int)ceil( ((*(x+i))-s_domain)/h) );
+					*(z + i) = (double)-1.0 * urand_ind((int)ceil(((*(x + i)) - s_domain) / h));
 				}
 				if ((*(z + i)) != 0)
 				{
@@ -1245,7 +1282,6 @@ void local_search(int n, double ro, double h, double *l, double *u, double max_p
 		for (i = 0; i < n; i++)
 		{
 			*(y + i) = *(x + i) + (1.0 / norm) * h * (*(z + i)) * h;
-			
 		}
 
 		c = func->calc(y);
@@ -1257,11 +1293,13 @@ void local_search(int n, double ro, double h, double *l, double *u, double max_p
 			num_points_examined = 0;
 			*(impr) = 1;
 
-			//cout << "f_str: " << f_str << endl;
+			//number_of_improvements++;
+			//cout << "number_of_improvements: " << number_of_improvements << endl;
 		}
 
 		num_points_examined++;
 	}
+	//cout << "out of loop: num_points_examined: " << num_points_examined << endl;
 
 	//f_str = func->calc(x);
 
@@ -1274,18 +1312,18 @@ AlgorithmBehaviour createAlgorithmBehaviour(int problem_dimension, int num_of_it
 	AlgorithmBehaviour alg_behaviour;
 	//alg_behaviour.costs_by_iteration = new double[num_of_iterations];
 	alg_behaviour.elite_costs = new double[elite_size];
-	alg_behaviour.elite_dataset = new double*[elite_size];
+	alg_behaviour.elite_dataset = new double *[elite_size];
 
 	for (int i = 0; i < elite_size; i++)
 	{
 		alg_behaviour.elite_dataset[i] = new double[problem_dimension];
 	}
-	
 
 	return alg_behaviour;
 }
 
-EliteSet *createEliteSet(int problem_dimension, int elite_size) {
+EliteSet *createEliteSet(int problem_dimension, int elite_size)
+{
 	EliteSet *elite;
 	elite = (EliteSet *)malloc(sizeof(EliteSet));
 	CURRENTSIZE = 0;
@@ -1294,7 +1332,8 @@ EliteSet *createEliteSet(int problem_dimension, int elite_size) {
 	elite->solutions = (Solution *)malloc(elite_size * sizeof(Solution));
 	elite->_template = (double *)malloc(problem_dimension * sizeof(double));
 
-	for (int i = 0; i < elite_size; i++) {
+	for (int i = 0; i < elite_size; i++)
+	{
 		//elite->solutions[i] = (Solution *)malloc(sizeof(Solution));
 		elite->solutions[i].x = (double *)malloc(problem_dimension * sizeof(double));
 	}
@@ -1306,88 +1345,107 @@ double isNearToOptimum(Funcao *func, double best, double precision)
 {
 	double optimum = func->getMinValue();
 	double GAP = fabs(optimum - best);
-	
-	if (!optimum)
+
+	if (optimum == 0.0)
 		return GAP <= precision;
-	else 
+	else
 		return GAP <= precision * fabs(optimum);
 }
 
-bool IsStopCriterionReached(int current_itr, double best_fo, ExperimentType exp_type, Funcao *func, bool &isSignClose) {
+bool IsStopCriterionReached(int current_itr, double best_fo, ExperimentType exp_type, Funcao *func, bool &isSignClose)
+{
+	double target_gap = 1.0e-4;
+	//MAX_ITERATION = 1000;
+	//exp_type = BY_GAP;
+
 	switch (exp_type)
 	{
-	case BY_ITERATION: 
+	case BY_ITERATION:
+		if (isNearToOptimum(func, best_fo, target_gap))
+		{
+			isSignClose = true;
+			return true;
+		}
+
+		isSignClose = false;
 		return current_itr >= MAX_ITERATION;
 		break;
-	
+
 	case BEFORE_AFTER:
 		/* code */
 		break;
-	
-	case BY_CFOs:
 
-		return func->getFnEvals() >= MAX_nCFOs;
-		break;
-	
-	case BY_GAP:
-		if (isNearToOptimum(func, best_fo, 1.0e-3)) {
+	case BY_CFOs:
+		if (isNearToOptimum(func, best_fo, target_gap))
+		{
 			//cout << "NEAR OPTIMUM" << endl;
 			isSignClose = true;
 			return true;
 		}
-		
+
 		isSignClose = false;
-		return false;
-		//return current_itr >= MAX_ITERATION;
+		//cout << "MAX_nCFOs: " << MAX_nCFOs << endl;
+		return func->getFnEvals() >= MAX_nCFOs;
+
+	case BY_GAP:
+		if (isNearToOptimum(func, best_fo, target_gap))
+		{
+			//cout << "NEAR OPTIMUM" << endl;
+			isSignClose = true;
+			return true;
+		}
+
+		isSignClose = false;
+		//return false;
+		return current_itr >= MAX_ITERATION;
 	default:
 		break;
 	}
 }
 
-
-bool phaseI_IsEnded(int current_itr, double best_fo, ExperimentType exp_type, Funcao *func, double percent) {
+bool phaseI_IsEnded(int current_itr, double best_fo, ExperimentType exp_type, Funcao *func, double percent)
+{
 	switch (exp_type)
 	{
-	case BY_ITERATION: 
+	case BY_ITERATION:
 		return current_itr >= percent * MAX_ITERATION;
 		break;
-	
+
 	case BEFORE_AFTER:
 		/* code */
 		break;
-	
+
 	case BY_CFOs:
 		return func->getFnEvals() >= percent * MAX_nCFOs;
 		break;
-	
+
 	case BY_GAP:
 		return func->isNearOptimum(best_fo);
 		break;
-	
-	
+
 	default:
 		break;
 	}
 }
 
-double distance(map<int, double> & v1, map<int, double> & v2) {
+double distance(map<int, double> &v1, map<int, double> &v2)
+{
 	double sum = 0;
 	map<int, double>::iterator it1 = v1.begin();
 	map<int, double>::iterator it2 = v2.begin();
-	while (it1 != v1.end()) {
+	while (it1 != v1.end())
+	{
 		sum += (it1->second - it2->second) * (it1->second - it2->second);
 
 		it1++;
 		it2++;
 	}
-	
+
 	return sqrt(sum);
 }
 
-
-
-double cgrasp(const char * mining_strategy, int isContinuousMining, double dmStartMoment, double patternPercentUsed, int eliteSize, int dimension, double *lower_bounds, double *upper_bounds, 
-        Funcao *func, double hs, double he, double plo, int number_of_iterations, int max_functions_calls, unsigned long seed, bool &success, double standardDeviation)
+double cgrasp(const char * funcCode, const char *mining_strategy, int isContinuousMining, double dmStartMoment, double patternPercentUsed, int eliteSize, int dimension, double *lower_bounds, double *upper_bounds,
+			  Funcao *func, double hs, double he, double plo, int number_of_iterations, int max_functions_calls, unsigned long seed, bool &success, double standardDeviation)
 {
 	int i, n, count_calc_cost, imprc, imprl, ls_opt, size, iterations, function_evaluations, count = 0, countin, loop = 1, fecount = 0, stp = 0;
 	double opt, h_s, h_e, ro, max_points, ep, cost_x, h, f_star, threshold, *x, *x_star, *best_solution, *l, *u;
@@ -1397,13 +1455,14 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 
 	success = false;
 	int xmeansStrategy = 0; // 0 means dont use xmeans (clustering)
-	
+
 	FILE *outFile;
 
 	string _mining_strategy(mining_strategy);
 	if (_mining_strategy.find("dm") != string::npos)
 		useDataMining = 1;
-	else useDataMining = 0; // runs standard C-grasp 
+	else
+		useDataMining = 0; // runs standard C-grasp
 
 	if (_mining_strategy.find("amx") != string::npos)
 		xmeansStrategy = 4;
@@ -1414,14 +1473,12 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 	else if (_mining_strategy.find("x") != string::npos)
 		xmeansStrategy = 1;
 
-
-
 	//cout << _mining_strategy << " - " << xmeansStrategy << endl;
 
- 	//--- initializing parameters ----------------------------------
+	//--- initializing parameters ----------------------------------
 	l = lower_bounds;
-	u = upper_bounds;	
-	
+	u = upper_bounds;
+
 	h_s = hs;
 	h_e = he;
 	ro = plo;
@@ -1445,22 +1502,36 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 	f_star = 1.0e+20;
 	cost_x = 1.0e+20;
 
-
-	EliteSet* elite;
+	EliteSet *elite;
 	if (useDataMining)
 		elite = createEliteSet(dimension, g_elite_size);
-	
-	int* fixedPositions = new int[dimension];
+
+	int *fixedPositions = new int[dimension];
 	_template = new double[dimension];
-	for (int k = 0; k < n; k++) fixedPositions[k] = 0;
+	for (int k = 0; k < n; k++)
+		fixedPositions[k] = 0;
 
 	int deviations_register_count = 0;
 
 	//init_genrand(seed);
 	//out << "seed: " << seed << endl;
 
-	ExperimentType expType = BY_GAP;
-	ExperimentType phaseIStopCriterion = BY_CFOs;
+	ExperimentType expType;
+	ExperimentType phaseIStopCriterion;
+
+	if (useDataMining)
+	{
+		expType = BY_CFOs;
+		phaseIStopCriterion = BY_CFOs;
+		//cout << "BY_CFOs: " << max_functions_calls << endl;
+	}
+	else
+	{
+		expType = BY_ITERATION;
+		phaseIStopCriterion = BY_ITERATION;
+		//cout << "BY_ITERATION" << endl;
+	}
+
 	MAX_ITERATION = number_of_iterations;
 	MAX_nCFOs = max_functions_calls;
 
@@ -1468,81 +1539,95 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 	vector<map<int, double>> patternsList, newPatterns;
 	int currentPatternIndex = 0;
 	double max_radius = 0;
-	
+
 	//debugLevel = DEBUG_LEVEL1_;
 	int n_its = 0;
-	while (!IsStopCriterionReached(count, f_star, expType, func, success)) 
+
+	//std::ofstream fo_cgr_file("./fobj/" + string(mining_strategy) + "_" + string(funcCode) + "_cgr_file.dat");
+	//std::ofstream fo_ls_file("./fobj/" + string(mining_strategy) + "_" + string(funcCode) + "_ls_file.dat");
+
+	while (!IsStopCriterionReached(count, f_star, expType, func, success))
 	{
 		n_its++;
-		if (useDataMining) {
-			if (phaseI_IsEnded(count, f_star, phaseIStopCriterion, func, dmStartMoment) && (!extraiu || isContinuousMining)) {
-				if (!xmeansStrategy) {
-					FindPatterns(elite, n, fixedPositions, l, u, h);
-				} else {
-					if (xmeansStrategy == 1) {
-						FindPatternsWithXmeans(elite, n, fixedPositions, l, u, h, false);
-					} else if (xmeansStrategy == 2)
-						FindPatternsWithXmeans(elite, n, fixedPositions, l, u, h, true);
-					else if (xmeansStrategy == 3)
-						ChooseRandomPattern(elite, n, fixedPositions, l, u, h, true);
-					else if (xmeansStrategy == 4) {
-						if (eliteUpdated) {
-							patternsList = ExtractPatterns(elite, n, fixedPositions, l, u, h, true, max_radius);
-						}
 
-						if (patternsList.size()) {
-
-							if (currentPatternIndex >= patternsList.size())
-								currentPatternIndex = 0;
-							
-							map<int, double> pattern = patternsList[currentPatternIndex];
-							for (int i = 0; i < dimension; i++) {
-								fixedPositions[i] = 0;
-							}
-
-							double* average = calculateAverageInElite(elite, g_elite_size, dimension);
-							deviations = calculateDeviationsInElite(elite, g_elite_size, dimension, l, u, average);
-							
-							std::map<int, double>::iterator it = pattern.begin();
-							while (it != pattern.end())
-							{
-								elite->_template[it->first] = it->second;
-
-								if (std_threshold == 0 || deviations[it->first] < std_threshold) { // selecionar somente variaveis menos dispersas
-									fixedPositions[it->first] = 1; 
-								}
-
-								it++;
-							}
-							currentPatternIndex++;
-							
-								
-						}
-							
-					}
-				}	
-				
-				if 	(eliteUpdated)
-					copy_double_vector(_template, elite->_template, dimension);
-				
-				extraiu = 1;
-			}
-		}
-		
 		// if (!useDataMining)
-		
+
 		//cout << "Iteração " << count + 1 << endl;
 		//cout << "Func Evals = " << func->getFnEvals() << " x Max CFOs = " <<  MAX_nCFOs << endl;
 		//cout << "Best: " << f_star << endl;
 
-		UnifRand(dimension, lower_bounds, upper_bounds, 
-			x, fixedPositions, _template, patternPercentUsed);	
-		
+		//patternPercentUsed = 1;
+		UnifRand(dimension, lower_bounds, upper_bounds,
+				 x, fixedPositions, _template, patternPercentUsed);
 
 		h = h_s;
 		//cout << "h_s: " << h_s << " - h_e: " << h_e << endl;
-		while (h >= h_e) 
+		while (h >= h_e)
 		{
+			//cout << "elite size: " << CURRENTSIZE << endl;
+			if (useDataMining)
+			{
+				if (phaseI_IsEnded(count, f_star, phaseIStopCriterion, func, dmStartMoment) && (!extraiu || isContinuousMining))
+				{
+					//cout << "Phase I ended" << endl;
+					if (!xmeansStrategy)
+					{
+						FindPatterns(elite, n, fixedPositions, l, u, h);
+					}
+					else
+					{
+						if (xmeansStrategy == 1)
+						{
+							FindPatternsWithXmeans(elite, n, fixedPositions, l, u, h, false);
+						}
+						else if (xmeansStrategy == 2)
+							FindPatternsWithXmeans(elite, n, fixedPositions, l, u, h, true);
+						else if (xmeansStrategy == 3)
+							ChooseRandomPattern(elite, n, fixedPositions, l, u, h, true);
+						else if (xmeansStrategy == 4)
+						{
+							if (eliteUpdated)
+							{
+								patternsList = ExtractPatterns(elite, n, fixedPositions, l, u, h, true, max_radius);
+							}
+
+							if (patternsList.size())
+							{
+								//cout << "patternsList.size(): " << patternsList.size() << endl;
+								if (currentPatternIndex >= patternsList.size())
+									currentPatternIndex = 0;
+
+								map<int, double> pattern = patternsList[currentPatternIndex];
+								for (int i = 0; i < dimension; i++)
+								{
+									fixedPositions[i] = 0;
+								}
+
+								double *average = calculateAverageInElite(elite, g_elite_size, dimension);
+								deviations = calculateDeviationsInElite(elite, g_elite_size, dimension, l, u, average);
+								std::map<int, double>::iterator it = pattern.begin();
+								while (it != pattern.end())
+								{
+									elite->_template[it->first] = it->second;
+
+									if (std_threshold == 0 || deviations[it->first] < std_threshold)
+									{ // selecionar somente variaveis menos dispersas
+										fixedPositions[it->first] = 1;
+									}
+
+									it++;
+								}
+								currentPatternIndex++;
+							}
+						}
+					}
+
+					if (eliteUpdated)
+						copy_double_vector(_template, elite->_template, dimension);
+
+					extraiu = 1;
+				}
+			}
 
 			if (IsStopCriterionReached(count, f_star, expType, func, success))
 				break;
@@ -1551,66 +1636,81 @@ double cgrasp(const char * mining_strategy, int isContinuousMining, double dmSta
 			imprc = 0;
 			imprl = 0;
 
-			if (debugLevel == DEBUG_LEVEL2_) 
+			if (debugLevel == DEBUG_LEVEL2_)
 			{
-				cost_x =  func->calc(x);
+				cost_x = func->calc(x);
 				printf("begin: ");
-				Util::printX(x, n); printf(" - %lf ", cost_x);
+				Util::printX(x, n);
+				printf(" - %lf ", cost_x);
 				printf("\n");
 			}
-
 
 			construct_greedy_randomized(n, ro, h, l, u, x, &imprc, t2, x_star, f_star, opt, outFile, &count_calc_cost, &fecount, stp, function_evaluations, NULL, func);
 			cost_x = func->calc(x);
+			//fo_cgr_file << cost_x << endl;
 			//cout << "build: " << cost_x << endl;
 
-			if (debugLevel == DEBUG_LEVEL1_) 
+			if (debugLevel == DEBUG_LEVEL1_)
 			{
 				printf("build: ");
-				Util::printX(x, n); printf(" - %lf ", cost_x);
+				Util::printX(x, n);
+				printf(" - %lf ", cost_x);
 				printf("\n");
 			}
 
-			local_search(n, ro, h, l, u, max_points, x, &imprl,	t2, x_star, f_star, opt, outFile, &count_calc_cost, &fecount, stp, function_evaluations, func);
-			cost_x = func->calc(x) ;
+			local_search(n, ro, h, l, u, max_points, x, &imprl, t2, x_star, f_star, opt, outFile, &count_calc_cost, &fecount, stp, function_evaluations, func);
+			cost_x = func->calc(x);
+			//fo_ls_file << cost_x << endl;
+
 			//cout << "local_search: " << cost_x << endl;
 
-			if (debugLevel == DEBUG_LEVEL1_) 
+			if (debugLevel == DEBUG_LEVEL1_)
 			{
 				printf("local search: ");
-				Util::printX(x, n); printf(" - %lf ", cost_x);
+				Util::printX(x, n);
+				printf(" - %lf ", cost_x);
 				printf("\n");
 			}
-			if (cost_x < f_star) {
+			if (cost_x < f_star)
+			{
 				f_star = cost_x;
 				copy_double_vector(x_star, x, dimension);
 			}
 
-			//if (debugLevel == DEBUG_LEVEL1_) 
+			//if (debugLevel == DEBUG_LEVEL1_)
 			//	printf("%d - %d \n", imprc, imprl);
 
-			if ((imprc == 0) && (imprl == 0)) {
+			if ((imprc == 0) && (imprl == 0))
+			{
 				h = h / 2.0;
 			}
 
 			//cout << "h = " << h << endl;
-			
-			if (useDataMining) {
+
+			if (useDataMining)
+			{
+				//cout << "entrou no data mining" << endl;
 				eliteUpdated = updateEliteSet(x, cost_x, elite, n);
+				//cout << "ELITE SIZE: " << CURRENTSIZE << endl;
 			}
 		}
 
-		//cout << "iteration " << count + 1 << " - best: " << f_star  << " - founded: " << cost_x << endl;
+		cout << "iteration " << count + 1 << " - best: " << f_star  << " - founded: " << cost_x << endl;
 		//Util::printX(x_star, n); cout << endl;
+
 		count++;
 	}
 
-	cout << "Nº of Iterations: " << n_its << endl;
+	//cout << "Nº of Iterations: " << n_its << " - best: " << f_star << endl;
+
 	//cout << "best: " << f_star;
 	free(x);
 	free(x_star);
 	free(fixedPositions);
 	free(_template);
+
+	//fo_cgr_file.close();
+	//fo_ls_file.close();
 
 	return f_star;
 }

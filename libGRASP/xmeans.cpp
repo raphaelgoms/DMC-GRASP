@@ -86,6 +86,7 @@ map<int, double> Xmeans::extractPatternXMeans(const vector<vector<double>>& elit
 		}
 
 		vector<Cluster> clusters = xMeans(data, g_elite_size, lower_bound[i], upper_bound[i]);
+		//cout << "Clusters size: " << clusters.size() << endl;
 		int max = -1;
 		int gt_cluster;
 
